@@ -1,0 +1,3 @@
+In each scenario, two friends are talking about the price of an item.
+Please read the scenarios carefully and rate the probability according to the query to give your best estimate of the price of the item described.
+Write your final answer as 'A:<rating>'.

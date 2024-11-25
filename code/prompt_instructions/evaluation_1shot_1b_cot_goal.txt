@@ -1,0 +1,12 @@
+
+In each scenario, two friends are talking about the price of an item.
+Please read the scenarios carefully and rate the likelihood in the question to give your best estimate of the price of the item described, using the following scale: Impossible-1, Not very likely-2, Neutral-3, Very Likely-4, Extremely Likely-5.
+Write your final answer as 'A:<rating>' ONLY.
+Always answer with an option from 1-5.
+
+Story: Anne bought a new toaster. A friend asked her, "Was it expensive?" Anne said, "It cost $1000."
+Q: Please rate how likely it is that the toaster cost $20 on a continuous scale ranging from "impossible" to "extremely likely".
+Let's think step by step about Anne's goals. To answer her friend's question, Anne might want to tell her friend the price, so that her friend can judge whether the toaster is expensivve or not. 
+She could communicate the exact price, or provide a rough estimate. Furthermore, Anne could communicate her attitude about the price, so that her friend could infer whether the toaster is expensive based on how Anne felt about the price.
+Anne said "$1000", but it is unlikely that a toaster costs $1000. Therefore, it is unlikely that she wants to communicate the exact price. A toaster that costs $1000 would be considered expensive, which would be upsetting. Therefore, it is likely that Anne wants to communicate that she is upset and felt that the toaster was expensive, giving an imprecise statement about the price.
+A: 3

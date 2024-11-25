@@ -1,0 +1,4 @@
+In each scenario, two friends are talking about the price of an item.
+Please read the scenarios carefully and give you best estimate of the likelihood of the utterance made by one of the friends, given the context. Use the following scale: Impossible-1, Not very likely-2, Neutral-3, Very Likely-4, Extremely Likely-5.
+Write your final answer as 'A:<rating>'.
+Always answer with an option from 1-5 ONLY.
