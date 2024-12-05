@@ -14,6 +14,7 @@ from langchain.schema import (
     SystemMessage
 )
 from init_model import init_model
+import pandas as pd
 
 def add_emoji(story, emoji='☺️'):
     story_parsed = story.replace("said", "replied")
@@ -63,6 +64,7 @@ parser.add_argument('--model', type=str, default='gpt-4o-mini', help='model name
 parser.add_argument('--temperature', type=float, default=0.0, help='temperature')
 parser.add_argument('--max_tokens', type=int, default=10, help='max tokens')
 parser.add_argument('--prompt', type=str, default="0shot", help='prompt')
+parser.add_argument('--num_completions', type=int, default=20, help='number of completions')
 
 # eval args
 parser.add_argument('--num', '-n', type=int, default=50, help='number of evaluations')
@@ -72,6 +74,8 @@ parser.add_argument('--verbose', action='store_true', help='verbose')
 # data args (I need to set up the input and output directory of my data)
 parser.add_argument('--data_dir', type=str, default='../../data/', help='data directory')
 parser.add_argument('--output_dir', type=str, default='../../data/results_pt/', help='output directory')
+parser.add_argument('--datafile', type=str, default='experiment_1b_raw', help='output directory')
+parser.add_argument('--promptfile', type=str, default='evaluation_0shot_1b_v2.txt', help='output directory')
 
 
 # parse args
@@ -82,7 +86,7 @@ args = parser.parse_args()
 
 # read data (data should just be a list)
 
-datafile = "experiment_1b_v2"
+datafile = args.datafile
 data = []
 with open(os.path.join(args.data_dir, f"{datafile}.csv"), 'r') as f:
     reader = csv.reader(f)
@@ -95,7 +99,7 @@ with open(os.path.join(args.data_dir, f"{datafile}.csv"), 'r') as f:
 
 PROMPT_DIR = "../prompt_instructions/"
 if args.prompt == "0shot":
-    with open(os.path.join(PROMPT_DIR, "evaluation_0shot_1b_v2.txt"), 'r') as f:
+    with open(os.path.join(PROMPT_DIR, args.promptfile), 'r') as f:
         prompt = f.read().strip()
 # elif args.prompt == "0shot_cot":
 #     with open(os.path.join(PROMPT_DIR, "evaluation_0shot_cot_1b.txt"), 'r') as f:
@@ -111,16 +115,18 @@ if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini"]:
     #                 max_tokens = args.max_tokens)
     llm = init_model(model_name=args.model,
                     temperature=args.temperature,
-                    max_tokens = args.max_tokens)
+                    max_tokens = args.max_tokens,
+                    num_completions=args.num_completions)
 elif args.model in ["claude-2"]:
     llm = ChatAnthropic(model_name=args.model,
                     temperature=args.temperature,
-                    max_tokens = args.max_tokens)
+                    max_tokens = args.max_tokens,
+                    num_completions=args.num_completions)
 elif args.model in ["llama-2-7b-chat"]:
     llm = HuggingFacePipeline.from_model_id(
         model_id="meta-llama/Llama-2-7b-chat-hf",
         task="text-generation",
-        model_kwargs={"temperature": args.temperature, "max_length": args.max_tokens},
+        model_kwargs={"temperature": args.temperature, "max_length": args.max_tokens, "num_return_sequences": args.num_completions},
     )
 else:
     raise ValueError(f"Model {args.model} not found.")
@@ -130,21 +136,24 @@ else:
 
 # no condiction is needed or I could change it to ["electric kettle", "watch", "laptop"]
 
-predicted_answers= []
+predicted_answers = []
 graded_answers = []
+stories = []
 # I should pay attention to the args.num as it controls the number of cases will be evaluated
 for i in tqdm(range(args.offset, len(data))):
     story = data[i]
-    query = add_emoji(story)
+    query = story
+    stories.append(story)
     if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
         messages = [SystemMessage(content=prompt), HumanMessage(content=query)]
-        response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
+        chat_result = llm.generate([messages], stop=["Q:"]).generations[0]
+        response = [chat_result[i].text for i in range(len(chat_result))]
     elif args.model in ["llama-2-7b-chat"]:
         template = f"Instructions: {prompt}\n{query}\nA:"
         response = llm(template)[0]
 
     # parse response
-    parsed_response = parse_response(response)
+    parsed_response = ", ".join([parse_response(r) for r in response])
 
     if args.verbose:
         print("--------------------------------------------------")
@@ -154,15 +163,20 @@ for i in tqdm(range(args.offset, len(data))):
         print(f"Parsed A: {parsed_response}")
 
     # append to list
-    predicted_answers.append(response)
+    predicted_answers.append(", ".join(response))
     graded_answers.append(parsed_response)
 
 # write to file
 if not os.path.exists(os.path.join(args.output_dir, datafile)):
     os.makedirs(os.path.join(args.output_dir, datafile))
 
-prefix = f"{args.model.replace('/','_')}_0shot_wHappyEmoji_{args.temperature}_{args.num}_{args.offset}"
-with open(os.path.join(args.output_dir, datafile, f"{prefix}_predicted_answers.txt"), 'w') as f:
-    f.write('\n'.join(predicted_answers))
-with open(os.path.join(args.output_dir, datafile, f"{prefix}_graded_answers.txt"), 'w') as f:
-    f.write('\n'.join([str(x) for x in graded_answers]))
+# format output as csv file
+results_df = pd.DataFrame({
+    "story": stories,
+    "predicted_answer": predicted_answers,
+    "parsed_answer": graded_answers
+})
+prefix = f"{args.model.replace('/','_')}_{args.promptfile.replace(".txt", "")}_{args.temperature}_{args.num}_{args.offset}"
+
+# write
+results_df.to_csv(os.path.join(args.output_dir, datafile, f"{prefix}_predicted_answers.csv"), index=False)
