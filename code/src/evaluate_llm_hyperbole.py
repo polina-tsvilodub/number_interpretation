@@ -171,7 +171,6 @@ for j in range(args.num):
             print(f"Parsed A: {parsed_response}")
 
         # append to list
-        predicted_answers.append(response)
         graded_answers.append(parsed_response)
     data_out["parsed_response"] = graded_answers
     # write to file
