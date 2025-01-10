@@ -25,7 +25,7 @@ source $MINICONDA_HOME/etc/profile.d/conda.sh
 
 conda deactivate
 # Activate the conda environment
-conda activate llmlink
+conda activate griceChain
 
 echo "Conda environment activated:"
 echo $(conda env list)
