@@ -1,0 +1,13 @@
+
+In each scenario, two friends are talking about the price of an item.
+Please read the scenarios carefully and rate the likelihood in the question to give your best estimate of whether the person thinks that the item is expensive, using the following a scale 0 - 1.
+Write your final answer as 'A:<rating>' ONLY.
+Always answer with an option between 0-1.
+
+Story: Anne bought a new toaster. A friend asked her, "Was it expensive?" Anne said, "It cost $1000."
+Q: Please rate, on a continuous scale from 0 to 1, the probability that Anne considers the toaster to be expensive.
+Let's think step by step and consider Anne's goals. To answer her friend's question, Anne might want to tell her friend the price, so that her friend can judge whether the toaster is expensive or not. 
+She could communicate the exact price, or provide a rough estimate. Furthermore, Anne could communicate her attitude about the price, so that her friend could infer that the toaster was expensive based on how Anne felt about the price.
+Anne said "$1000", but it is unlikely that a toaster costs literally $1000. Therefore, it is unlikely that she wants to communicate the exact price. A toaster that costs $1000 would be considered expensive, which would be upsetting. Therefore, it is likely that Anne wants to communicate that she is upset and felt that the toaster was too expensive, using a hyperbole to talk about the price.
+Therefore, it is very likely that Anne thinks that the toaster is expensive. The answer is: 0.9
+A: 0.9

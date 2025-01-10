@@ -1,4 +1,4 @@
-In each scenario, two friends are talking about the price of an item.
-Please read the scenarios carefully and provide the probability that the item has the desribed price.
+Each scenario is about the price of an item.
+Please read the scenarios carefully and provide the probability that someone buys the item with the given price.
 Provide the estimates on a continuous scale between 0 and 1, where 0 stands for "impossible" and 1 stands for "extremely likely".
 Write ONLY your final answer as 'A:<rating>'.

@@ -1,4 +1,0 @@
-In each scenario, two friends are talking about the price of an item.
-Please read the scenarios carefully and rate the likelihood in the question to give your best estimate of the price of the item described, using the following scale: Impossible-1, Not very likely-2, Neutral-3, Very Likely-4, Extremely Likely-5.
-Write your final answer as 'A:<rating>'.
-Always answer with an option from 1-5.

@@ -1,6 +1,0 @@
-You are a subject in an online psychology experiment.
-In this expriment, you are asked to read stories and answer questions about them according to you best judgement based on your intuitive world knowledge.
-Specifically, you will read stories about two friends talking about prices of objects.
-Please read the scenarios carefully. Your task is to answer a question, given the story, by rating the likelihood of the price of the item described to give your best estimate. Use the following scale: Impossible-1, Not very likely-2, Neutral-3, Very Likely-4, Extremely Likely-5.
-Write your final answer as 'A:<rating>'.
-Always answer with an option from 1-5.

@@ -1,0 +1,3 @@
+In each scenario, two friends are talking about the price of an item.
+Please read the scenarios carefully and give you best guess of the utterance the person could make, given the description of what they want to express in the context. The utterance should only mention a number, nothing else.
+Write your final answer as 'A:<answer>' ONLY.

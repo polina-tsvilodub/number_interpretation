@@ -14,7 +14,7 @@ from langchain.schema import (
 )
 from tqdm import tqdm
 
-NUM_ITER = 5
+NUM_ITER = 1
 # parse raw response
 def parse_response(raw_response):
     if "a:" in raw_response.lower():
@@ -94,10 +94,14 @@ goals = {
     "s_fuzzy": "{name} wants to roughly communicate the price of the {item} they bought. "
 }
 conditions = [
-    "a-only-0",
+    "a-only-0", # exact
     "a-only-1",
+    # "a-only-0", # FUZZY
+    # "a-only-1",
     "only-s_exact-0",
+    "only-s_exact-1",
     "only-s_fuzzy-0",
+    "only-s_fuzzy-1",
     "a-s_exact-0",
     "a-s_exact-1",
     "a-s_fuzzy-0",
@@ -106,7 +110,7 @@ conditions = [
 question_template = "If a friend asked {name} if the {item} was expensive, how likely is it that {name} will say: 'The {item} cost {utterance}'?"
 state_template = " The {item} cost {state}. "
 
-with open(os.path.join("../prompt_instructions/", "evaluation_0shot_1b_v2_speaker.txt"), 'r') as f:
+with open(os.path.join("../prompt_instructions/", "evaluation_0shot_1b_v2_speaker_free_production.txt"), 'r') as f:
     system_prompt = f.read().strip()
 
 predicted_answers = []
@@ -142,10 +146,11 @@ for iter in tqdm(range(NUM_ITER)):
             if item == "kettle":
                 item = "electric kettle"
             # construct prompt
+            # iterate over all states for full decomposition
             goal_p = goal_prompt.format(name=name, item=item) if goal_prompt != "" else ""
             affect_goal_p = affect_goal_prompt.format(name=name, item=item) if affect_goal_prompt != "" else ""
-            prompt = goal_p + affect_goal_p + affect_prompt.format(name=name, item=item) + state_template.format(item=item, state=r["state"]) + question_template.format(name=name, item=item, utterance=r["utterance"])
-            
+            free_production_template = f" A friend asks {name}: 'Was it expensive?' {name} responds: 'The {item} cost $"
+            prompt = goal_p + affect_goal_p + affect_prompt.format(name=name, item=item) + state_template.format(item=item, state=r["state"]) + free_production_template #question_template.format(name=name, item=item, utterance=r["utterance"])
             # record
             affect_lists.append(c.split("-")[0])
             goal_lists.append(c.split("-")[1])
@@ -160,20 +165,19 @@ for iter in tqdm(range(NUM_ITER)):
             elif args.model in ["llama-2-7b-chat"]:
                 template = f"Instructions: {system_prompt}\n{prompt}\nA:"
                 response = llm(template)[0]
-
             # parse response
-            parsed_response = parse_response(response)
+            # parsed_response = parse_response(response)
 
             if args.verbose:
                 print("--------------------------------------------------")
                 print(f"Instruction: {system_prompt}")
                 print(f"Story: {prompt}")
                 print(f"A: {response}")
-                print(f"Parsed A: {parsed_response}")
+                # print(f"Parsed A: {parsed_response}")
 
             # append to list
             predicted_answers.append(response)
-            parsed_answers.append(parsed_response)
+            # parsed_answers.append(parsed_response)
 
     df_out = pd.DataFrame({
         "affect": affect_lists,
@@ -183,14 +187,14 @@ for iter in tqdm(range(NUM_ITER)):
         "state": states_list,
         "item": item_lists,
         "predicted_answer": predicted_answers,
-        "parsed_answer": parsed_answers
+        # "parsed_answer": parsed_answers
     })
     # write to file
     if not os.path.exists(os.path.join(args.output_dir, filename)):
         os.makedirs(os.path.join(args.output_dir, filename))
 
     prefix = f"{args.model.replace('/','_')}_speaker_test_{args.temperature}_{args.num}_{args.offset}_iter{iter}"
-    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers.csv"), index=False)
+    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_free_production.csv"), index=False)
 
 
 # TODO: approach 2: Llama log probability results

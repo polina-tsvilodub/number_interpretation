@@ -1,0 +1,4 @@
+In each scenario, a person has just bought an item and is talking to a friend about the price.
+Please read the scenarios carefully and provide the probability that the person thinks that the item is expensive.
+Provide the estimates on a continuous scale between 0 and 1, where 0 stands for "impossible" and 1 stands for "absolutely certain".
+Write ONLY your final answer as 'A:<rating>'.

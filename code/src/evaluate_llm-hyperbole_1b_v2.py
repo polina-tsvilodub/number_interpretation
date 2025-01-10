@@ -23,39 +23,39 @@ def add_emoji(story, emoji='☺️'):
     story_wEmoji = story_split[0] + emoji + '."\nQ:' + story_split[1]
     return story_wEmoji
 
-# parse raw response
+def construct_story(r, prompt_type="prob"):
+    """
+    Helper for constructing a story
+    from u, s, context.
+    """
+    # TODO: deal with dynamic k in {1,2,3} sampling?
+    story = r['context'] + '. ' + r['question'] + '"' + r["sentence"] + r["utterance"] + '." '
+    if prompt_type == "prob":
+        story_prompt = story + r["probability_prompt"]
+    elif prompt_type == "likert":
+        story_prompt = story + r["likert_prompt"]
+    return story_prompt
+    
 def parse_response(raw_response):
     if "a:" in raw_response.lower():
         if "a:" in raw_response:
             response = raw_response.split("a:")[1].lower().strip()
+            return response
         elif "A:" in raw_response:
             response = raw_response.split("A:")[1].lower().strip()
+            return response
         else:
             print(f"Response: {raw_response}")
-            parsed_response = int(input("Enter response(1-5):"))
+            parsed_response = int(input("Enter response(0-1):"))
             return parsed_response
     elif "answer:" in raw_response.lower():
-        response = raw_response.split("Answer:")[1].lower().strip()
-    # TODO: this should just grab the last line and extract the number, and there should be more new tokens allowed
+        response = raw_response.split("answer:")[1].lower().strip()
+        return response
     else:
         print(f"Response: {raw_response}")
-        parsed_response = int(input("Enter response(1-5):"))
+        parsed_response = 10000
         return parsed_response
 
-    if "impossible" in response or "1" in response:
-        parsed_response = 1
-    elif "not very likely" in response or "2" in response:
-        parsed_response = 2
-    elif "neutral" in response or "3" in response:
-        parsed_response = 3
-    elif "very likely" in response or "4" in response:
-        parsed_response = 4
-    elif "extremely likely" in response or "5" in response:
-        parsed_response = 5
-    else:
-        print(f"Response {raw_response} not found.")
-        parsed_response = int(input("Enter response(1-5):"))
-    return parsed_response
 
 parser = argparse.ArgumentParser()
 
@@ -75,7 +75,7 @@ parser.add_argument('--verbose', action='store_true', help='verbose')
 parser.add_argument('--data_dir', type=str, default='../../data/', help='data directory')
 parser.add_argument('--output_dir', type=str, default='../../data/results_pt/', help='output directory')
 parser.add_argument('--datafile', type=str, default='experiment_1b_raw', help='output directory')
-parser.add_argument('--promptfile', type=str, default='evaluation_0shot_1b_v2.txt', help='output directory')
+parser.add_argument('--promptfile', type=str, default='evaluation_0shot_1b_v3.txt', help='output directory')
 
 
 # parse args
@@ -87,12 +87,7 @@ args = parser.parse_args()
 # read data (data should just be a list)
 
 datafile = args.datafile
-data = []
-with open(os.path.join(args.data_dir, f"{datafile}.csv"), 'r') as f:
-    reader = csv.reader(f)
-    for row in reader:
-        story = ' '.join(row)
-        data.append(story)
+data = pd.read_csv(os.path.join(args.data_dir, f"{datafile}.csv"))
 
 
 # get prompt
@@ -115,8 +110,7 @@ if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini"]:
     #                 max_tokens = args.max_tokens)
     llm = init_model(model_name=args.model,
                     temperature=args.temperature,
-                    max_tokens = args.max_tokens,
-                    num_completions=args.num_completions)
+                    max_tokens = args.max_tokens) # num_completions=args.num_completions
 elif args.model in ["claude-2"]:
     llm = ChatAnthropic(model_name=args.model,
                     temperature=args.temperature,
@@ -141,8 +135,8 @@ graded_answers = []
 stories = []
 # I should pay attention to the args.num as it controls the number of cases will be evaluated
 for i in tqdm(range(args.offset, len(data))):
-    story = data[i]
-    query = story
+    story = data.iloc[i]
+    query = construct_story(story)
     stories.append(story)
     if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
         messages = [SystemMessage(content=prompt), HumanMessage(content=query)]
@@ -151,9 +145,8 @@ for i in tqdm(range(args.offset, len(data))):
     elif args.model in ["llama-2-7b-chat"]:
         template = f"Instructions: {prompt}\n{query}\nA:"
         response = llm(template)[0]
-
     # parse response
-    parsed_response = ", ".join([parse_response(r) for r in response])
+    parsed_response = ", ".join([str(parse_response(r)) for r in response])
 
     if args.verbose:
         print("--------------------------------------------------")
@@ -176,7 +169,7 @@ results_df = pd.DataFrame({
     "predicted_answer": predicted_answers,
     "parsed_answer": graded_answers
 })
-prefix = f"{args.model.replace('/','_')}_{args.promptfile.replace(".txt", "")}_{args.temperature}_{args.num}_{args.offset}"
+prefix = f"{args.model.replace('/','_')}_{args.promptfile.replace('.txt', '')}_{args.temperature}_{args.num}_{args.offset}"
 
 # write
 results_df.to_csv(os.path.join(args.output_dir, datafile, f"{prefix}_predicted_answers.csv"), index=False)
