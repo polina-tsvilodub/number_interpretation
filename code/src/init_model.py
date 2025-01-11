@@ -4,10 +4,13 @@ import os
 from langchain_openai import ChatOpenAI
 from langchain_openai.llms.base import OpenAI
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+from langchain_anthropic import ChatAnthropic
+
 from langchain_community.llms import OpenLLM
 import random
 from transformers import BitsAndBytesConfig
-
+import anthropic
+import google.generativeai as genai
 
 def init_model(
         model_name, 
@@ -54,6 +57,29 @@ def init_model(
             api_key=openai_api_key,
             model=model_name,
             **kwargs
+        )
+    elif "gemini" in model_name:
+        genai.configure(api_key=os.getenv["GEMINI_API_KEY"])
+        # Create the model
+        generation_config = {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": 40,
+            "max_output_tokens": 8192,
+            "response_mime_type": "text/plain",
+        }
+
+        model = genai.GenerativeModel(
+            model_name=model_name,
+            generation_config=generation_config,
+            system_instruction="system",
+        )
+    elif "anthropic" in model_name:
+        model = ChatAnthropic(
+            api_key=os.getenv["ANTHROPIC_API_KEY"],
+            model=model_name,
+            **kwargs
+            # other params..
         )
     # huggingface models which usually have a / in their repo name
     elif "/" in model_name:
