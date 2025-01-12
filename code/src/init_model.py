@@ -74,7 +74,7 @@ def init_model(
             generation_config=generation_config,
             system_instruction="system",
         )
-    elif "anthropic" in model_name:
+    elif "claude" in model_name:
         model = ChatAnthropic(
             api_key=os.getenv["ANTHROPIC_API_KEY"],
             model=model_name,
