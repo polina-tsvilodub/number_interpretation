@@ -97,23 +97,23 @@ else:
     
     
 # initialize LLM (Don't need to change)
-if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini"]:
+# if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini"]:
     
-    llm = init_model(model_name=f"{args.model}",
-                    temperature=args.temperature,
-                    max_tokens = args.max_tokens)
-elif args.model in ["claude-2"]:
-    llm = ChatAnthropic(model_name=args.model,
-                    temperature=args.temperature,
-                    max_tokens = args.max_tokens)
-elif args.model in ["llama-2-7b-chat"]:
-    llm = HuggingFacePipeline.from_model_id(
-        model_id="meta-llama/Llama-2-7b-chat-hf",
-        task="text-generation",
-        model_kwargs={"temperature": args.temperature, "max_length": args.max_tokens},
-    )
-else:
-    raise ValueError(f"Model {args.model} not found.")
+llm = init_model(model_name=f"{args.model}",
+                temperature=args.temperature,
+                max_tokens = args.max_tokens)
+# elif args.model in ["claude-2"]:
+#     llm = ChatAnthropic(model_name=args.model,
+#                     temperature=args.temperature,
+#                     max_tokens = args.max_tokens)
+# elif args.model in ["llama-2-7b-chat"]:
+#     llm = HuggingFacePipeline.from_model_id(
+#         model_id="meta-llama/Llama-2-7b-chat-hf",
+#         task="text-generation",
+#         model_kwargs={"temperature": args.temperature, "max_length": args.max_tokens},
+#     )
+# else:
+#     raise ValueError(f"Model {args.model} not found.")
     
     
 # evaluate (I need to replace the code below to let it compatible with hyperbole dataset)
