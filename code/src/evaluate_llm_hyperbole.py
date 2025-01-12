@@ -132,7 +132,7 @@ for j in range(args.num):
             queries_1b = [query_1b + str(p) + "." for p in unique_prices]
             parsed_resps = []
             for q in queries_1b:
-                if "llama" in args.model:
+                if ("llama" in args.model) or ("olmo" in args.model.lower()) or ("gemma" in args.model):
                     template = f"Instructions: {prompt}\n{query}\nA:"
                     response = llm(template)[0]
                 else:
@@ -155,7 +155,7 @@ for j in range(args.num):
             else:
                 raise ValueError(f"Experiment number {args.expt_num} not found.")
             
-            if "llama" in args.model:
+            if ("llama" in args.model) or ("olmo" in args.model.lower()) or ("gemma" in args.model):
                     template = f"Instructions: {prompt}\n{query}\nA:"
                     response = llm(template)[0]
             else:
