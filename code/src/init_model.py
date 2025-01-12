@@ -59,7 +59,7 @@ def init_model(
             **kwargs
         )
     elif "gemini" in model_name:
-        genai.configure(api_key=os.getenv["GEMINI_API_KEY"])
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
         # Create the model
         generation_config = {
             "temperature": 1,
@@ -76,7 +76,7 @@ def init_model(
         )
     elif "claude" in model_name:
         model = ChatAnthropic(
-            api_key=os.getenv["ANTHROPIC_API_KEY"],
+            api_key=os.getenv("ANTHROPIC_API_KEY"),
             model=model_name,
             **kwargs
             # other params..
