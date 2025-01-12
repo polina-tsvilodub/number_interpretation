@@ -37,13 +37,18 @@ echo " "
 # activate CUDA
 module load devel/cuda/11.6
 
+# iterate over tasks
+tasks=("1a" "1b" "2" "3a" "3b")
 # iterate over models
-models=("claude-3-5-sonnet-20241022") # "gpt-4o-mini") # "google/gemma-1.1-7b-it" "meta-llama/Llama-3.3-70B-Instruct" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "claude-3-5-sonnet-20241022")
+models=("gpt-4o-mini" "claude-3-5-sonnet-20241022" "google/gemma-1.1-7b-it" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "meta-llama/Llama-3.3-70B-Instruct")
 
 for i in ${!models[*]}; do
-    echo "model: ${models[$i]}"
-    python3 -u evaluate_llm_hyperbole.py \
-        --model="${models[$i]}" \
-        --expt_num="2" \
-        --num=1
+    for j in ${!tasks[*]}; do
+        echo "model: ${models[$i]}"
+        echo "task: ${tasks[$j]}"
+        python3 -u evaluate_llm_hyperbole.py \
+            --model="${models[$i]}" \
+            --expt_num="${tasks[$j]}"\
+            --num=10
+    done
 done
