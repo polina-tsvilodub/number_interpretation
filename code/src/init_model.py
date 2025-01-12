@@ -75,8 +75,8 @@ def init_model(
             system_instruction="system",
         )
     elif "claude" in model_name:
+        os.environ["ANTHROPIC_API_KEY"] = os.getenv("ANTHROPIC_API_KEY")
         model = ChatAnthropic(
-            api_key=os.getenv("ANTHROPIC_API_KEY"),
             model=model_name,
             **kwargs
             # other params..
