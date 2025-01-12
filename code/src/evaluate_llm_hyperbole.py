@@ -159,7 +159,8 @@ for j in range(args.num):
                     template = f"Instructions: {prompt}\n{query}\nA:"
                     response = llm(template)[0]
             else:
-                messages = [SystemMessage(content=prompt), HumanMessage(content=q)]
+                messages = [SystemMessage(content=prompt), HumanMessage(content=query)]
+                print("template formatted messages", messages)
                 response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
             parsed_response = parse_response(response)
         # parse response

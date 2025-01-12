@@ -11,6 +11,8 @@ import random
 from transformers import BitsAndBytesConfig
 import anthropic
 import google.generativeai as genai
+from langchain_google_genai import ChatGoogleGenerativeAI
+
 
 def init_model(
         model_name, 
@@ -59,21 +61,20 @@ def init_model(
             **kwargs
         )
     elif "gemini" in model_name:
-        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+        
+        os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY")
         # Create the model
-        generation_config = {
-            "temperature": 1,
-            "top_p": 0.95,
-            "top_k": 40,
-            "max_output_tokens": 8192,
-            "response_mime_type": "text/plain",
-        }
+        kwargs = kwargs if kwargs is not None else {}
+        kwargs["response_mime_type"] = "text/plain"
+        kwargs["timeout"] = None
+        kwargs["max_retries"] = 2
 
-        model = genai.GenerativeModel(
-            model_name=model_name,
-            generation_config=generation_config,
-            system_instruction="system",
+        print("gemini kwargs ", kwargs)
+        model = ChatGoogleGenerativeAI(
+            model="gemini-1.5-pro",
+            **kwargs
         )
+        
     elif "claude" in model_name:
         os.environ["ANTHROPIC_API_KEY"] = os.getenv("ANTHROPIC_API_KEY")
         model = ChatAnthropic(
@@ -134,6 +135,13 @@ def init_model(
                     model=model_name,
                     # **kwargs
                 )
+        elif ("gemma" in model_name) or ("olmo" in model_name.lower()):
+            # use huggingface pipeline 
+            model = HuggingFaceEndpoint(
+                repo_id=model_name,
+                task="text-generation",
+                **kwargs
+            )
     else:
         raise ValueError((
             f"Unknown or incorrect model name {model_name}. "
