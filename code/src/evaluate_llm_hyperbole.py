@@ -155,7 +155,7 @@ for j in range(args.num):
             else:
                 raise ValueError(f"Experiment number {args.expt_num} not found.")
             
-            if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini", "claude-2"]:
+            if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini", "claude-3-5-sonnet-20241022"]:
                 messages = [SystemMessage(content=prompt), HumanMessage(content=query)]
                 response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
             elif args.model in ["llama-2-7b-chat"]:
