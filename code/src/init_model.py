@@ -45,7 +45,7 @@ def init_model(
     model: langchain.LLM
         Initialized model.
     """
-
+    load_dotenv()
     if "gpt" in model_name:
         try:
             load_dotenv()

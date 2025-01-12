@@ -38,12 +38,12 @@ echo " "
 module load devel/cuda/11.6
 
 # iterate over models
-models=("gpt-4o-mini") # "google/gemma-1.1-7b-it" "meta-llama/Llama-3.3-70B-Instruct" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "claude-3-5-sonnet-20241022")
+models=("claude-3-5-sonnet-20241022") # "gpt-4o-mini") # "google/gemma-1.1-7b-it" "meta-llama/Llama-3.3-70B-Instruct" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "claude-3-5-sonnet-20241022")
 
 for i in ${!models[*]}; do
     echo "model: ${models[$i]}"
     python3 -u evaluate_llm_hyperbole.py \
         --model="${models[$i]}" \
-        --expt_num="1a" \
-        --num=10
+        --expt_num="2" \
+        --num=1
 done
