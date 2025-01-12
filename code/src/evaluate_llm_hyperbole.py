@@ -132,12 +132,12 @@ for j in range(args.num):
             queries_1b = [query_1b + str(p) + "." for p in unique_prices]
             parsed_resps = []
             for q in queries_1b:
-                if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini", "claude-2"]:
-                    messages = [SystemMessage(content=prompt), HumanMessage(content=q)]
-                    response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
-                elif args.model in ["llama-2-7b-chat"]:
+                if "llama" in args.model:
                     template = f"Instructions: {prompt}\n{query}\nA:"
                     response = llm(template)[0]
+                else:
+                    messages = [SystemMessage(content=prompt), HumanMessage(content=q)]
+                    response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
                 parsed_resps.append(parse_response(response))
             parsed_response = ", ".join([str(s) for s in parsed_resps])
         else:
@@ -155,12 +155,12 @@ for j in range(args.num):
             else:
                 raise ValueError(f"Experiment number {args.expt_num} not found.")
             
-            if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini", "claude-3-5-sonnet-20241022"]:
-                messages = [SystemMessage(content=prompt), HumanMessage(content=query)]
+            if "llama" in args.model:
+                    template = f"Instructions: {prompt}\n{query}\nA:"
+                    response = llm(template)[0]
+            else:
+                messages = [SystemMessage(content=prompt), HumanMessage(content=q)]
                 response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
-            elif args.model in ["llama-2-7b-chat"]:
-                template = f"Instructions: {prompt}\n{query}\nA:"
-                response = llm(template)[0]
             parsed_response = parse_response(response)
         # parse response
         if args.verbose:
