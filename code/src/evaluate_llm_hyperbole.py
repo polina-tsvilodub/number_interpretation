@@ -40,7 +40,7 @@ parser = argparse.ArgumentParser()
 
 # model args
 parser.add_argument('--model', type=str, default='gpt-4o-mini', help='model name')
-parser.add_argument('--temperature', type=float, default=0.0, help='temperature')
+parser.add_argument('--temperature', type=float, default=1.0, help='temperature')
 parser.add_argument('--max_tokens', type=int, default=10, help='max tokens')
 parser.add_argument('--prompt', type=str, default="0shot", help='prompt')
 
@@ -127,7 +127,7 @@ for j in range(args.num):
         
         if args.expt_num == "1b":
             # query for 1b
-            unique_prices = data["price"].unique().tolist()
+            unique_prices = ["50", "51", "500", "501", "1000", "1001", "5000", "5001", "10000", "10001"]
             query_1b = data.loc[i, "context"] + ". " + data.loc[i, "question_prefix"] + "'" + data.loc[i, "question_affect"] + "' " + data.loc[i, "response_prefix"] + "'" + data.loc[i, "utterance_template"] + "' " + data.loc[i, "task_1b"]
             queries_1b = [query_1b + str(p) + "." for p in unique_prices]
             parsed_resps = []
