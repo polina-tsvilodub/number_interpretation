@@ -92,6 +92,13 @@ if args.prompt == "0shot":
             prompt = f.read().strip()
     else:
         raise ValueError("Prompt for given experiment number not found.")
+elif args.prompt == "1shot_cot":
+    if args.expt_num == "1a":
+        with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1a_cot_goal.txt"), 'r') as f:
+            prompt = f.read().strip()
+    elif args.expt_num == "1b":
+        with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1b_cot_goal.txt"), 'r') as f:
+            prompt = f.read().strip()
 else:
     raise ValueError(f"Prompt {args.prompt} not found.")
     

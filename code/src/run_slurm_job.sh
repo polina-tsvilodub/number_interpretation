@@ -40,7 +40,7 @@ module load devel/cuda/11.6
 # iterate over tasks
 tasks=("1a" "1b" "2" "3a" "3b")
 # iterate over models
-models=("gpt-4o-mini" "claude-3-5-sonnet-20241022" "google/gemma-1.1-7b-it" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "meta-llama/Llama-3.3-70B-Instruct")
+models=("gpt-4o-mini") # "claude-3-5-sonnet-20241022" "google/gemma-1.1-7b-it" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "meta-llama/Llama-3.3-70B-Instruct")
 
 for i in ${!models[*]}; do
     for j in ${!tasks[*]}; do
@@ -48,7 +48,8 @@ for i in ${!models[*]}; do
         echo "task: ${tasks[$j]}"
         python3 -u evaluate_llm_hyperbole.py \
             --model="${models[$i]}" \
-            --expt_num="${tasks[$j]}"\
-            --num=10
+            --expt_num="${tasks[$j]}" \
+            --num=10 \
+            --prompt="1shot_cot"
     done
 done
