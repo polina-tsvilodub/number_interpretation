@@ -178,5 +178,5 @@ for j in range(args.num):
     if not os.path.exists(os.path.join(args.output_dir, datafile)):
         os.makedirs(os.path.join(args.output_dir, datafile))
 
-    prefix = f"{args.model.replace('/','_')}_{args.prompt}_{args.temperature}_{args.num}_{args.offset}_iter{j}_rep"
+    prefix = f"{args.model.replace('/','_')}_{args.prompt}_{args.temperature}_{args.num}_{args.offset}_iter{j}"
     data_out.to_csv(os.path.join(args.output_dir, datafile, f"{prefix}_{args.expt_num}_predicted_answers.csv"), index=False)
