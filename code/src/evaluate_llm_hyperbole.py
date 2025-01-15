@@ -25,14 +25,14 @@ def parse_response(raw_response):
             return response
         else:
             print(f"Response: {raw_response}")
-            parsed_response = 1000
+            parsed_response = raw_response
             return parsed_response
     elif "answer:" in raw_response.lower():
         response = raw_response.split("answer:")[1].lower().strip()
         return response
     else:
         print(f"Response: {raw_response}")
-        parsed_response = 1000
+        parsed_response = raw_response
         return parsed_response
 
 
@@ -185,5 +185,5 @@ for j in range(args.num):
     if not os.path.exists(os.path.join(args.output_dir, datafile)):
         os.makedirs(os.path.join(args.output_dir, datafile))
 
-    prefix = f"{args.model.replace('/','_')}_{args.prompt}_{args.temperature}_{args.num}_{args.offset}_iter{j}_rep"
+    prefix = f"{args.model.replace('/','_')}_{args.prompt}_{args.temperature}_{args.num}_{args.offset}_iter{j}"
     data_out.to_csv(os.path.join(args.output_dir, datafile, f"{prefix}_{args.expt_num}_predicted_answers.csv"), index=False)
