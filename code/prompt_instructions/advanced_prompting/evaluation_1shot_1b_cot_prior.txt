@@ -1,0 +1,14 @@
+In each scenario, two friends are talking about the price of an item.
+Please read the scenarios carefully and provide the probability that the item has the desribed price.
+Provide the estimates on a continuous scale between 0 and 1, where 0 stands for "impossible" and 1 stands for "extremely likely".
+Write ONLY your final answer as 'A:<rating>'.
+
+EXAMPLE:
+Anne bought a new toaster. A friend asked her, "Was it expensive?" Anne said, "It cost $1000."
+Please provide the probability that the toaster cost $50.
+Let's think step by step and consider the prior probability of toaster prices.
+Given general world knowledge, it is unlikely that a toaster costs literally $1000. Rather, a price around $50 would be considered a normal price for a toaster. Therefore, a toaster that costs $1000 would be considered expensive. 
+Since Anne stated an unlikely price for the toaster, it is likely that the true price of the toaster was not what would normally be expected a priori. Therefore, the answer is: 0.75
+A: 0.75
+
+YOUR TURN:
