@@ -46,7 +46,7 @@ for i in ${!models[*]}; do
     for j in ${!tasks[*]}; do
         echo "model: ${models[$i]}"
         echo "task: ${tasks[$j]}"
-        python3 -u advanced/evaluate_speaker_model.py \
+        python3 -u evaluate_speaker_model.py \
             --model="${models[$i]}" 
 #            --expt_num="${tasks[$j]}" \
 #            --num=10 \
