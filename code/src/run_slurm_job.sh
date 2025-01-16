@@ -50,6 +50,7 @@ for i in ${!models[*]}; do
             --model="${models[$i]}" \
             --expt_num="${tasks[$j]}" \
             --num=10 \
-            --prompt="1shot_cot"
+            --prompt="1shot_cot" \
+            --max_tokens=256
     done
 done
