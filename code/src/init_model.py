@@ -62,7 +62,7 @@ def init_model(
         )
     elif "gemini" in model_name:
         
-        os.environ["GEMINI_API_KEY"] = os.getenv("GEMINI_API_KEY")
+        os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
         # Create the model
         kwargs = kwargs if kwargs is not None else {}
         kwargs["response_mime_type"] = "text/plain"

@@ -1,3 +1,4 @@
 In each scenario, two friends are talking about the price of an item.
-Please read the scenarios carefully and give you best guess of the utterance the person could make, given the description of what they want to express in the context. The utterance should only mention a number, nothing else.
-Write your final answer as 'A:<answer>' ONLY.
+Please read the scenarios carefully and provide the probability that the speaker would say the following utterance, given their communicative goal and the true price of the item.
+Provide the estimates on a continuous scale between 0 and 1, where 0 stands for "impossible" and 1 stands for "extremely likely".
+Write ONLY your final answer as 'A:<rating>'.

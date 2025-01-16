@@ -46,11 +46,10 @@ for i in ${!models[*]}; do
     for j in ${!tasks[*]}; do
         echo "model: ${models[$i]}"
         echo "task: ${tasks[$j]}"
-        python3 -u evaluate_llm_hyperbole.py \
-            --model="${models[$i]}" \
-            --expt_num="${tasks[$j]}" \
-            --num=10 \
-            --prompt="1shot_cot" \
-            --max_tokens=256
+        python3 -u evaluate_speaker_model.py \
+            --model="${models[$i]}" 
+#            --expt_num="${tasks[$j]}" \
+#            --num=10 \
+#            --prompt="1shot_cot"
     done
 done
