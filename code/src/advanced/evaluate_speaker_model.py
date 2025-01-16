@@ -13,6 +13,7 @@ from langchain.schema import (
     SystemMessage
 )
 from tqdm import tqdm
+import numpy as np
 
 NUM_ITER = 1
 # parse raw response
@@ -53,7 +54,7 @@ parser = argparse.ArgumentParser()
 
 # model args
 parser.add_argument('--model', type=str, default='gpt-4o-mini', help='model name')
-parser.add_argument('--temperature', type=float, default=0, help='temperature')
+parser.add_argument('--temperature', type=float, default=1, help='temperature')
 parser.add_argument('--max_tokens', type=int, default=512, help='max tokens')
 parser.add_argument('--num_completions', type=int, default=1, help='number of completions')
 
@@ -85,109 +86,113 @@ else:
     raise NotImplementedError(f"Model {args.model} not implemented yet.")
 
 affect_conditions = {
-    0: " Specifically, {name} thinks that the price of the {item} is appropriate. ",
-    1: " Specifically, {name} thinks the {item} is too expensive. "
+    '0': "{name} thinks that the price of the {item} is appropriate. ",
+    '1': "{name} thinks the {item} is too expensive. "
 }
 goals = {
-    "a" : "{name} wants to communicate their attitude towards the price of the {item} they bought. ",
-    "s_exact": "{name} wants to precisely communicate the price of the {item} they bought. ",
-    "s_fuzzy": "{name} wants to roughly communicate the price of the {item} they bought. "
+    "affect" : "{name} wants to communicate their attitude towards the price of the {item} they bought. ",
+    "state": "{name} wants to communicate the price of the {item} they bought. ",
+    "both": "{name} wants to communicate both the price of the {item} they bought and their attitude towards the price. "
+}
+halo = {
+    "exact": "{name} wants to precisely communicate the price of the {item} they bought. ",
+    "fuzzy": "{name} wants to communicate the approximate price of the {item} they bought. "
 }
 conditions = [
-    "a-only-0", # exact
-    "a-only-1",
-    # "a-only-0", # FUZZY
-    # "a-only-1",
-    "only-s_exact-0",
-    "only-s_exact-1",
-    "only-s_fuzzy-0",
-    "only-s_fuzzy-1",
-    "a-s_exact-0",
-    "a-s_exact-1",
-    "a-s_fuzzy-0",
-    "a-s_fuzzy-1",
+    ("state", "fuzzy", "0"),
+    ("state", "exact", "0"),
+    ("affect", "fuzzy", "0"),
+    ("affect", "exact", "0"),
+    ("both", "fuzzy", "0"),
+    ("both", "exact", "0"),
+    ("state", "fuzzy", "1"),
+    ("state", "exact", "1"),
+    ("affect", "fuzzy", "1"),
+    ("affect", "exact", "1"),
+    ("both", "fuzzy", "1"),
+    ("both", "exact", "1")
 ]
-question_template = "If a friend asked {name} if the {item} was expensive, how likely is it that {name} will say: 'The {item} cost {utterance}'?"
+question_template = "A friend asked {name} if the {item} was expensive. "
+utterance_template = "How likely is it that {name} will say: 'The {item} cost {utterance}.'?"
 state_template = " The {item} cost {state}. "
 
-with open(os.path.join("../prompt_instructions/", "evaluation_0shot_1b_v2_speaker_free_production.txt"), 'r') as f:
+with open(os.path.join("../prompt_instructions/advanced", "evaluation_0shot_1b_v2_speaker_free_production.txt"), 'r') as f:
     system_prompt = f.read().strip()
 
-predicted_answers = []
+
 parsed_answers = []
-affect_lists = []
-affect_valences = []
 goal_lists = []
+affect_valences = []
+halo_lists = []
 utterances_lists = []
 states_list = []
 item_lists = []
+name_lists = []
+names = pd.read_csv("../data/experiment_1_full.csv")["name"].unique()
+print("names ", names)
+
+items = ["electric kettle", "laptop", "watch"]
+prices = ["$50", "$51", "$500", "$501", "$1000", "$1001", "$5000", "$5001", "$10000", "$10001"]
 
 # iterate over the stories to model the pragmatic speaker
 for iter in tqdm(range(NUM_ITER)):
-    for c in conditions:
-        split_condition = c.split("-")
-        # construct prompt based on goal
-        if split_condition[0] == "a":
-            affect_goal_prompt = goals["a"]
-            affect_prompt = affect_conditions[int(split_condition[2])]
+    for item in items:
+        name = np.random.choice(names)
+        if item == "electric kettle":
+            prompt = f"{name} bought an {item}. "
         else:
-            affect_goal_prompt = ""
-            affect_prompt = ""
+            prompt = f"{name} bought a {item}. "
 
-        if split_condition[1] != "only":
-            goal_prompt = goals[split_condition[1]]
-        else:
-            goal_prompt = ""
-        
+        for s in prices:
+            prompt += f"The {item} cost {s}. "
+            prompt += question_template.format(name=name, item=item)
+            for c in conditions:
+                # construct prompt based on goal
+                prompt += goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
+                
+                for u in prices:
+                    # construct prompt
+                    prompt += utterance_template.format(name=name, item=item, utterance=u)
+                    # record
+                    goal_lists.append(c[0])
+                    halo_lists.append(c[1])
+                    affect_valences.append(c[2])
+                    # utterances_lists.append(r["utterance"])
+                    item_lists.append(item)
+                    name_lists.append(name)
 
-        for i, r in data.iterrows():
-            name = r["context"].split(" ")[0]
-            item = r["context"].split(" ")[-1]
-            if item == "kettle":
-                item = "electric kettle"
-            # construct prompt
-            # iterate over all states for full decomposition
-            goal_p = goal_prompt.format(name=name, item=item) if goal_prompt != "" else ""
-            affect_goal_p = affect_goal_prompt.format(name=name, item=item) if affect_goal_prompt != "" else ""
-            free_production_template = f" A friend asks {name}: 'Was it expensive?' {name} responds: 'The {item} cost $"
-            prompt = goal_p + affect_goal_p + affect_prompt.format(name=name, item=item) + state_template.format(item=item, state=r["state"]) + free_production_template #question_template.format(name=name, item=item, utterance=r["utterance"])
-            # record
-            affect_lists.append(c.split("-")[0])
-            goal_lists.append(c.split("-")[1])
-            affect_valences.append(c.split("-")[2])
-            utterances_lists.append(r["utterance"])
-            item_lists.append(item)
-            states_list.append(r["state"])
+                    states_list.append(s)
+                    utterances_lists.append(u)
 
-            if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
-                messages = [SystemMessage(content=system_prompt), HumanMessage(content=prompt)]
-                response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
-            elif args.model in ["llama-2-7b-chat"]:
-                template = f"Instructions: {system_prompt}\n{prompt}\nA:"
-                response = llm(template)[0]
-            # parse response
-            # parsed_response = parse_response(response)
+                    if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
+                        messages = [SystemMessage(content=system_prompt), HumanMessage(content=prompt)]
+                        response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
+                    elif args.model in ["llama-2-7b-chat"]:
+                        template = f"Instructions: {system_prompt}\n{prompt}\nA:"
+                        response = llm(template)[0]
+                    # parse response
+                    # parsed_response = parse_response(response)
 
-            if args.verbose:
-                print("--------------------------------------------------")
-                print(f"Instruction: {system_prompt}")
-                print(f"Story: {prompt}")
-                print(f"A: {response}")
-                # print(f"Parsed A: {parsed_response}")
+                    if args.verbose:
+                        print("--------------------------------------------------")
+                        print(f"Instruction: {system_prompt}")
+                        print(f"Story: {prompt}")
+                        print(f"A: {response}")
+                        # print(f"Parsed A: {parsed_response}")
 
-            # append to list
-            predicted_answers.append(response)
+                    # append to list
+                    parsed_answers.append(response)
             # parsed_answers.append(parsed_response)
 
     df_out = pd.DataFrame({
-        "affect": affect_lists,
+        "halo": halo_lists,
         "goal": goal_lists,
         "affect_valence": affect_valences,
+        "name": name_lists,
         "utterance": utterances_lists,
         "state": states_list,
         "item": item_lists,
-        "predicted_answer": predicted_answers,
-        # "parsed_answer": parsed_answers
+        "parsed_answer": parsed_answers,
     })
     # write to file
     if not os.path.exists(os.path.join(args.output_dir, filename)):
