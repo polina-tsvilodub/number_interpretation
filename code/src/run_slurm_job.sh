@@ -40,16 +40,15 @@ module load devel/cuda/11.6
 # iterate over tasks
 tasks=("1b") # "1b" "2" "3a" "3b")
 # iterate over models
-models=("gpt-4o-mini") # "claude-3-5-sonnet-20241022" "google/gemma-1.1-7b-it" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "meta-llama/Llama-3.3-70B-Instruct")
+models=("meta-llama/Llama-3.1-8B-Instruct") # "claude-3-5-sonnet-20241022" "google/gemma-1.1-7b-it" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "meta-llama/Llama-3.3-70B-Instruct")
 
 for i in ${!models[*]}; do
     for j in ${!tasks[*]}; do
         echo "model: ${models[$i]}"
         echo "task: ${tasks[$j]}"
-        python3 -u evaluate_speaker_model.py \
+        python3 -u evaluate_log_p_hyperbole.py \
             --model="${models[$i]}" 
-#            --expt_num="${tasks[$j]}" \
-#            --num=10 \
-#            --prompt="1shot_cot"
+            --expt_num="${tasks[$j]}" \
+            --num=1
     done
 done
