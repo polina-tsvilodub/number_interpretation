@@ -48,7 +48,7 @@ for i in ${!models[*]}; do
         echo "model: ${models[$i]}"
         echo "task: ${tasks[$j]}"
         python3 -u evaluate_log_p_hyperbole.py \
-            --model="${models[$i]}" 
+            --model="${models[$i]}" \
             --expt_num="${tasks[$j]}" \
             --num=1
     done
