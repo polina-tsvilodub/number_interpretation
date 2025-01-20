@@ -115,9 +115,9 @@ print("Available device ", device)
 llm = scorer.IncrementalLMScorer(
     args.model,
     device=device,
+    torch_dtype=torch.bfloat16
 )
-###########
-input_sequence = initial_sequence + "'" + assumption + "'"
+##########
 # print("full input sequence for scoring: ", input_sequence)
 # get the response from the API
 
@@ -143,7 +143,7 @@ for j in range(args.num):
                     str(p) + "." for p in unique_prices
                 ]
             )
-            print("response: ", response)
+            print("response 1b: ", response)
 
             parsed_resps.append(response)
 
