@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=cpu-single
 #SBATCH --ntasks=1
-#SBATCH --time=30:00:00
+#SBATCH --time=10:00:00
 #SBATCH --mem=20gb
 
 echo 'Running simulation'
