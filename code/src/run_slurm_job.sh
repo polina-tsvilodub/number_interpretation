@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --partition=cpu-single
+#SBATCH --partition=gpu-single
 #SBATCH --ntasks=1
-#SBATCH --time=10:00:00
+#SBATCH --time=02:00:00
 #SBATCH --mem=20gb
-#SBATCH --gres=gpu:1:A40
+#SBATCH --gres=gpu:A40:1
 
 echo 'Running simulation'
 
@@ -39,7 +39,7 @@ echo " "
 module load devel/cuda/11.6
 
 # iterate over tasks
-tasks=("1b") # "1b" "2" "3a" "3b")
+tasks=("2" "3a" "3b") # "1b" "2" "3a" "3b")
 # iterate over models
 models=("meta-llama/Llama-3.1-8B-Instruct") # "claude-3-5-sonnet-20241022" "google/gemma-1.1-7b-it" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "meta-llama/Llama-3.3-70B-Instruct")
 
@@ -48,7 +48,7 @@ for i in ${!models[*]}; do
         echo "model: ${models[$i]}"
         echo "task: ${tasks[$j]}"
         python3 -u evaluate_log_p_hyperbole.py \
-            --model="${models[$i]}" 
+            --model="${models[$i]}" \
             --expt_num="${tasks[$j]}" \
             --num=1
     done
