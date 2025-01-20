@@ -3,6 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --time=30:00:00
 #SBATCH --mem=20gb
+#SBATCH --gres=gpu:1:A40
 
 echo 'Running simulation'
 
