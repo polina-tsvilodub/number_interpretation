@@ -148,7 +148,12 @@ for iter in tqdm(range(NUM_ITER)):
             prompt += question_template.format(name=name, item=item)
             for c in conditions:
                 # construct prompt based on goal
-                goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
+                if c[0] == "both":
+                    goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
+                elif c[0] == "state":
+                    goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) 
+                elif c[0] == "affect":
+                    goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
                 
                 for u in prices:
                     
