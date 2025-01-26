@@ -180,7 +180,7 @@ for iter in tqdm(range(NUM_ITER)):
                     item_lists.append(item)
                     name_lists.append(name)
 
-                states_list.append(s)
+                #states_list.append(s)
                 utterances_lists.append(u)
 
                 if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
@@ -212,7 +212,7 @@ for iter in tqdm(range(NUM_ITER)):
         "affect_valence": affect_valences,
         "name": name_lists,
         "utterance": utterances_lists,
-        "state": states_list,
+        # "state": states_list,
         "item": item_lists,
         "parsed_answer": parsed_answers,
     })
