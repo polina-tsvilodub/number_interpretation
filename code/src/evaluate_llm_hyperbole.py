@@ -97,7 +97,7 @@ elif args.prompt == "1shot_cot":
         with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1a_cot_goal.txt"), 'r') as f:
             prompt = f.read().strip()
     elif args.expt_num == "1b":
-        with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1b_cot_goal.txt"), 'r') as f:
+        with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1b_cot_qud.txt"), 'r') as f:
             prompt = f.read().strip()
 else:
     raise ValueError(f"Prompt {args.prompt} not found.")
@@ -186,4 +186,4 @@ for j in range(args.num):
         os.makedirs(os.path.join(args.output_dir, datafile))
 
     prefix = f"{args.model.replace('/','_')}_{args.prompt}Prior_{args.temperature}_{args.num}_{args.offset}_iter{j}"
-    data_out.to_csv(os.path.join(args.output_dir, datafile, f"{prefix}_{args.expt_num}_predicted_answers.csv"), index=False)
+    data_out.to_csv(os.path.join(args.output_dir, datafile, f"{prefix}_{args.expt_num}_predicted_answers_CoTQUD.csv"), index=False)
