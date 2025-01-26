@@ -211,7 +211,7 @@ for iter in tqdm(range(NUM_ITER)):
         "goal": goal_lists,
         "affect_valence": affect_valences,
         "name": name_lists,
-        "utterance": utterances_lists,
+#        "utterance": utterances_lists,
         # "state": states_list,
         "item": item_lists,
         "parsed_answer": parsed_answers,
