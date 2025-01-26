@@ -172,8 +172,11 @@ for iter in tqdm(range(NUM_ITER)):
                     utterances_lists.append(u)
 
                     if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
-                        messages = [SystemMessage(content=system_prompt), HumanMessage(content=prompt)]
-                        response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
+                        try:
+                            messages = [SystemMessage(content=system_prompt), HumanMessage(content=prompt)]
+                            response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
+                        except:
+                            response = "API error"
                     elif args.model in ["llama-2-7b-chat"]:
                         template = f"Instructions: {system_prompt}\n{prompt}\nA:"
                         response = llm(template)[0]
