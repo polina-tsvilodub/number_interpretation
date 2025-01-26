@@ -164,33 +164,33 @@ for iter in tqdm(range(NUM_ITER)):
             
             for u in prices:
                
-                for u in prices:
+                # for u in prices:
                     
                     # construct prompt
-                    if args.use_generation:
-                        full_prompt = goal_prompt + utterance_production_template.format(name=name, item=item)
-                    else:
-                        full_prompt = goal_prompt + utterance_template.format(name=name, item=item, utterance=u)
-                    
-                    # record
-                    goal_lists.append(c[0])
-                    halo_lists.append(c[1])
-                    affect_valences.append(c[2])
-                    # utterances_lists.append(r["utterance"])
-                    item_lists.append(item)
-                    name_lists.append(name)
+                if args.use_generation:
+                    full_prompt = goal_prompt + utterance_production_template.format(name=name, item=item)
+                else:
+                    full_prompt = goal_prompt + utterance_template.format(name=name, item=item, utterance=u)
+                
+                # record
+                goal_lists.append(c[0])
+                halo_lists.append(c[1])
+                affect_valences.append(c[2])
+                # utterances_lists.append(r["utterance"])
+                item_lists.append(item)
+                name_lists.append(name)
 
                 #states_list.append(s)
-                utterances_lists.append(u)
+                # utterances_lists.append(u)
 
                 if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
                     try:
-                        messages = [SystemMessage(content=system_prompt), HumanMessage(content=prompt)]
+                        messages = [SystemMessage(content=system_prompt), HumanMessage(content=full_prompt)]
                         response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
                     except:
                         response = "API error"
                 elif args.model in ["llama-2-7b-chat"]:
-                    template = f"Instructions: {system_prompt}\n{prompt}\nA:"
+                    template = f"Instructions: {system_prompt}\n{full_prompt}\nA:"
                     response = llm(template)[0]
                 # parse response
                 # parsed_response = parse_response(response)
