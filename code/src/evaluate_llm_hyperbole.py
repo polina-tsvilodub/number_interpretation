@@ -97,7 +97,7 @@ elif args.prompt == "1shot_cot":
         with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1a_cot_goal.txt"), 'r') as f:
             prompt = f.read().strip()
     elif args.expt_num == "1b":
-        with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1b_cot_prior.txt"), 'r') as f:
+        with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_1shot_1b_cot_goal.txt"), 'r') as f:
             prompt = f.read().strip()
 else:
     raise ValueError(f"Prompt {args.prompt} not found.")
@@ -140,7 +140,7 @@ for j in range(args.num):
             parsed_resps = []
             for q in queries_1b:
                 if ("llama" in args.model) or ("olmo" in args.model.lower()) or ("gemma" in args.model):
-                    template = f"Instructions: {prompt}\n{query}\nA:"
+                    template = f"Instructions: {prompt}\n{q}\nA:"
                     response = llm(template)[0]
                 else:
                     messages = [SystemMessage(content=prompt), HumanMessage(content=q)]
