@@ -166,7 +166,7 @@ for iter in tqdm(range(NUM_ITER)):
                     
                     # construct prompt
                     if args.use_generation:
-                        full_prompt = goal_prompt + utterance_template.format(name=name, item=item)
+                        full_prompt = goal_prompt + utterance_production_template.format(name=name, item=item)
                     else:
                         full_prompt = goal_prompt + utterance_template.format(name=name, item=item, utterance=u)
                     
