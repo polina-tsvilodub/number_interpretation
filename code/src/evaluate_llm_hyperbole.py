@@ -140,7 +140,7 @@ for j in range(args.num):
             parsed_resps = []
             for q in queries_1b:
                 if ("llama" in args.model) or ("olmo" in args.model.lower()) or ("gemma" in args.model):
-                    template = f"Instructions: {prompt}\n{query}\nA:"
+                    template = f"Instructions: {prompt}\n{q}\nA:"
                     response = llm(template)[0]
                 else:
                     messages = [SystemMessage(content=prompt), HumanMessage(content=q)]
