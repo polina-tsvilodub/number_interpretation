@@ -206,7 +206,7 @@ for iter in tqdm(range(NUM_ITER)):
         os.makedirs(os.path.join(args.output_dir, filename))
 
     prefix = f"{args.model.replace('/','_')}_speaker_test_{args.temperature}_{args.num}_{args.offset}_iter{iter}"
-    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_free_production.csv"), index=False)
+    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_free_production_newPrompt.csv"), index=False)
 
 
 # TODO: approach 2: Llama log probability results
