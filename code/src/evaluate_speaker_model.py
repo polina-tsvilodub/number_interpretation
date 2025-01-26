@@ -150,18 +150,20 @@ for iter in tqdm(range(NUM_ITER)):
         else:
             init_prompt = f"{name} bought a {item}. "
 
-        for s in prices:
-            prompt = init_prompt + f"The {item} cost {s}. "
-            prompt += question_template.format(name=name, item=item)
-            for c in conditions:
-                # construct prompt based on goal
-                if c[0] == "both":
-                    goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
-                elif c[0] == "state":
-                    goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) 
-                elif c[0] == "affect":
-                    goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
-                
+#        for s in prices:
+        prompt = init_prompt #+ f"The {item} cost {s}. "
+        prompt += question_template.format(name=name, item=item)
+        for c in conditions:
+            # construct prompt based on goal
+            if c[0] == "both":
+                goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
+            elif c[0] == "state":
+                goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + halo[c[1]].format(name=name, item=item) 
+            elif c[0] == "affect":
+                goal_prompt = prompt + goals[c[0]].format(name=name, item=item) + affect_conditions[c[2]].format(name=name, item=item)
+            
+            for u in prices:
+               
                 for u in prices:
                     
                     # construct prompt
@@ -178,30 +180,30 @@ for iter in tqdm(range(NUM_ITER)):
                     item_lists.append(item)
                     name_lists.append(name)
 
-                    states_list.append(s)
-                    utterances_lists.append(u)
+                states_list.append(s)
+                utterances_lists.append(u)
 
-                    if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
-                        try:
-                            messages = [SystemMessage(content=system_prompt), HumanMessage(content=prompt)]
-                            response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
-                        except:
-                            response = "API error"
-                    elif args.model in ["llama-2-7b-chat"]:
-                        template = f"Instructions: {system_prompt}\n{prompt}\nA:"
-                        response = llm(template)[0]
-                    # parse response
-                    # parsed_response = parse_response(response)
+                if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
+                    try:
+                        messages = [SystemMessage(content=system_prompt), HumanMessage(content=prompt)]
+                        response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
+                    except:
+                        response = "API error"
+                elif args.model in ["llama-2-7b-chat"]:
+                    template = f"Instructions: {system_prompt}\n{prompt}\nA:"
+                    response = llm(template)[0]
+                # parse response
+                # parsed_response = parse_response(response)
 
-                    if args.verbose:
-                        print("--------------------------------------------------")
-                        print(f"Instruction: {system_prompt}")
-                        print(f"Story: {prompt}")
-                        print(f"A: {response}")
-                        # print(f"Parsed A: {parsed_response}")
+                if args.verbose:
+                    print("--------------------------------------------------")
+                    print(f"Instruction: {system_prompt}")
+                    print(f"Story: {prompt}")
+                    print(f"A: {response}")
+                    # print(f"Parsed A: {parsed_response}")
 
-                    # append to list
-                    parsed_answers.append(response)
+                # append to list
+                parsed_answers.append(response)
             # parsed_answers.append(parsed_response)
 
     df_out = pd.DataFrame({
@@ -219,7 +221,7 @@ for iter in tqdm(range(NUM_ITER)):
         os.makedirs(os.path.join(args.output_dir, filename))
 
     prefix = f"{args.model.replace('/','_')}_speaker_test_{args.temperature}_{args.num}_{args.offset}_iter{iter}"
-    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_updatedFreeGeneration.csv"), index=False)
+    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_updatedFreeGeneration_noState.csv"), index=False)
 
 
 # TODO: approach 2: Llama log probability results
