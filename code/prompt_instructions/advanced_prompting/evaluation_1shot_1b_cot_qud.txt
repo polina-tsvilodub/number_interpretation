@@ -1,0 +1,15 @@
+In each scenario, two friends are talking about the price of an item.
+Please read the scenarios carefully and provide the probability that the item has the desribed price.
+Provide the estimates on a continuous scale between 0 and 1, where 0 stands for "impossible" and 1 stands for "extremely likely".
+Write ONLY your final answer as 'A:<rating>'.
+
+EXAMPLE:
+Anne bought a new toaster. A friend asked her, "Was it expensive?" Anne said, "It cost $1000."
+Please provide the probability that the toaster cost $50.
+Let's think step by step and consider the possible communicative goals of Anne.
+Anne might want to communicate about the price, about her attitude towards the price, or both.
+For communicating the price, she would choose to be precise, ignoring other possible meaning dimesnions. For communicating her attitude, she would choose a an expression that signal attitude, where other possible dimensions like being precise don't matter. For communicating both, she might choose an utterance that trades off both goals. 
+Thr utterance seems to fit the goals attitude communication and both. Therefore, the answer is: 0.75
+A: 0.75
+
+YOUR TURN:
