@@ -66,6 +66,8 @@ parser.add_argument('--verbose', action='store_true', help='verbose')
 # data args (I need to set up the input and output directory of my data)
 parser.add_argument('--data_dir', type=str, default='../../data/', help='data directory')
 parser.add_argument('--output_dir', type=str, default='../../data/results_pt/', help='output directory')
+parser.add_argument('--use_generation', type=bool, default=False, help='whether to use generation or scoring (default).')
+
 
 
 # parse args
@@ -114,10 +116,15 @@ conditions = [
 ]
 question_template = "A friend asked {name} if the {item} was expensive. "
 utterance_template = "How likely is it that {name} will say: 'The {item} cost {utterance}.'?"
+utterance_production_template = "{name} says: 'The {item} cost $"
 state_template = " The {item} cost {state}. "
 
-with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_0shot_1b_v2_speaker_free_production.txt"), 'r') as f:
-    system_prompt = f.read().strip()
+if args.use_generation:
+    with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_0shot_1b_v2_speaker_free_production.txt"), 'r') as f:
+        system_prompt = f.read().strip()
+else:    
+    with open(os.path.join("../prompt_instructions/advanced_prompting", "evaluation_0shot_1b_v2_speaker_scoring.txt"), 'r') as f:
+        system_prompt = f.read().strip()
 
 
 parsed_answers = []
@@ -158,7 +165,10 @@ for iter in tqdm(range(NUM_ITER)):
                 for u in prices:
                     
                     # construct prompt
-                    full_prompt = goal_prompt + utterance_template.format(name=name, item=item, utterance=u)
+                    if args.use_generation:
+                        full_prompt = goal_prompt + utterance_template.format(name=name, item=item)
+                    else:
+                        full_prompt = goal_prompt + utterance_template.format(name=name, item=item, utterance=u)
                     
                     # record
                     goal_lists.append(c[0])
@@ -209,7 +219,7 @@ for iter in tqdm(range(NUM_ITER)):
         os.makedirs(os.path.join(args.output_dir, filename))
 
     prefix = f"{args.model.replace('/','_')}_speaker_test_{args.temperature}_{args.num}_{args.offset}_iter{iter}"
-    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_free_production.csv"), index=False)
+    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_updatedFreeGeneration.csv"), index=False)
 
 
 # TODO: approach 2: Llama log probability results
