@@ -77,7 +77,7 @@ filename = "experiment_1b_raw"
 # data_path = os.path.join(args.data_dir, f"{filename}.csv")
 # data = pd.read_csv(data_path)
 # aproach 1: GPT-4o-mini rating results
-if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini"]:
+if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini", "gemini-1.5-pro"]:
     # llm = ChatOpenAI(model_name=args.model,
     #                 temperature=args.temperature,
     #                 max_tokens = args.max_tokens)
@@ -179,7 +179,7 @@ for iter in tqdm(range(NUM_ITER)):
                     states_list.append(s)
                     utterances_lists.append(u)
 
-                    if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini"]:
+                    if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "claude-2", "gpt-4o-mini", "gemini-1.5-pro"]:
                         try:
                             messages = [SystemMessage(content=system_prompt), HumanMessage(content=full_prompt)]
                             response = llm.generate([messages], stop=["Q:"]).generations[0][0].text
