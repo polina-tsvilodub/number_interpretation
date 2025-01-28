@@ -141,8 +141,14 @@ print("names ", names)
 items = ["electric kettle", "laptop", "watch"]
 prices = ["$50", "$51", "$500", "$501", "$1000", "$1001", "$5000", "$5001", "$10000", "$10001"]
 
+if not os.path.exists(os.path.join(args.output_dir, filename)):
+        os.makedirs(os.path.join(args.output_dir, filename))
+
 # iterate over the stories to model the pragmatic speaker
 for iter in tqdm(range(NUM_ITER)):
+    prefix = f"{args.model.replace('/','_')}_speaker_test_{args.temperature}_{args.num}_{args.offset}_iter{iter}"
+    results_path =  os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_scoring_fixedPrompt.csv")
+    results_path_final = os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_scoring_fixedPrompt_final.csv")
     for item in items:
         name = np.random.choice(names)
         if item == "electric kettle":
@@ -200,6 +206,25 @@ for iter in tqdm(range(NUM_ITER)):
                     # append to list
                     parsed_answers.append(response)
             # parsed_answers.append(parsed_response)
+                    results = pd.DataFrame({
+                        "halo": c[1],
+                        "goal": c[0],
+                        "affect_valence": c[2],
+                        "name": name,
+                        "utterance": u,
+                        "state": s,
+                        "item": item,
+                        "parsed_answer": response,
+                    }, index=[iter])
+                    # continuous writing to file
+                    results.to_csv(
+                        results_path,
+                        index=False,
+                        mode="a",
+                        header=not os.path.exists(
+                            results_path
+                        )
+                    )
 
     df_out = pd.DataFrame({
         "halo": halo_lists,
@@ -211,12 +236,9 @@ for iter in tqdm(range(NUM_ITER)):
         "item": item_lists,
         "parsed_answer": parsed_answers,
     })
-    # write to file
-    if not os.path.exists(os.path.join(args.output_dir, filename)):
-        os.makedirs(os.path.join(args.output_dir, filename))
+    
+    df_out.to_csv(
+        results_path_final,
+        index=False
+    )
 
-    prefix = f"{args.model.replace('/','_')}_speaker_test_{args.temperature}_{args.num}_{args.offset}_iter{iter}"
-    df_out.to_csv(os.path.join(args.output_dir, filename, f"{prefix}_predicted_answers_scoring_fixedPrompt.csv"), index=False)
-
-
-# TODO: approach 2: Llama log probability results
