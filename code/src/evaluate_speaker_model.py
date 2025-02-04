@@ -165,7 +165,8 @@ for iter in tqdm(range(NUM_ITER)):
                     
                     # construct prompt
                     full_prompt = goal_prompt + utterance_template.format(name=name, item=item, utterance=u)
-                    
+                    print("------ full prompt------- ", full_prompt) 
+                    print("system prompt", system_prompt)
                     # record
                     goal_lists.append(c[0])
                     halo_lists.append(c[1])
