@@ -41,7 +41,7 @@ module load devel/cuda/11.6
 # iterate over tasks
 tasks=("2" "3a" "3b") # "1b" "2" "3a" "3b")
 # iterate over models
-models=("meta-llama/Llama-3.1-8B-Instruct") # "claude-3-5-sonnet-20241022" "google/gemma-1.1-7b-it" "allenai/OLMo-2-1124-13B-Instruct" "gemini-1.5-pro" "meta-llama/Llama-3.3-70B-Instruct")
+models=("claude-3-5-sonnet-20241022" "gemini-1.5-pro" "gpt-4o-mini")
 
 for i in ${!models[*]}; do
     for j in ${!tasks[*]}; do

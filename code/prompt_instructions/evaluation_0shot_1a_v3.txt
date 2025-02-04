@@ -1,3 +1,0 @@
-In each scenario, a person has just bought an item and is talking to a friend about the price.
-Please read the scenarios carefully and provide the probability that the person thinks that the item is expensive.
-Write ONLY your final answer as 'A:<rating>'.

@@ -1,0 +1,301 @@
+item,utterance,states,posterior,category
+electric kettle,50,50.0,[0.51594153],exact
+electric kettle,50,51.0,[0.42563869],fuzzy
+electric kettle,50,500.0,[0.02937221],other
+electric kettle,50,501.0,[0.00838096],other
+electric kettle,50,1000.0,[0.01186011],other
+electric kettle,50,1001.0,[0.00178539],other
+electric kettle,50,5000.0,[0.00185551],other
+electric kettle,50,5001.0,[0.00185443],other
+electric kettle,50,10000.0,[0.00182216],other
+electric kettle,50,10001.0,[0.00148901],other
+electric kettle,51,50.0,[0.322904],fuzzy
+electric kettle,51,51.0,[0.59799886],exact
+electric kettle,51,500.0,[0.03953101],other
+electric kettle,51,501.0,[0.0110198],other
+electric kettle,51,1000.0,[0.01614503],other
+electric kettle,51,1001.0,[0.00248819],other
+electric kettle,51,5000.0,[0.0026181],other
+electric kettle,51,5001.0,[0.00262246],other
+electric kettle,51,10000.0,[0.00258089],other
+electric kettle,51,10001.0,[0.00209166],other
+electric kettle,500,50.0,[0.35943374],hyperbolic
+electric kettle,500,51.0,[0.35164394],hyperbolic
+electric kettle,500,500.0,[0.2013268],exact
+electric kettle,500,501.0,[0.05004941],fuzzy
+electric kettle,500,1000.0,[0.02173031],other
+electric kettle,500,1001.0,[0.00321841],other
+electric kettle,500,5000.0,[0.00333908],other
+electric kettle,500,5001.0,[0.0033199],other
+electric kettle,500,10000.0,[0.00327109],other
+electric kettle,500,10001.0,[0.0026673],other
+electric kettle,501,50.0,[0.37583536],hyperbolic
+electric kettle,501,51.0,[0.35535407],hyperbolic
+electric kettle,501,500.0,[0.12593875],fuzzy
+electric kettle,501,501.0,[0.0763531],exact
+electric kettle,501,1000.0,[0.03759097],other
+electric kettle,501,1001.0,[0.00579746],other
+electric kettle,501,5000.0,[0.00609329],other
+electric kettle,501,5001.0,[0.00609019],other
+electric kettle,501,10000.0,[0.00607813],other
+electric kettle,501,10001.0,[0.00486869],other
+electric kettle,1000,50.0,[0.33421914],hyperbolic
+electric kettle,1000,51.0,[0.32110965],hyperbolic
+electric kettle,1000,500.0,[0.11869737],hyperbolic
+electric kettle,1000,501.0,[0.03452946],hyperbolic
+electric kettle,1000,1000.0,[0.14318037],exact
+electric kettle,1000,1001.0,[0.01755472],fuzzy
+electric kettle,1000,5000.0,[0.00788933],other
+electric kettle,1000,5001.0,[0.0079203],other
+electric kettle,1000,10000.0,[0.0082224],other
+electric kettle,1000,10001.0,[0.00667727],other
+electric kettle,1001,50.0,[0.40513564],hyperbolic
+electric kettle,1001,51.0,[0.38486009],hyperbolic
+electric kettle,1001,500.0,[0.09732219],hyperbolic
+electric kettle,1001,501.0,[0.02736354],hyperbolic
+electric kettle,1001,1000.0,[0.04242607],fuzzy
+electric kettle,1001,1001.0,[0.0174984],exact
+electric kettle,1001,5000.0,[0.0067777],other
+electric kettle,1001,5001.0,[0.00677451],other
+electric kettle,1001,10000.0,[0.00652823],other
+electric kettle,1001,10001.0,[0.00531363],other
+electric kettle,5000,50.0,[0.3722122],hyperbolic
+electric kettle,5000,51.0,[0.35519171],hyperbolic
+electric kettle,5000,500.0,[0.11949756],hyperbolic
+electric kettle,5000,501.0,[0.03438862],hyperbolic
+electric kettle,5000,1000.0,[0.04893595],hyperbolic
+electric kettle,5000,1001.0,[0.00772876],hyperbolic
+electric kettle,5000,5000.0,[0.02706443],exact
+electric kettle,5000,5001.0,[0.02047722],fuzzy
+electric kettle,5000,10000.0,[0.00798473],other
+electric kettle,5000,10001.0,[0.00651881],other
+electric kettle,5001,50.0,[0.4045467],hyperbolic
+electric kettle,5001,51.0,[0.38381031],hyperbolic
+electric kettle,5001,500.0,[0.09957391],hyperbolic
+electric kettle,5001,501.0,[0.028049],hyperbolic
+electric kettle,5001,1000.0,[0.04066156],hyperbolic
+electric kettle,5001,1001.0,[0.00632425],hyperbolic
+electric kettle,5001,5000.0,[0.0075282],fuzzy
+electric kettle,5001,5001.0,[0.01759276],exact
+electric kettle,5001,10000.0,[0.00656692],other
+electric kettle,5001,10001.0,[0.00534639],other
+electric kettle,10000,50.0,[0.39599757],hyperbolic
+electric kettle,10000,51.0,[0.37870182],hyperbolic
+electric kettle,10000,500.0,[0.09405018],hyperbolic
+electric kettle,10000,501.0,[0.02644396],hyperbolic
+electric kettle,10000,1000.0,[0.03881383],hyperbolic
+electric kettle,10000,1001.0,[0.00602984],hyperbolic
+electric kettle,10000,5000.0,[0.00641337],hyperbolic
+electric kettle,10000,5001.0,[0.00642167],hyperbolic
+electric kettle,10000,10000.0,[0.02954829],exact
+electric kettle,10000,10001.0,[0.01757947],fuzzy
+electric kettle,10001,50.0,[0.40439539],hyperbolic
+electric kettle,10001,51.0,[0.3863733],hyperbolic
+electric kettle,10001,500.0,[0.09748152],hyperbolic
+electric kettle,10001,501.0,[0.02746002],hyperbolic
+electric kettle,10001,1000.0,[0.04058829],hyperbolic
+electric kettle,10001,1001.0,[0.00632438],hyperbolic
+electric kettle,10001,5000.0,[0.00654431],hyperbolic
+electric kettle,10001,5001.0,[0.00653669],hyperbolic
+electric kettle,10001,10000.0,[0.00902751],fuzzy
+electric kettle,10001,10001.0,[0.01526859],exact
+laptop,50,50.0,[0.50409077],exact
+laptop,50,51.0,[0.00768271],fuzzy
+laptop,50,500.0,[0.13975836],other
+laptop,50,501.0,[0.11524575],other
+laptop,50,1000.0,[0.0891129],other
+laptop,50,1001.0,[0.0954223],other
+laptop,50,5000.0,[0.02133537],other
+laptop,50,5001.0,[0.01828868],other
+laptop,50,10000.0,[0.00440812],other
+laptop,50,10001.0,[0.00465504],other
+laptop,51,50.0,[0.30132628],fuzzy
+laptop,51,51.0,[0.01085654],exact
+laptop,51,500.0,[0.16621079],other
+laptop,51,501.0,[0.12417939],other
+laptop,51,1000.0,[0.1462845],other
+laptop,51,1001.0,[0.13125968],other
+laptop,51,5000.0,[0.05206666],other
+laptop,51,5001.0,[0.04486149],other
+laptop,51,10000.0,[0.0111841],other
+laptop,51,10001.0,[0.01177057],other
+laptop,500,50.0,[0.15598416],hyperbolic
+laptop,500,51.0,[0.00286838],hyperbolic
+laptop,500,500.0,[0.36212415],exact
+laptop,500,501.0,[0.23859402],fuzzy
+laptop,500,1000.0,[0.09128914],other
+laptop,500,1001.0,[0.09395604],other
+laptop,500,5000.0,[0.02433568],other
+laptop,500,5001.0,[0.0206746],other
+laptop,500,10000.0,[0.00496566],other
+laptop,500,10001.0,[0.00520817],other
+laptop,501,50.0,[0.14379348],hyperbolic
+laptop,501,51.0,[0.00255691],hyperbolic
+laptop,501,500.0,[0.1746509],fuzzy
+laptop,501,501.0,[0.32417411],exact
+laptop,501,1000.0,[0.13023837],other
+laptop,501,1001.0,[0.11604722],other
+laptop,501,5000.0,[0.04718841],other
+laptop,501,5001.0,[0.0405594],other
+laptop,501,10000.0,[0.01014443],other
+laptop,501,10001.0,[0.01064678],other
+laptop,1000,50.0,[0.10196304],hyperbolic
+laptop,1000,51.0,[0.00187468],hyperbolic
+laptop,1000,500.0,[0.1098357],hyperbolic
+laptop,1000,501.0,[0.07887528],hyperbolic
+laptop,1000,1000.0,[0.3535716],exact
+laptop,1000,1001.0,[0.26168515],fuzzy
+laptop,1000,5000.0,[0.04007058],other
+laptop,1000,5001.0,[0.03435016],other
+laptop,1000,10000.0,[0.00867929],other
+laptop,1000,10001.0,[0.00909452],other
+laptop,1001,50.0,[0.14489821],hyperbolic
+laptop,1001,51.0,[0.0026129],hyperbolic
+laptop,1001,500.0,[0.14996198],hyperbolic
+laptop,1001,501.0,[0.1097717],hyperbolic
+laptop,1001,1000.0,[0.1468963],fuzzy
+laptop,1001,1001.0,[0.33187802],exact
+laptop,1001,5000.0,[0.04931007],other
+laptop,1001,5001.0,[0.04269374],other
+laptop,1001,10000.0,[0.01072331],other
+laptop,1001,10001.0,[0.01125377],other
+laptop,5000,50.0,[0.12650629],hyperbolic
+laptop,5000,51.0,[0.00231422],hyperbolic
+laptop,5000,500.0,[0.142061],hyperbolic
+laptop,5000,501.0,[0.10065079],hyperbolic
+laptop,5000,1000.0,[0.1417286],hyperbolic
+laptop,5000,1001.0,[0.1206133],hyperbolic
+laptop,5000,5000.0,[0.20578386],exact
+laptop,5000,5001.0,[0.13565239],fuzzy
+laptop,5000,10000.0,[0.01204165],other
+laptop,5000,10001.0,[0.0126479],other
+laptop,5001,50.0,[0.17192081],hyperbolic
+laptop,5001,51.0,[0.00311072],hyperbolic
+laptop,5001,500.0,[0.17805137],hyperbolic
+laptop,5001,501.0,[0.12984842],hyperbolic
+laptop,5001,1000.0,[0.15943342],hyperbolic
+laptop,5001,1001.0,[0.14224366],hyperbolic
+laptop,5001,5000.0,[0.06041602],fuzzy
+laptop,5001,5001.0,[0.12881146],exact
+laptop,5001,10000.0,[0.0127138],other
+laptop,5001,10001.0,[0.01345031],other
+laptop,10000,50.0,[0.13983638],hyperbolic
+laptop,10000,51.0,[0.0025536],hyperbolic
+laptop,10000,500.0,[0.16889119],hyperbolic
+laptop,10000,501.0,[0.11454351],hyperbolic
+laptop,10000,1000.0,[0.18610773],hyperbolic
+laptop,10000,1001.0,[0.15185134],hyperbolic
+laptop,10000,5000.0,[0.0780169],hyperbolic
+laptop,10000,5001.0,[0.06685314],hyperbolic
+laptop,10000,10000.0,[0.05095496],exact
+laptop,10000,10001.0,[0.04039124],fuzzy
+laptop,10001,50.0,[0.17955451],hyperbolic
+laptop,10001,51.0,[0.00324087],hyperbolic
+laptop,10001,500.0,[0.18540533],hyperbolic
+laptop,10001,501.0,[0.13561192],hyperbolic
+laptop,10001,1000.0,[0.17574563],hyperbolic
+laptop,10001,1001.0,[0.15395697],hyperbolic
+laptop,10001,5000.0,[0.06296313],hyperbolic
+laptop,10001,5001.0,[0.05437241],hyperbolic
+laptop,10001,10000.0,[0.01391386],fuzzy
+laptop,10001,10001.0,[0.03523537],exact
+watch,50,50.0,[0.45463815],exact
+watch,50,51.0,[0.31179042],fuzzy
+watch,50,500.0,[0.07518946],other
+watch,50,501.0,[0.0545844],other
+watch,50,1000.0,[0.03788424],other
+watch,50,1001.0,[0.02260986],other
+watch,50,5000.0,[0.01358908],other
+watch,50,5001.0,[0.01515414],other
+watch,50,10000.0,[0.00855394],other
+watch,50,10001.0,[0.0060063],other
+watch,51,50.0,[0.21740421],fuzzy
+watch,51,51.0,[0.37538819],exact
+watch,51,500.0,[0.12002812],other
+watch,51,501.0,[0.08360511],other
+watch,51,1000.0,[0.06699243],other
+watch,51,1001.0,[0.04516567],other
+watch,51,5000.0,[0.02777548],other
+watch,51,5001.0,[0.03233279],other
+watch,51,10000.0,[0.01826375],other
+watch,51,10001.0,[0.01304426],other
+watch,500,50.0,[0.15736629],hyperbolic
+watch,500,51.0,[0.12843863],hyperbolic
+watch,500,500.0,[0.34478166],exact
+watch,500,501.0,[0.19743722],fuzzy
+watch,500,1000.0,[0.06000598],other
+watch,500,1001.0,[0.0377922],other
+watch,500,5000.0,[0.022742],other
+watch,500,5001.0,[0.02612378],other
+watch,500,10000.0,[0.01477112],other
+watch,500,10001.0,[0.01054111],other
+watch,501,50.0,[0.1671309],hyperbolic
+watch,501,51.0,[0.13583779],hyperbolic
+watch,501,500.0,[0.16659367],fuzzy
+watch,501,501.0,[0.28187064],exact
+watch,501,1000.0,[0.0809373],other
+watch,501,1001.0,[0.05516019],other
+watch,501,5000.0,[0.03399633],other
+watch,501,5001.0,[0.04000541],other
+watch,501,10000.0,[0.02249894],other
+watch,501,10001.0,[0.01596884],other
+watch,1000,50.0,[0.14326623],hyperbolic
+watch,1000,51.0,[0.12104232],hyperbolic
+watch,1000,500.0,[0.13976941],hyperbolic
+watch,1000,501.0,[0.09565168],hyperbolic
+watch,1000,1000.0,[0.24918686],exact
+watch,1000,1001.0,[0.13235985],fuzzy
+watch,1000,5000.0,[0.03548695],other
+watch,1000,5001.0,[0.04221188],other
+watch,1000,10000.0,[0.02382187],other
+watch,1000,10001.0,[0.01720294],other
+watch,1001,50.0,[0.19621976],hyperbolic
+watch,1001,51.0,[0.15906275],hyperbolic
+watch,1001,500.0,[0.15898759],hyperbolic
+watch,1001,501.0,[0.11100617],hyperbolic
+watch,1001,1000.0,[0.09553808],fuzzy
+watch,1001,1001.0,[0.15797096],exact
+watch,1001,5000.0,[0.0369446],other
+watch,1001,5001.0,[0.0430805],other
+watch,1001,10000.0,[0.02407251],other
+watch,1001,10001.0,[0.01711708],other
+watch,5000,50.0,[0.16275393],hyperbolic
+watch,5000,51.0,[0.13488398],hyperbolic
+watch,5000,500.0,[0.14566319],hyperbolic
+watch,5000,501.0,[0.10169696],hyperbolic
+watch,5000,1000.0,[0.08312124],hyperbolic
+watch,5000,1001.0,[0.05680401],hyperbolic
+watch,5000,5000.0,[0.14499837],exact
+watch,5000,5001.0,[0.12930695],fuzzy
+watch,5000,10000.0,[0.02378727],other
+watch,5000,10001.0,[0.01698409],other
+watch,5001,50.0,[0.16906789],hyperbolic
+watch,5001,51.0,[0.14103754],hyperbolic
+watch,5001,500.0,[0.1745371],hyperbolic
+watch,5001,501.0,[0.11929511],hyperbolic
+watch,5001,1000.0,[0.10211463],hyperbolic
+watch,5001,1001.0,[0.07276036],hyperbolic
+watch,5001,5000.0,[0.04723527],fuzzy
+watch,5001,5001.0,[0.12193168],exact
+watch,5001,10000.0,[0.03020461],other
+watch,5001,10001.0,[0.02181581],other
+watch,10000,50.0,[0.16123317],hyperbolic
+watch,10000,51.0,[0.13593429],hyperbolic
+watch,10000,500.0,[0.1640543],hyperbolic
+watch,10000,501.0,[0.11192361],hyperbolic
+watch,10000,1000.0,[0.09766856],hyperbolic
+watch,10000,1001.0,[0.06904502],hyperbolic
+watch,10000,5000.0,[0.04392732],hyperbolic
+watch,10000,5001.0,[0.05249255],hyperbolic
+watch,10000,10000.0,[0.1046456],exact
+watch,10000,10001.0,[0.05907556],fuzzy
+watch,10001,50.0,[0.17890785],hyperbolic
+watch,10001,51.0,[0.14670169],hyperbolic
+watch,10001,500.0,[0.16407216],hyperbolic
+watch,10001,501.0,[0.11313743],hyperbolic
+watch,10001,1000.0,[0.12760736],hyperbolic
+watch,10001,1001.0,[0.08780332],hyperbolic
+watch,10001,5000.0,[0.04090094],hyperbolic
+watch,10001,5001.0,[0.04839406],hyperbolic
+watch,10001,10000.0,[0.03587073],fuzzy
+watch,10001,10001.0,[0.05660446],exact

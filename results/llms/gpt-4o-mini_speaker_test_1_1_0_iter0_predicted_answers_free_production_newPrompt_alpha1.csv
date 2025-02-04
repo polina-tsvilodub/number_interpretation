@@ -1,0 +1,3601 @@
+halo,goal,affect_valence,name,utterance,state,item,parsed_answer
+fuzzy,state,0,Daniel,$50,$50,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$50,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$500,$50,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$501,$50,electric kettle,A:0.3
+fuzzy,state,0,Daniel,$1000,$50,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$1001,$50,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$5000,$50,electric kettle,A:0.4
+fuzzy,state,0,Daniel,$5001,$50,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$10000,$50,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$10001,$50,electric kettle,A:0.7
+exact,state,0,Daniel,$50,$50,electric kettle,A:0.7
+exact,state,0,Daniel,$51,$50,electric kettle,A:0.7
+exact,state,0,Daniel,$500,$50,electric kettle,A:0.7
+exact,state,0,Daniel,$501,$50,electric kettle,A:0.7
+exact,state,0,Daniel,$1000,$50,electric kettle,A:0.8
+exact,state,0,Daniel,$1001,$50,electric kettle,A:0.8
+exact,state,0,Daniel,$5000,$50,electric kettle,A:0.7
+exact,state,0,Daniel,$5001,$50,electric kettle,A:0.7
+exact,state,0,Daniel,$10000,$50,electric kettle,A:0.3
+exact,state,0,Daniel,$10001,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$50,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$51,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$500,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$501,$50,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$1000,$50,electric kettle,A:0.2
+fuzzy,affect,0,Daniel,$1001,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$5000,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$5001,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$10000,$50,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$10001,$50,electric kettle,A:0.7
+exact,affect,0,Daniel,$50,$50,electric kettle,A:0.8
+exact,affect,0,Daniel,$51,$50,electric kettle,A:0.7
+exact,affect,0,Daniel,$500,$50,electric kettle,A:0.7
+exact,affect,0,Daniel,$501,$50,electric kettle,A:0.7
+exact,affect,0,Daniel,$1000,$50,electric kettle,A:0.7
+exact,affect,0,Daniel,$1001,$50,electric kettle,A:0.3
+exact,affect,0,Daniel,$5000,$50,electric kettle,A:0.7
+exact,affect,0,Daniel,$5001,$50,electric kettle,A:0.3
+exact,affect,0,Daniel,$10000,$50,electric kettle,A:0.7
+exact,affect,0,Daniel,$10001,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$50,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$51,$50,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$500,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$501,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$1000,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$1001,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$5000,$50,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$5001,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$10000,$50,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$10001,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$50,$50,electric kettle,A:0.2
+exact,both,0,Daniel,$51,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$500,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$501,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$1000,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$1001,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$5000,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$5001,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$10000,$50,electric kettle,A:0.7
+exact,both,0,Daniel,$10001,$50,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$50,$50,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$51,$50,electric kettle,A:0.3
+fuzzy,state,1,Daniel,$500,$50,electric kettle,A:0.2
+fuzzy,state,1,Daniel,$501,$50,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$1000,$50,electric kettle,A:0.3
+fuzzy,state,1,Daniel,$1001,$50,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$5000,$50,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$5001,$50,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$10000,$50,electric kettle,A:0.3
+fuzzy,state,1,Daniel,$10001,$50,electric kettle,A:0.7
+exact,state,1,Daniel,$50,$50,electric kettle,A:0.8
+exact,state,1,Daniel,$51,$50,electric kettle,A:0.7
+exact,state,1,Daniel,$500,$50,electric kettle,A:0.7
+exact,state,1,Daniel,$501,$50,electric kettle,A:0.7
+exact,state,1,Daniel,$1000,$50,electric kettle,A:0.7
+exact,state,1,Daniel,$1001,$50,electric kettle,A:0.4
+exact,state,1,Daniel,$5000,$50,electric kettle,A:0.7
+exact,state,1,Daniel,$5001,$50,electric kettle,A:0.3
+exact,state,1,Daniel,$10000,$50,electric kettle,A:0.8
+exact,state,1,Daniel,$10001,$50,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$50,$50,electric kettle,A:0.2
+fuzzy,affect,1,Daniel,$51,$50,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$500,$50,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$501,$50,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$1000,$50,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$1001,$50,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$5000,$50,electric kettle,A:0.2
+fuzzy,affect,1,Daniel,$5001,$50,electric kettle,A:0.4
+fuzzy,affect,1,Daniel,$10000,$50,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$10001,$50,electric kettle,A:0.8
+exact,affect,1,Daniel,$50,$50,electric kettle,A:0.6
+exact,affect,1,Daniel,$51,$50,electric kettle,A:0.6
+exact,affect,1,Daniel,$500,$50,electric kettle,A:0.8
+exact,affect,1,Daniel,$501,$50,electric kettle,A:0.7
+exact,affect,1,Daniel,$1000,$50,electric kettle,A:0.7
+exact,affect,1,Daniel,$1001,$50,electric kettle,A:0.8
+exact,affect,1,Daniel,$5000,$50,electric kettle,A:0.7
+exact,affect,1,Daniel,$5001,$50,electric kettle,A:0.7
+exact,affect,1,Daniel,$10000,$50,electric kettle,A:0.7
+exact,affect,1,Daniel,$10001,$50,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$50,$50,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$51,$50,electric kettle,A:0.4
+fuzzy,both,1,Daniel,$500,$50,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$501,$50,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$1000,$50,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$1001,$50,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$5000,$50,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$5001,$50,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$10000,$50,electric kettle,A:0.4
+fuzzy,both,1,Daniel,$10001,$50,electric kettle,A:0.8
+exact,both,1,Daniel,$50,$50,electric kettle,A:0.3
+exact,both,1,Daniel,$51,$50,electric kettle,A:0.7
+exact,both,1,Daniel,$500,$50,electric kettle,A: 0.7
+exact,both,1,Daniel,$501,$50,electric kettle,A:0.8
+exact,both,1,Daniel,$1000,$50,electric kettle,A:0.7
+exact,both,1,Daniel,$1001,$50,electric kettle,A:0.7
+exact,both,1,Daniel,$5000,$50,electric kettle,A:0.7
+exact,both,1,Daniel,$5001,$50,electric kettle,A:0.7
+exact,both,1,Daniel,$10000,$50,electric kettle,A:0.7
+exact,both,1,Daniel,$10001,$50,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$50,$51,electric kettle,A:0.6
+fuzzy,state,0,Daniel,$51,$51,electric kettle,A:0.4
+fuzzy,state,0,Daniel,$500,$51,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$501,$51,electric kettle,A:0.4
+fuzzy,state,0,Daniel,$1000,$51,electric kettle,A:0.4
+fuzzy,state,0,Daniel,$1001,$51,electric kettle,A:0.4
+fuzzy,state,0,Daniel,$5000,$51,electric kettle,A:0.6
+fuzzy,state,0,Daniel,$5001,$51,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$10000,$51,electric kettle,A: 0.6
+fuzzy,state,0,Daniel,$10001,$51,electric kettle,A:0.7
+exact,state,0,Daniel,$50,$51,electric kettle,A:0.7
+exact,state,0,Daniel,$51,$51,electric kettle,A:0.4
+exact,state,0,Daniel,$500,$51,electric kettle,A: 0.6
+exact,state,0,Daniel,$501,$51,electric kettle,A:0.7
+exact,state,0,Daniel,$1000,$51,electric kettle,A:0.7
+exact,state,0,Daniel,$1001,$51,electric kettle,A:0.7
+exact,state,0,Daniel,$5000,$51,electric kettle,A: 0.3
+exact,state,0,Daniel,$5001,$51,electric kettle,A:0.6
+exact,state,0,Daniel,$10000,$51,electric kettle,A:0.4
+exact,state,0,Daniel,$10001,$51,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$50,$51,electric kettle,A:0.6
+fuzzy,affect,0,Daniel,$51,$51,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$500,$51,electric kettle,A:0.6
+fuzzy,affect,0,Daniel,$501,$51,electric kettle,A:0.4
+fuzzy,affect,0,Daniel,$1000,$51,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$1001,$51,electric kettle,A: 0.6
+fuzzy,affect,0,Daniel,$5000,$51,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$5001,$51,electric kettle,A:0.4
+fuzzy,affect,0,Daniel,$10000,$51,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$10001,$51,electric kettle,A:0.3
+exact,affect,0,Daniel,$50,$51,electric kettle,A:0.4
+exact,affect,0,Daniel,$51,$51,electric kettle,A:0.4
+exact,affect,0,Daniel,$500,$51,electric kettle,A:0.6
+exact,affect,0,Daniel,$501,$51,electric kettle,A:0.7
+exact,affect,0,Daniel,$1000,$51,electric kettle,A:0.6
+exact,affect,0,Daniel,$1001,$51,electric kettle,A:0.7
+exact,affect,0,Daniel,$5000,$51,electric kettle,A:0.7
+exact,affect,0,Daniel,$5001,$51,electric kettle,A:0.7
+exact,affect,0,Daniel,$10000,$51,electric kettle,A:0.7
+exact,affect,0,Daniel,$10001,$51,electric kettle,A:0.4
+fuzzy,both,0,Daniel,$50,$51,electric kettle,A:0.4
+fuzzy,both,0,Daniel,$51,$51,electric kettle,A:0.25
+fuzzy,both,0,Daniel,$500,$51,electric kettle,A:0.4
+fuzzy,both,0,Daniel,$501,$51,electric kettle,A:0.3
+fuzzy,both,0,Daniel,$1000,$51,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$1001,$51,electric kettle,A:0.4
+fuzzy,both,0,Daniel,$5000,$51,electric kettle,A:0.6
+fuzzy,both,0,Daniel,$5001,$51,electric kettle,A:0.7
+fuzzy,both,0,Daniel,$10000,$51,electric kettle,A:0.4
+fuzzy,both,0,Daniel,$10001,$51,electric kettle,A:0.7
+exact,both,0,Daniel,$50,$51,electric kettle,A:0.4
+exact,both,0,Daniel,$51,$51,electric kettle,A:0.7
+exact,both,0,Daniel,$500,$51,electric kettle,A:0.7
+exact,both,0,Daniel,$501,$51,electric kettle,A:0.7
+exact,both,0,Daniel,$1000,$51,electric kettle,A:0.7
+exact,both,0,Daniel,$1001,$51,electric kettle,A:0.6
+exact,both,0,Daniel,$5000,$51,electric kettle,A:0.6
+exact,both,0,Daniel,$5001,$51,electric kettle,A:0.4
+exact,both,0,Daniel,$10000,$51,electric kettle,A:0.7
+exact,both,0,Daniel,$10001,$51,electric kettle,A:0.6
+fuzzy,state,1,Daniel,$50,$51,electric kettle,A:0.6
+fuzzy,state,1,Daniel,$51,$51,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$500,$51,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$501,$51,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$1000,$51,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$1001,$51,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$5000,$51,electric kettle,A:0.6
+fuzzy,state,1,Daniel,$5001,$51,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$10000,$51,electric kettle,A:0.7
+fuzzy,state,1,Daniel,$10001,$51,electric kettle,A:0.6
+exact,state,1,Daniel,$50,$51,electric kettle,A:0.7
+exact,state,1,Daniel,$51,$51,electric kettle,A:0.6
+exact,state,1,Daniel,$500,$51,electric kettle,A:0.6
+exact,state,1,Daniel,$501,$51,electric kettle,A:0.7
+exact,state,1,Daniel,$1000,$51,electric kettle,A:0.7
+exact,state,1,Daniel,$1001,$51,electric kettle,A:0.7
+exact,state,1,Daniel,$5000,$51,electric kettle,A:0.7
+exact,state,1,Daniel,$5001,$51,electric kettle,A:0.7
+exact,state,1,Daniel,$10000,$51,electric kettle,A:0.4
+exact,state,1,Daniel,$10001,$51,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$50,$51,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$51,$51,electric kettle,A:0.6
+fuzzy,affect,1,Daniel,$500,$51,electric kettle,A:0.6
+fuzzy,affect,1,Daniel,$501,$51,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$1000,$51,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$1001,$51,electric kettle,A:0.3
+fuzzy,affect,1,Daniel,$5000,$51,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$5001,$51,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$10000,$51,electric kettle,A:0.7
+fuzzy,affect,1,Daniel,$10001,$51,electric kettle,A:0.7
+exact,affect,1,Daniel,$50,$51,electric kettle,A:0.7
+exact,affect,1,Daniel,$51,$51,electric kettle,A:0.7
+exact,affect,1,Daniel,$500,$51,electric kettle,A:0.6
+exact,affect,1,Daniel,$501,$51,electric kettle,A:0.6
+exact,affect,1,Daniel,$1000,$51,electric kettle,A:0.7
+exact,affect,1,Daniel,$1001,$51,electric kettle,A:0.3
+exact,affect,1,Daniel,$5000,$51,electric kettle,A:0.7
+exact,affect,1,Daniel,$5001,$51,electric kettle,A:0.6
+exact,affect,1,Daniel,$10000,$51,electric kettle,A:0.6
+exact,affect,1,Daniel,$10001,$51,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$50,$51,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$51,$51,electric kettle,A:0.3
+fuzzy,both,1,Daniel,$500,$51,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$501,$51,electric kettle,A:0.6
+fuzzy,both,1,Daniel,$1000,$51,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$1001,$51,electric kettle,A:0.4
+fuzzy,both,1,Daniel,$5000,$51,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$5001,$51,electric kettle,A:0.7
+fuzzy,both,1,Daniel,$10000,$51,electric kettle,A:0.6
+fuzzy,both,1,Daniel,$10001,$51,electric kettle,A:0.6
+exact,both,1,Daniel,$50,$51,electric kettle,A:0.7
+exact,both,1,Daniel,$51,$51,electric kettle,A:0.7
+exact,both,1,Daniel,$500,$51,electric kettle,A:0.7
+exact,both,1,Daniel,$501,$51,electric kettle,A:0.6
+exact,both,1,Daniel,$1000,$51,electric kettle,A:0.4
+exact,both,1,Daniel,$1001,$51,electric kettle,A:0.3
+exact,both,1,Daniel,$5000,$51,electric kettle,A:0.7
+exact,both,1,Daniel,$5001,$51,electric kettle,A:0.7
+exact,both,1,Daniel,$10000,$51,electric kettle,A:0.7
+exact,both,1,Daniel,$10001,$51,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$50,$500,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$500,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$500,$500,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$501,$500,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$1000,$500,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$1001,$500,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$5000,$500,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$5001,$500,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10000,$500,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10001,$500,electric kettle,A:0.9
+exact,state,0,Daniel,$50,$500,electric kettle,A:0.9
+exact,state,0,Daniel,$51,$500,electric kettle,A:0.8
+exact,state,0,Daniel,$500,$500,electric kettle,A:0.8
+exact,state,0,Daniel,$501,$500,electric kettle,A:0.8
+exact,state,0,Daniel,$1000,$500,electric kettle,A:0.8
+exact,state,0,Daniel,$1001,$500,electric kettle,A:0.8
+exact,state,0,Daniel,$5000,$500,electric kettle,A:0.8
+exact,state,0,Daniel,$5001,$500,electric kettle,A:0.9
+exact,state,0,Daniel,$10000,$500,electric kettle,A:0.9
+exact,state,0,Daniel,$10001,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$500,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$51,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$500,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$501,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5000,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5001,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10000,$500,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10001,$500,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$500,electric kettle,A:0.8
+exact,affect,0,Daniel,$51,$500,electric kettle,A:0.9
+exact,affect,0,Daniel,$500,$500,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$500,electric kettle,A:0.8
+exact,affect,0,Daniel,$1000,$500,electric kettle,A:0.8
+exact,affect,0,Daniel,$1001,$500,electric kettle,A:0.8
+exact,affect,0,Daniel,$5000,$500,electric kettle,A:0.9
+exact,affect,0,Daniel,$5001,$500,electric kettle,A:0.9
+exact,affect,0,Daniel,$10000,$500,electric kettle,A:0.8
+exact,affect,0,Daniel,$10001,$500,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$50,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$51,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$500,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$501,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1000,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5000,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5001,$500,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$10000,$500,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10001,$500,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$500,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$500,electric kettle,A:0.8
+exact,both,0,Daniel,$500,$500,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$500,electric kettle,A:0.9
+exact,both,0,Daniel,$1000,$500,electric kettle,A:0.9
+exact,both,0,Daniel,$1001,$500,electric kettle,A:0.8
+exact,both,0,Daniel,$5000,$500,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$500,electric kettle,A:0.8
+exact,both,0,Daniel,$10000,$500,electric kettle,A:0.9
+exact,both,0,Daniel,$10001,$500,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$500,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$51,$500,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$500,$500,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$501,$500,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$500,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$1001,$500,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$500,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$5001,$500,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10000,$500,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$10001,$500,electric kettle,A:0.9
+exact,state,1,Daniel,$50,$500,electric kettle,A:0.8
+exact,state,1,Daniel,$51,$500,electric kettle,A:0.8
+exact,state,1,Daniel,$500,$500,electric kettle,A:0.8
+exact,state,1,Daniel,$501,$500,electric kettle,A:0.9
+exact,state,1,Daniel,$1000,$500,electric kettle,A:0.8
+exact,state,1,Daniel,$1001,$500,electric kettle,A:0.9
+exact,state,1,Daniel,$5000,$500,electric kettle,A:0.8
+exact,state,1,Daniel,$5001,$500,electric kettle,A:0.9
+exact,state,1,Daniel,$10000,$500,electric kettle,A:0.9
+exact,state,1,Daniel,$10001,$500,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$500,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$51,$500,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$500,$500,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$501,$500,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$1000,$500,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$500,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$5000,$500,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5001,$500,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$10000,$500,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$500,electric kettle,A:0.8
+exact,affect,1,Daniel,$50,$500,electric kettle,A:0.9
+exact,affect,1,Daniel,$51,$500,electric kettle,A:0.9
+exact,affect,1,Daniel,$500,$500,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$500,electric kettle,A:0.9
+exact,affect,1,Daniel,$1000,$500,electric kettle,A:0.9
+exact,affect,1,Daniel,$1001,$500,electric kettle,A:0.8
+exact,affect,1,Daniel,$5000,$500,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$500,electric kettle,A:0.8
+exact,affect,1,Daniel,$10000,$500,electric kettle,A:0.9
+exact,affect,1,Daniel,$10001,$500,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$50,$500,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$51,$500,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$500,$500,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$501,$500,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$1000,$500,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$1001,$500,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$5000,$500,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$500,electric kettle,A: 0.9
+fuzzy,both,1,Daniel,$10000,$500,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10001,$500,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$500,electric kettle,A:0.8
+exact,both,1,Daniel,$51,$500,electric kettle,A:0.8
+exact,both,1,Daniel,$500,$500,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$500,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$500,electric kettle,A:0.8
+exact,both,1,Daniel,$1001,$500,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$500,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$500,electric kettle,A:0.9
+exact,both,1,Daniel,$10000,$500,electric kettle,A:0.9
+exact,both,1,Daniel,$10001,$500,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$50,$501,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$51,$501,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$500,$501,electric kettle,A: 0.9
+fuzzy,state,0,Daniel,$501,$501,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$1000,$501,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1001,$501,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$5000,$501,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5001,$501,electric kettle,A:0.7
+fuzzy,state,0,Daniel,$10000,$501,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10001,$501,electric kettle,A:0.8
+exact,state,0,Daniel,$50,$501,electric kettle,A:0.9
+exact,state,0,Daniel,$51,$501,electric kettle,A:0.8
+exact,state,0,Daniel,$500,$501,electric kettle,A:0.85
+exact,state,0,Daniel,$501,$501,electric kettle,A:0.8
+exact,state,0,Daniel,$1000,$501,electric kettle,A:0.9
+exact,state,0,Daniel,$1001,$501,electric kettle,A:0.9
+exact,state,0,Daniel,$5000,$501,electric kettle,A:0.8
+exact,state,0,Daniel,$5001,$501,electric kettle,A:0.9
+exact,state,0,Daniel,$10000,$501,electric kettle,A:0.9
+exact,state,0,Daniel,$10001,$501,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$501,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$51,$501,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$500,$501,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$501,$501,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$501,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$501,electric kettle,A:0.7
+fuzzy,affect,0,Daniel,$5000,$501,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5001,$501,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$10000,$501,electric kettle,A:0.85
+fuzzy,affect,0,Daniel,$10001,$501,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$501,electric kettle,A:0.8
+exact,affect,0,Daniel,$51,$501,electric kettle,A:0.9
+exact,affect,0,Daniel,$500,$501,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$501,electric kettle,A:0.8
+exact,affect,0,Daniel,$1000,$501,electric kettle,A:0.9
+exact,affect,0,Daniel,$1001,$501,electric kettle,A:0.8
+exact,affect,0,Daniel,$5000,$501,electric kettle,A:0.9
+exact,affect,0,Daniel,$5001,$501,electric kettle,A: 0.9
+exact,affect,0,Daniel,$10000,$501,electric kettle,A:0.9
+exact,affect,0,Daniel,$10001,$501,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$50,$501,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$51,$501,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$500,$501,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$501,$501,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1000,$501,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$501,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$5000,$501,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$5001,$501,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10000,$501,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10001,$501,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$501,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$501,electric kettle,A:0.9
+exact,both,0,Daniel,$500,$501,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$501,electric kettle,A:0.8
+exact,both,0,Daniel,$1000,$501,electric kettle,A:0.9
+exact,both,0,Daniel,$1001,$501,electric kettle,A:0.9
+exact,both,0,Daniel,$5000,$501,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$501,electric kettle,A:0.8
+exact,both,0,Daniel,$10000,$501,electric kettle,A:0.8
+exact,both,0,Daniel,$10001,$501,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$501,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$51,$501,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$500,$501,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$501,$501,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$501,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1001,$501,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$501,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$5001,$501,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$10000,$501,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10001,$501,electric kettle,A:0.9
+exact,state,1,Daniel,$50,$501,electric kettle,A:0.9
+exact,state,1,Daniel,$51,$501,electric kettle,A:0.8
+exact,state,1,Daniel,$500,$501,electric kettle,A: 0.8
+exact,state,1,Daniel,$501,$501,electric kettle,A:0.9
+exact,state,1,Daniel,$1000,$501,electric kettle,A:0.8
+exact,state,1,Daniel,$1001,$501,electric kettle,A:0.8
+exact,state,1,Daniel,$5000,$501,electric kettle,A:0.9
+exact,state,1,Daniel,$5001,$501,electric kettle,A:0.8
+exact,state,1,Daniel,$10000,$501,electric kettle,A:0.8
+exact,state,1,Daniel,$10001,$501,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$501,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$51,$501,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$500,$501,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$501,$501,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$1000,$501,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$501,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5000,$501,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5001,$501,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10000,$501,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$501,electric kettle,A:0.9
+exact,affect,1,Daniel,$50,$501,electric kettle,A:0.8
+exact,affect,1,Daniel,$51,$501,electric kettle,A:0.9
+exact,affect,1,Daniel,$500,$501,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$501,electric kettle,A:0.9
+exact,affect,1,Daniel,$1000,$501,electric kettle,A:0.8
+exact,affect,1,Daniel,$1001,$501,electric kettle,A:0.8
+exact,affect,1,Daniel,$5000,$501,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$501,electric kettle,A:0.9
+exact,affect,1,Daniel,$10000,$501,electric kettle,A:0.8
+exact,affect,1,Daniel,$10001,$501,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$50,$501,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$51,$501,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$500,$501,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$501,$501,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1000,$501,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1001,$501,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$5000,$501,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$501,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$10000,$501,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$10001,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$51,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$500,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$1001,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$501,electric kettle,A:0.8
+exact,both,1,Daniel,$10000,$501,electric kettle,A:0.9
+exact,both,1,Daniel,$10001,$501,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$50,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$500,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$501,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1000,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1001,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5000,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5001,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10000,$1000,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$10001,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$50,$1000,electric kettle,A:0.8
+exact,state,0,Daniel,$51,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$500,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$501,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$1000,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$1001,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$5000,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$5001,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$10000,$1000,electric kettle,A:0.9
+exact,state,0,Daniel,$10001,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$51,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$500,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$501,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5000,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5001,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10000,$1000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10001,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$51,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$500,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$1000,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$1001,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$5000,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$5001,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$10000,$1000,electric kettle,A:0.9
+exact,affect,0,Daniel,$10001,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$50,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$51,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$500,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$501,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1000,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5000,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5001,$1000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10000,$1000,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$10001,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$500,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$1000,electric kettle,A:0.8
+exact,both,0,Daniel,$1000,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$1001,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$5000,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$10000,$1000,electric kettle,A:0.9
+exact,both,0,Daniel,$10001,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$51,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$500,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$501,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1001,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5001,$1000,electric kettle,A: 0.9
+fuzzy,state,1,Daniel,$10000,$1000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10001,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$50,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$51,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$500,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$501,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$1000,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$1001,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$5000,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$5001,$1000,electric kettle,A:0.9
+exact,state,1,Daniel,$10000,$1000,electric kettle,A:0.8
+exact,state,1,Daniel,$10001,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$51,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$500,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$501,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1000,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5000,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5001,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10000,$1000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$50,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$51,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$500,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$1000,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$1001,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$5000,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$10000,$1000,electric kettle,A:0.9
+exact,affect,1,Daniel,$10001,$1000,electric kettle,A: 0.9
+fuzzy,both,1,Daniel,$50,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$51,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$500,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$501,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1000,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1001,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5000,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10000,$1000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10001,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$51,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$500,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$1000,electric kettle,A:0.8
+exact,both,1,Daniel,$1001,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$10000,$1000,electric kettle,A:0.9
+exact,both,1,Daniel,$10001,$1000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$50,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$500,$1001,electric kettle,A:0.8
+fuzzy,state,0,Daniel,$501,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1000,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1001,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5000,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5001,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10000,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10001,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$50,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$51,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$500,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$501,$1001,electric kettle,A:0.8
+exact,state,0,Daniel,$1000,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$1001,$1001,electric kettle,A: 0.8
+exact,state,0,Daniel,$5000,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$5001,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$10000,$1001,electric kettle,A:0.9
+exact,state,0,Daniel,$10001,$1001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$1001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$51,$1001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$500,$1001,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$501,$1001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$1001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$1001,electric kettle,A:0.95
+fuzzy,affect,0,Daniel,$5000,$1001,electric kettle,A: 0.9
+fuzzy,affect,0,Daniel,$5001,$1001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10000,$1001,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$10001,$1001,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$1001,electric kettle,A:0.8
+exact,affect,0,Daniel,$51,$1001,electric kettle,A:0.8
+exact,affect,0,Daniel,$500,$1001,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$1001,electric kettle,A:0.8
+exact,affect,0,Daniel,$1000,$1001,electric kettle,A:0.8
+exact,affect,0,Daniel,$1001,$1001,electric kettle,A:0.9
+exact,affect,0,Daniel,$5000,$1001,electric kettle,A:0.8
+exact,affect,0,Daniel,$5001,$1001,electric kettle,A:0.9
+exact,affect,0,Daniel,$10000,$1001,electric kettle,A:0.9
+exact,affect,0,Daniel,$10001,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$50,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$51,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$500,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$501,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1000,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$1001,electric kettle,A: 0.9
+fuzzy,both,0,Daniel,$5000,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5001,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10000,$1001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10001,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$500,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$1000,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$1001,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$5000,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$10000,$1001,electric kettle,A:0.9
+exact,both,0,Daniel,$10001,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$51,$1001,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$500,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$501,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1001,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5001,$1001,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$10000,$1001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10001,$1001,electric kettle,A:0.9
+exact,state,1,Daniel,$50,$1001,electric kettle,A:0.9
+exact,state,1,Daniel,$51,$1001,electric kettle,A:0.8
+exact,state,1,Daniel,$500,$1001,electric kettle,A:0.9
+exact,state,1,Daniel,$501,$1001,electric kettle,A: 0.9
+exact,state,1,Daniel,$1000,$1001,electric kettle,A:0.9
+exact,state,1,Daniel,$1001,$1001,electric kettle,A:0.8
+exact,state,1,Daniel,$5000,$1001,electric kettle,A:0.9
+exact,state,1,Daniel,$5001,$1001,electric kettle,A:0.8
+exact,state,1,Daniel,$10000,$1001,electric kettle,A:0.9
+exact,state,1,Daniel,$10001,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$51,$1001,electric kettle,A: 0.9
+fuzzy,affect,1,Daniel,$500,$1001,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$501,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1000,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5000,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5001,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10000,$1001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$1001,electric kettle,A:0.8
+exact,affect,1,Daniel,$50,$1001,electric kettle,A:0.9
+exact,affect,1,Daniel,$51,$1001,electric kettle,A:0.9
+exact,affect,1,Daniel,$500,$1001,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$1001,electric kettle,A:0.9
+exact,affect,1,Daniel,$1000,$1001,electric kettle,A:0.9
+exact,affect,1,Daniel,$1001,$1001,electric kettle,A:0.8
+exact,affect,1,Daniel,$5000,$1001,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$1001,electric kettle,A:0.85
+exact,affect,1,Daniel,$10000,$1001,electric kettle,A:0.9
+exact,affect,1,Daniel,$10001,$1001,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$50,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$51,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$500,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$501,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1000,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1001,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5000,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$1001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10000,$1001,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$10001,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$1001,electric kettle,A: 0.9
+exact,both,1,Daniel,$51,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$500,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$1001,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$1001,electric kettle,A:0.9
+exact,both,1,Daniel,$10000,$1001,electric kettle,A:0.8
+exact,both,1,Daniel,$10001,$1001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$50,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$500,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$501,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1000,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1001,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5000,$5000,electric kettle,A: 0.9
+fuzzy,state,0,Daniel,$5001,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10000,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10001,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$50,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$51,$5000,electric kettle,A:0.8
+exact,state,0,Daniel,$500,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$501,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$1000,$5000,electric kettle,A: 0.9
+exact,state,0,Daniel,$1001,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$5000,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$5001,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$10000,$5000,electric kettle,A:0.9
+exact,state,0,Daniel,$10001,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$51,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$500,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$501,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5000,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5001,$5000,electric kettle,A:0.8
+fuzzy,affect,0,Daniel,$10000,$5000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10001,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$51,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$500,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$1000,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$1001,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$5000,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$5001,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$10000,$5000,electric kettle,A:0.9
+exact,affect,0,Daniel,$10001,$5000,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$50,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$51,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$500,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$501,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1000,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5000,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5001,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10000,$5000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10001,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$500,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$1000,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$1001,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$5000,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$10000,$5000,electric kettle,A:0.9
+exact,both,0,Daniel,$10001,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$51,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$500,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$501,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1001,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5001,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10000,$5000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10001,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$50,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$51,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$500,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$501,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$1000,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$1001,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$5000,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$5001,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$10000,$5000,electric kettle,A:0.9
+exact,state,1,Daniel,$10001,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$51,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$500,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$501,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1000,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5000,$5000,electric kettle,A:0.8
+fuzzy,affect,1,Daniel,$5001,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10000,$5000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$5000,electric kettle,A: 0.9
+exact,affect,1,Daniel,$50,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$51,$5000,electric kettle,A:0.8
+exact,affect,1,Daniel,$500,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$1000,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$1001,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$5000,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$10000,$5000,electric kettle,A:0.9
+exact,affect,1,Daniel,$10001,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$50,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$51,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$500,$5000,electric kettle,A: 0.9
+fuzzy,both,1,Daniel,$501,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1000,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1001,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5000,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10000,$5000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10001,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$51,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$500,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$1001,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$10000,$5000,electric kettle,A:0.9
+exact,both,1,Daniel,$10001,$5000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$50,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$500,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$501,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1000,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1001,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5000,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5001,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10000,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10001,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$50,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$51,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$500,$5001,electric kettle,A: 0.9
+exact,state,0,Daniel,$501,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$1000,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$1001,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$5000,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$5001,$5001,electric kettle,A: 0.9
+exact,state,0,Daniel,$10000,$5001,electric kettle,A:0.9
+exact,state,0,Daniel,$10001,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$51,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$500,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$501,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5000,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5001,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10000,$5001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10001,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$5001,electric kettle,A: 0.9
+exact,affect,0,Daniel,$51,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$500,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$1000,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$1001,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$5000,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$5001,$5001,electric kettle,A: 0.9
+exact,affect,0,Daniel,$10000,$5001,electric kettle,A:0.9
+exact,affect,0,Daniel,$10001,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$50,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$51,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$500,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$501,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1000,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5000,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5001,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10000,$5001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10001,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$500,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$1000,$5001,electric kettle,A: 0.9
+exact,both,0,Daniel,$1001,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$5000,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$10000,$5001,electric kettle,A:0.9
+exact,both,0,Daniel,$10001,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$51,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$500,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$501,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1001,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5001,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10000,$5001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10001,$5001,electric kettle,A: 0.9
+exact,state,1,Daniel,$50,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$51,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$500,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$501,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$1000,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$1001,$5001,electric kettle,A: 0.9
+exact,state,1,Daniel,$5000,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$5001,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$10000,$5001,electric kettle,A:0.9
+exact,state,1,Daniel,$10001,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$51,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$500,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$501,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1000,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5000,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5001,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10000,$5001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$50,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$51,$5001,electric kettle,A:0.8
+exact,affect,1,Daniel,$500,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$1000,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$1001,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$5000,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$5001,electric kettle,A: 0.9
+exact,affect,1,Daniel,$10000,$5001,electric kettle,A:0.9
+exact,affect,1,Daniel,$10001,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$50,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$51,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$500,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$501,$5001,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$1000,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1001,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5000,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10000,$5001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10001,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$51,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$500,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$5001,electric kettle,A: 0.9
+exact,both,1,Daniel,$1001,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$10000,$5001,electric kettle,A:0.9
+exact,both,1,Daniel,$10001,$5001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$50,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$500,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$501,$10000,electric kettle,A: 0.8
+fuzzy,state,0,Daniel,$1000,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1001,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5000,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5001,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10000,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10001,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$50,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$51,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$500,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$501,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$1000,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$1001,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$5000,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$5001,$10000,electric kettle,A:0.9
+exact,state,0,Daniel,$10000,$10000,electric kettle,A: 0.9
+exact,state,0,Daniel,$10001,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$51,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$500,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$501,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5000,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5001,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10000,$10000,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10001,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$51,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$500,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$10000,electric kettle,A:0.7
+exact,affect,0,Daniel,$1000,$10000,electric kettle,A:0.95
+exact,affect,0,Daniel,$1001,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$5000,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$5001,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$10000,$10000,electric kettle,A:0.9
+exact,affect,0,Daniel,$10001,$10000,electric kettle,A:0.2
+fuzzy,both,0,Daniel,$50,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$51,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$500,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$501,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1000,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$10000,electric kettle,A: 0.8
+fuzzy,both,0,Daniel,$5000,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5001,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10000,$10000,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10001,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$500,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$1000,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$1001,$10000,electric kettle,A:0.8
+exact,both,0,Daniel,$5000,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$10000,$10000,electric kettle,A:0.9
+exact,both,0,Daniel,$10001,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$51,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$500,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$501,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1001,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$10000,electric kettle,A:0.8
+fuzzy,state,1,Daniel,$5001,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10000,$10000,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10001,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$50,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$51,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$500,$10000,electric kettle,A:0.2
+exact,state,1,Daniel,$501,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$1000,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$1001,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$5000,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$5001,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$10000,$10000,electric kettle,A:0.9
+exact,state,1,Daniel,$10001,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$51,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$500,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$501,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1000,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5000,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5001,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10000,$10000,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$50,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$51,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$500,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$1000,$10000,electric kettle,A: 0.9
+exact,affect,1,Daniel,$1001,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$5000,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$10000,electric kettle,A: 0.8
+exact,affect,1,Daniel,$10000,$10000,electric kettle,A:0.9
+exact,affect,1,Daniel,$10001,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$50,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$51,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$500,$10000,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$501,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1000,$10000,electric kettle,A:0.8
+fuzzy,both,1,Daniel,$1001,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5000,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10000,$10000,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10001,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$51,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$500,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$1001,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$10000,$10000,electric kettle,A:0.9
+exact,both,1,Daniel,$10001,$10000,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$50,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$51,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$500,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$501,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1000,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$1001,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5000,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$5001,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10000,$10001,electric kettle,A:0.9
+fuzzy,state,0,Daniel,$10001,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$50,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$51,$10001,electric kettle,A: 0.9
+exact,state,0,Daniel,$500,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$501,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$1000,$10001,electric kettle,A: 0.9
+exact,state,0,Daniel,$1001,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$5000,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$5001,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$10000,$10001,electric kettle,A:0.9
+exact,state,0,Daniel,$10001,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$50,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$51,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$500,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$501,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1000,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$1001,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5000,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$5001,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10000,$10001,electric kettle,A:0.9
+fuzzy,affect,0,Daniel,$10001,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$50,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$51,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$500,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$501,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$1000,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$1001,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$5000,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$5001,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$10000,$10001,electric kettle,A:0.9
+exact,affect,0,Daniel,$10001,$10001,electric kettle,A:0.8
+fuzzy,both,0,Daniel,$50,$10001,electric kettle,A: 0.9
+fuzzy,both,0,Daniel,$51,$10001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$500,$10001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$501,$10001,electric kettle,A: 0.9
+fuzzy,both,0,Daniel,$1000,$10001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$1001,$10001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5000,$10001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$5001,$10001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10000,$10001,electric kettle,A:0.9
+fuzzy,both,0,Daniel,$10001,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$50,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$51,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$500,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$501,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$1000,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$1001,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$5000,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$5001,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$10000,$10001,electric kettle,A:0.9
+exact,both,0,Daniel,$10001,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$50,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$51,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$500,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$501,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1000,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$1001,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5000,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$5001,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10000,$10001,electric kettle,A:0.9
+fuzzy,state,1,Daniel,$10001,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$50,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$51,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$500,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$501,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$1000,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$1001,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$5000,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$5001,$10001,electric kettle,A:0.9
+exact,state,1,Daniel,$10000,$10001,electric kettle,A: 0.9
+exact,state,1,Daniel,$10001,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$50,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$51,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$500,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$501,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1000,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$1001,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5000,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$5001,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10000,$10001,electric kettle,A:0.9
+fuzzy,affect,1,Daniel,$10001,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$50,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$51,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$500,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$501,$10001,electric kettle,A: 0.9
+exact,affect,1,Daniel,$1000,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$1001,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$5000,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$5001,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$10000,$10001,electric kettle,A:0.9
+exact,affect,1,Daniel,$10001,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$50,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$51,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$500,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$501,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1000,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$1001,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5000,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$5001,$10001,electric kettle,A: 0.9
+fuzzy,both,1,Daniel,$10000,$10001,electric kettle,A:0.9
+fuzzy,both,1,Daniel,$10001,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$50,$10001,electric kettle,A: 0.9
+exact,both,1,Daniel,$51,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$500,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$501,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$1000,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$1001,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$5000,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$5001,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$10000,$10001,electric kettle,A:0.9
+exact,both,1,Daniel,$10001,$10001,electric kettle,A:0.9
+fuzzy,state,0,Patrick,$50,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$51,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$500,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$501,$50,laptop,A:0.2
+fuzzy,state,0,Patrick,$1000,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$1001,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$5000,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$5001,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$10000,$50,laptop,A:0.1
+fuzzy,state,0,Patrick,$10001,$50,laptop,A:0.1
+exact,state,0,Patrick,$50,$50,laptop,A:0.1
+exact,state,0,Patrick,$51,$50,laptop,A:0.1
+exact,state,0,Patrick,$500,$50,laptop,A:0.1
+exact,state,0,Patrick,$501,$50,laptop,A:0.1
+exact,state,0,Patrick,$1000,$50,laptop,A:0.2
+exact,state,0,Patrick,$1001,$50,laptop,A:0.1
+exact,state,0,Patrick,$5000,$50,laptop,A:0.1
+exact,state,0,Patrick,$5001,$50,laptop,A:0.1
+exact,state,0,Patrick,$10000,$50,laptop,A:0.1
+exact,state,0,Patrick,$10001,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$50,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$51,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$500,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$501,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$1000,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$1001,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$5000,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$5001,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$10000,$50,laptop,A:0.1
+fuzzy,affect,0,Patrick,$10001,$50,laptop,A:0.1
+exact,affect,0,Patrick,$50,$50,laptop,A:0.1
+exact,affect,0,Patrick,$51,$50,laptop,A:0.1
+exact,affect,0,Patrick,$500,$50,laptop,A: 0.2
+exact,affect,0,Patrick,$501,$50,laptop,A: 0.1
+exact,affect,0,Patrick,$1000,$50,laptop,A:0.1
+exact,affect,0,Patrick,$1001,$50,laptop,A:0.1
+exact,affect,0,Patrick,$5000,$50,laptop,A:0.2
+exact,affect,0,Patrick,$5001,$50,laptop,A:0.1
+exact,affect,0,Patrick,$10000,$50,laptop,A:0.1
+exact,affect,0,Patrick,$10001,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$50,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$51,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$500,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$501,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$1000,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$1001,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$5000,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$5001,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$10000,$50,laptop,A:0.1
+fuzzy,both,0,Patrick,$10001,$50,laptop,A:0.1
+exact,both,0,Patrick,$50,$50,laptop,A: 0.1
+exact,both,0,Patrick,$51,$50,laptop,A:0.1
+exact,both,0,Patrick,$500,$50,laptop,A:0.1
+exact,both,0,Patrick,$501,$50,laptop,A:0.1
+exact,both,0,Patrick,$1000,$50,laptop,A:0.1
+exact,both,0,Patrick,$1001,$50,laptop,A: 0.1
+exact,both,0,Patrick,$5000,$50,laptop,A:0.1
+exact,both,0,Patrick,$5001,$50,laptop,A:0.1
+exact,both,0,Patrick,$10000,$50,laptop,A:0.1
+exact,both,0,Patrick,$10001,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$50,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$51,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$500,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$501,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$1000,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$1001,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$5000,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$5001,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$10000,$50,laptop,A:0.1
+fuzzy,state,1,Patrick,$10001,$50,laptop,A:0.1
+exact,state,1,Patrick,$50,$50,laptop,A:0.1
+exact,state,1,Patrick,$51,$50,laptop,A:0.1
+exact,state,1,Patrick,$500,$50,laptop,A:0.2
+exact,state,1,Patrick,$501,$50,laptop,A:0.1
+exact,state,1,Patrick,$1000,$50,laptop,A:0.2
+exact,state,1,Patrick,$1001,$50,laptop,A:0.1
+exact,state,1,Patrick,$5000,$50,laptop,A:0.1
+exact,state,1,Patrick,$5001,$50,laptop,A:0.1
+exact,state,1,Patrick,$10000,$50,laptop,A:0.1
+exact,state,1,Patrick,$10001,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$50,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$51,$50,laptop,A:0.2
+fuzzy,affect,1,Patrick,$500,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$501,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$1000,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$1001,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$5000,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$5001,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$10000,$50,laptop,A:0.1
+fuzzy,affect,1,Patrick,$10001,$50,laptop,A: 0.1
+exact,affect,1,Patrick,$50,$50,laptop,A:0.1
+exact,affect,1,Patrick,$51,$50,laptop,A:0.1
+exact,affect,1,Patrick,$500,$50,laptop,A:0.2
+exact,affect,1,Patrick,$501,$50,laptop,A:0.2
+exact,affect,1,Patrick,$1000,$50,laptop,A:0.1
+exact,affect,1,Patrick,$1001,$50,laptop,A:0.1
+exact,affect,1,Patrick,$5000,$50,laptop,A:0.1
+exact,affect,1,Patrick,$5001,$50,laptop,A:<0.1>
+exact,affect,1,Patrick,$10000,$50,laptop,A:0.1
+exact,affect,1,Patrick,$10001,$50,laptop,A:0.2
+fuzzy,both,1,Patrick,$50,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$51,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$500,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$501,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$1000,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$1001,$50,laptop,A:0.2
+fuzzy,both,1,Patrick,$5000,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$5001,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$10000,$50,laptop,A:0.1
+fuzzy,both,1,Patrick,$10001,$50,laptop,A:0.1
+exact,both,1,Patrick,$50,$50,laptop,A:0.1
+exact,both,1,Patrick,$51,$50,laptop,A:0.1
+exact,both,1,Patrick,$500,$50,laptop,A:0.1
+exact,both,1,Patrick,$501,$50,laptop,A:0.1
+exact,both,1,Patrick,$1000,$50,laptop,A:0.1
+exact,both,1,Patrick,$1001,$50,laptop,A:0.1
+exact,both,1,Patrick,$5000,$50,laptop,A:0.1
+exact,both,1,Patrick,$5001,$50,laptop,A:0.2
+exact,both,1,Patrick,$10000,$50,laptop,A:0.1
+exact,both,1,Patrick,$10001,$50,laptop,A:0.2
+fuzzy,state,0,Patrick,$50,$51,laptop,A:0.3
+fuzzy,state,0,Patrick,$51,$51,laptop,A:0.3
+fuzzy,state,0,Patrick,$500,$51,laptop,A:0.2
+fuzzy,state,0,Patrick,$501,$51,laptop,A:0.2
+fuzzy,state,0,Patrick,$1000,$51,laptop,A:0.2
+fuzzy,state,0,Patrick,$1001,$51,laptop,A:0.2
+fuzzy,state,0,Patrick,$5000,$51,laptop,A:0.2
+fuzzy,state,0,Patrick,$5001,$51,laptop,A:0.3
+fuzzy,state,0,Patrick,$10000,$51,laptop,A:0.3
+fuzzy,state,0,Patrick,$10001,$51,laptop,A:0.3
+exact,state,0,Patrick,$50,$51,laptop,A:0.2
+exact,state,0,Patrick,$51,$51,laptop,A:0.3
+exact,state,0,Patrick,$500,$51,laptop,A:0.2
+exact,state,0,Patrick,$501,$51,laptop,A:0.3
+exact,state,0,Patrick,$1000,$51,laptop,A:0.2
+exact,state,0,Patrick,$1001,$51,laptop,A: 0.3
+exact,state,0,Patrick,$5000,$51,laptop,A:0.2
+exact,state,0,Patrick,$5001,$51,laptop,A:0.3
+exact,state,0,Patrick,$10000,$51,laptop,A:0.3
+exact,state,0,Patrick,$10001,$51,laptop,A:0.3
+fuzzy,affect,0,Patrick,$50,$51,laptop,A:0.2
+fuzzy,affect,0,Patrick,$51,$51,laptop,A:0.2
+fuzzy,affect,0,Patrick,$500,$51,laptop,A:0.3
+fuzzy,affect,0,Patrick,$501,$51,laptop,A:0.2
+fuzzy,affect,0,Patrick,$1000,$51,laptop,A:0.3
+fuzzy,affect,0,Patrick,$1001,$51,laptop,A:0.2
+fuzzy,affect,0,Patrick,$5000,$51,laptop,A:0.4
+fuzzy,affect,0,Patrick,$5001,$51,laptop,A:0.2
+fuzzy,affect,0,Patrick,$10000,$51,laptop,A: 0.3
+fuzzy,affect,0,Patrick,$10001,$51,laptop,A:0.2
+exact,affect,0,Patrick,$50,$51,laptop,A:0.2
+exact,affect,0,Patrick,$51,$51,laptop,A:0.2
+exact,affect,0,Patrick,$500,$51,laptop,A:0.2
+exact,affect,0,Patrick,$501,$51,laptop,A:0.2
+exact,affect,0,Patrick,$1000,$51,laptop,A:0.3
+exact,affect,0,Patrick,$1001,$51,laptop,A:0.2
+exact,affect,0,Patrick,$5000,$51,laptop,A:0.3
+exact,affect,0,Patrick,$5001,$51,laptop,A:0.2
+exact,affect,0,Patrick,$10000,$51,laptop,A:0.2
+exact,affect,0,Patrick,$10001,$51,laptop,A:0.2
+fuzzy,both,0,Patrick,$50,$51,laptop,A:0.3
+fuzzy,both,0,Patrick,$51,$51,laptop,A:0.2
+fuzzy,both,0,Patrick,$500,$51,laptop,A:0.3
+fuzzy,both,0,Patrick,$501,$51,laptop,A:0.3
+fuzzy,both,0,Patrick,$1000,$51,laptop,A: 0.3
+fuzzy,both,0,Patrick,$1001,$51,laptop,A:0.3
+fuzzy,both,0,Patrick,$5000,$51,laptop,A:0.2
+fuzzy,both,0,Patrick,$5001,$51,laptop,A:0.2
+fuzzy,both,0,Patrick,$10000,$51,laptop,A:0.2
+fuzzy,both,0,Patrick,$10001,$51,laptop,A:0.3
+exact,both,0,Patrick,$50,$51,laptop,A:0.2
+exact,both,0,Patrick,$51,$51,laptop,A:0.2
+exact,both,0,Patrick,$500,$51,laptop,A:0.3
+exact,both,0,Patrick,$501,$51,laptop,A:0.3
+exact,both,0,Patrick,$1000,$51,laptop,A:0.2
+exact,both,0,Patrick,$1001,$51,laptop,A:0.3
+exact,both,0,Patrick,$5000,$51,laptop,A:0.3
+exact,both,0,Patrick,$5001,$51,laptop,A:0.3
+exact,both,0,Patrick,$10000,$51,laptop,A:0.2
+exact,both,0,Patrick,$10001,$51,laptop,A:0.1
+fuzzy,state,1,Patrick,$50,$51,laptop,A:0.3
+fuzzy,state,1,Patrick,$51,$51,laptop,A: 0.2
+fuzzy,state,1,Patrick,$500,$51,laptop,A:0.3
+fuzzy,state,1,Patrick,$501,$51,laptop,A: 0.3
+fuzzy,state,1,Patrick,$1000,$51,laptop,A:0.2
+fuzzy,state,1,Patrick,$1001,$51,laptop,A:0.3
+fuzzy,state,1,Patrick,$5000,$51,laptop,A:0.3
+fuzzy,state,1,Patrick,$5001,$51,laptop,A:0.2
+fuzzy,state,1,Patrick,$10000,$51,laptop,A:0.2
+fuzzy,state,1,Patrick,$10001,$51,laptop,A:0.2
+exact,state,1,Patrick,$50,$51,laptop,A:0.2
+exact,state,1,Patrick,$51,$51,laptop,A:0.2
+exact,state,1,Patrick,$500,$51,laptop,A:0.2
+exact,state,1,Patrick,$501,$51,laptop,A:0.2
+exact,state,1,Patrick,$1000,$51,laptop,A:0.3
+exact,state,1,Patrick,$1001,$51,laptop,A:0.2
+exact,state,1,Patrick,$5000,$51,laptop,A:0.2
+exact,state,1,Patrick,$5001,$51,laptop,A:0.2
+exact,state,1,Patrick,$10000,$51,laptop,A:0.4
+exact,state,1,Patrick,$10001,$51,laptop,A: 0.2
+fuzzy,affect,1,Patrick,$50,$51,laptop,A:0.4
+fuzzy,affect,1,Patrick,$51,$51,laptop,A:0.2
+fuzzy,affect,1,Patrick,$500,$51,laptop,A:0.2
+fuzzy,affect,1,Patrick,$501,$51,laptop,A:0.2
+fuzzy,affect,1,Patrick,$1000,$51,laptop,A:0.1
+fuzzy,affect,1,Patrick,$1001,$51,laptop,A:0.2
+fuzzy,affect,1,Patrick,$5000,$51,laptop,A:0.2
+fuzzy,affect,1,Patrick,$5001,$51,laptop,A:0.4
+fuzzy,affect,1,Patrick,$10000,$51,laptop,A:0.2
+fuzzy,affect,1,Patrick,$10001,$51,laptop,A:0.3
+exact,affect,1,Patrick,$50,$51,laptop,A:0.2
+exact,affect,1,Patrick,$51,$51,laptop,A:0.3
+exact,affect,1,Patrick,$500,$51,laptop,A:0.3
+exact,affect,1,Patrick,$501,$51,laptop,A:0.2
+exact,affect,1,Patrick,$1000,$51,laptop,A:0.2
+exact,affect,1,Patrick,$1001,$51,laptop,A:0.2
+exact,affect,1,Patrick,$5000,$51,laptop,A:0.2
+exact,affect,1,Patrick,$5001,$51,laptop,A:0.3
+exact,affect,1,Patrick,$10000,$51,laptop,A:0.2
+exact,affect,1,Patrick,$10001,$51,laptop,A:0.3
+fuzzy,both,1,Patrick,$50,$51,laptop,A:0.3
+fuzzy,both,1,Patrick,$51,$51,laptop,A:0.3
+fuzzy,both,1,Patrick,$500,$51,laptop,A:0.2
+fuzzy,both,1,Patrick,$501,$51,laptop,A:0.2
+fuzzy,both,1,Patrick,$1000,$51,laptop,A:0.3
+fuzzy,both,1,Patrick,$1001,$51,laptop,A:0.3
+fuzzy,both,1,Patrick,$5000,$51,laptop,A:0.2
+fuzzy,both,1,Patrick,$5001,$51,laptop,A:0.3
+fuzzy,both,1,Patrick,$10000,$51,laptop,A:0.3
+fuzzy,both,1,Patrick,$10001,$51,laptop,A:0.3
+exact,both,1,Patrick,$50,$51,laptop,A:0.3
+exact,both,1,Patrick,$51,$51,laptop,A:0.2
+exact,both,1,Patrick,$500,$51,laptop,A:0.2
+exact,both,1,Patrick,$501,$51,laptop,A:0.7
+exact,both,1,Patrick,$1000,$51,laptop,A:0.3
+exact,both,1,Patrick,$1001,$51,laptop,A:0.3
+exact,both,1,Patrick,$5000,$51,laptop,A:0.2
+exact,both,1,Patrick,$5001,$51,laptop,A:0.2
+exact,both,1,Patrick,$10000,$51,laptop,A:0.2
+exact,both,1,Patrick,$10001,$51,laptop,A:0.3
+fuzzy,state,0,Patrick,$50,$500,laptop,A:0.7
+fuzzy,state,0,Patrick,$51,$500,laptop,A:0.3
+fuzzy,state,0,Patrick,$500,$500,laptop,A:0.8
+fuzzy,state,0,Patrick,$501,$500,laptop,A:0.2
+fuzzy,state,0,Patrick,$1000,$500,laptop,A:0.8
+fuzzy,state,0,Patrick,$1001,$500,laptop,A:0.8
+fuzzy,state,0,Patrick,$5000,$500,laptop,A:0.7
+fuzzy,state,0,Patrick,$5001,$500,laptop,A:0.8
+fuzzy,state,0,Patrick,$10000,$500,laptop,A:0.7
+fuzzy,state,0,Patrick,$10001,$500,laptop,A:0.8
+exact,state,0,Patrick,$50,$500,laptop,A:0.8
+exact,state,0,Patrick,$51,$500,laptop,A:0.7
+exact,state,0,Patrick,$500,$500,laptop,A:0.7
+exact,state,0,Patrick,$501,$500,laptop,A:0.8
+exact,state,0,Patrick,$1000,$500,laptop,A:0.7
+exact,state,0,Patrick,$1001,$500,laptop,A:0.7
+exact,state,0,Patrick,$5000,$500,laptop,A:0.7
+exact,state,0,Patrick,$5001,$500,laptop,A:0.7
+exact,state,0,Patrick,$10000,$500,laptop,A:0.8
+exact,state,0,Patrick,$10001,$500,laptop,A:0.8
+fuzzy,affect,0,Patrick,$50,$500,laptop,A:0.8
+fuzzy,affect,0,Patrick,$51,$500,laptop,A:0.7
+fuzzy,affect,0,Patrick,$500,$500,laptop,A:0.8
+fuzzy,affect,0,Patrick,$501,$500,laptop,A:0.7
+fuzzy,affect,0,Patrick,$1000,$500,laptop,A:0.7
+fuzzy,affect,0,Patrick,$1001,$500,laptop,A:0.7
+fuzzy,affect,0,Patrick,$5000,$500,laptop,A:0.7
+fuzzy,affect,0,Patrick,$5001,$500,laptop,A:0.8
+fuzzy,affect,0,Patrick,$10000,$500,laptop,A:0.7
+fuzzy,affect,0,Patrick,$10001,$500,laptop,A:0.8
+exact,affect,0,Patrick,$50,$500,laptop,A:0.7
+exact,affect,0,Patrick,$51,$500,laptop,A:0.7
+exact,affect,0,Patrick,$500,$500,laptop,A:0.7
+exact,affect,0,Patrick,$501,$500,laptop,A:0.7
+exact,affect,0,Patrick,$1000,$500,laptop,A:0.7
+exact,affect,0,Patrick,$1001,$500,laptop,A: 0.7
+exact,affect,0,Patrick,$5000,$500,laptop,A:0.7
+exact,affect,0,Patrick,$5001,$500,laptop,A:0.8
+exact,affect,0,Patrick,$10000,$500,laptop,A:0.8
+exact,affect,0,Patrick,$10001,$500,laptop,A:0.7
+fuzzy,both,0,Patrick,$50,$500,laptop,A:0.8
+fuzzy,both,0,Patrick,$51,$500,laptop,A:0.8
+fuzzy,both,0,Patrick,$500,$500,laptop,A:0.7
+fuzzy,both,0,Patrick,$501,$500,laptop,A:0.7
+fuzzy,both,0,Patrick,$1000,$500,laptop,A:0.7
+fuzzy,both,0,Patrick,$1001,$500,laptop,A:0.7
+fuzzy,both,0,Patrick,$5000,$500,laptop,A:0.8
+fuzzy,both,0,Patrick,$5001,$500,laptop,A:0.7
+fuzzy,both,0,Patrick,$10000,$500,laptop,A:0.7
+fuzzy,both,0,Patrick,$10001,$500,laptop,A:0.7
+exact,both,0,Patrick,$50,$500,laptop,A:0.8
+exact,both,0,Patrick,$51,$500,laptop,A:0.3
+exact,both,0,Patrick,$500,$500,laptop,A:0.7
+exact,both,0,Patrick,$501,$500,laptop,A:0.7
+exact,both,0,Patrick,$1000,$500,laptop,A:0.7
+exact,both,0,Patrick,$1001,$500,laptop,A:0.7
+exact,both,0,Patrick,$5000,$500,laptop,A:0.7
+exact,both,0,Patrick,$5001,$500,laptop,A:0.6
+exact,both,0,Patrick,$10000,$500,laptop,A:0.7
+exact,both,0,Patrick,$10001,$500,laptop,A:0.7
+fuzzy,state,1,Patrick,$50,$500,laptop,A:0.7
+fuzzy,state,1,Patrick,$51,$500,laptop,A:0.7
+fuzzy,state,1,Patrick,$500,$500,laptop,A:0.6
+fuzzy,state,1,Patrick,$501,$500,laptop,A:0.7
+fuzzy,state,1,Patrick,$1000,$500,laptop,A:0.8
+fuzzy,state,1,Patrick,$1001,$500,laptop,A:0.6
+fuzzy,state,1,Patrick,$5000,$500,laptop,A:0.7
+fuzzy,state,1,Patrick,$5001,$500,laptop,A:0.7
+fuzzy,state,1,Patrick,$10000,$500,laptop,A:0.7
+fuzzy,state,1,Patrick,$10001,$500,laptop,A:0.7
+exact,state,1,Patrick,$50,$500,laptop,A:0.7
+exact,state,1,Patrick,$51,$500,laptop,A:0.8
+exact,state,1,Patrick,$500,$500,laptop,A:0.7
+exact,state,1,Patrick,$501,$500,laptop,A:0.7
+exact,state,1,Patrick,$1000,$500,laptop,A:0.8
+exact,state,1,Patrick,$1001,$500,laptop,A:0.7
+exact,state,1,Patrick,$5000,$500,laptop,A:0.7
+exact,state,1,Patrick,$5001,$500,laptop,A:0.8
+exact,state,1,Patrick,$10000,$500,laptop,A:0.9
+exact,state,1,Patrick,$10001,$500,laptop,A:0.7
+fuzzy,affect,1,Patrick,$50,$500,laptop,A:0.7
+fuzzy,affect,1,Patrick,$51,$500,laptop,A:0.8
+fuzzy,affect,1,Patrick,$500,$500,laptop,A:0.8
+fuzzy,affect,1,Patrick,$501,$500,laptop,A:0.7
+fuzzy,affect,1,Patrick,$1000,$500,laptop,A:0.7
+fuzzy,affect,1,Patrick,$1001,$500,laptop,A:0.7
+fuzzy,affect,1,Patrick,$5000,$500,laptop,A:0.8
+fuzzy,affect,1,Patrick,$5001,$500,laptop,A:0.8
+fuzzy,affect,1,Patrick,$10000,$500,laptop,A:0.6
+fuzzy,affect,1,Patrick,$10001,$500,laptop,A:0.7
+exact,affect,1,Patrick,$50,$500,laptop,A:0.8
+exact,affect,1,Patrick,$51,$500,laptop,A:0.8
+exact,affect,1,Patrick,$500,$500,laptop,A:0.8
+exact,affect,1,Patrick,$501,$500,laptop,A:0.8
+exact,affect,1,Patrick,$1000,$500,laptop,A:0.7
+exact,affect,1,Patrick,$1001,$500,laptop,A:0.8
+exact,affect,1,Patrick,$5000,$500,laptop,A:0.8
+exact,affect,1,Patrick,$5001,$500,laptop,A:0.7
+exact,affect,1,Patrick,$10000,$500,laptop,A:0.7
+exact,affect,1,Patrick,$10001,$500,laptop,A:0.7
+fuzzy,both,1,Patrick,$50,$500,laptop,A:0.7
+fuzzy,both,1,Patrick,$51,$500,laptop,A:0.8
+fuzzy,both,1,Patrick,$500,$500,laptop,A:0.7
+fuzzy,both,1,Patrick,$501,$500,laptop,A:0.7
+fuzzy,both,1,Patrick,$1000,$500,laptop,A:0.8
+fuzzy,both,1,Patrick,$1001,$500,laptop,A:0.8
+fuzzy,both,1,Patrick,$5000,$500,laptop,A:0.8
+fuzzy,both,1,Patrick,$5001,$500,laptop,A:0.8
+fuzzy,both,1,Patrick,$10000,$500,laptop,A: 0.8
+fuzzy,both,1,Patrick,$10001,$500,laptop,A:0.7
+exact,both,1,Patrick,$50,$500,laptop,A:0.8
+exact,both,1,Patrick,$51,$500,laptop,A:0.7
+exact,both,1,Patrick,$500,$500,laptop,A:0.7
+exact,both,1,Patrick,$501,$500,laptop,A: 0.7
+exact,both,1,Patrick,$1000,$500,laptop,A:0.7
+exact,both,1,Patrick,$1001,$500,laptop,A:0.8
+exact,both,1,Patrick,$5000,$500,laptop,A:0.7
+exact,both,1,Patrick,$5001,$500,laptop,A:0.7
+exact,both,1,Patrick,$10000,$500,laptop,A:0.7
+exact,both,1,Patrick,$10001,$500,laptop,A:0.7
+fuzzy,state,0,Patrick,$50,$501,laptop,A:0.7
+fuzzy,state,0,Patrick,$51,$501,laptop,A:0.8
+fuzzy,state,0,Patrick,$500,$501,laptop,A:0.8
+fuzzy,state,0,Patrick,$501,$501,laptop,A:0.9
+fuzzy,state,0,Patrick,$1000,$501,laptop,A:0.6
+fuzzy,state,0,Patrick,$1001,$501,laptop,A:0.7
+fuzzy,state,0,Patrick,$5000,$501,laptop,A:0.7
+fuzzy,state,0,Patrick,$5001,$501,laptop,A:0.8
+fuzzy,state,0,Patrick,$10000,$501,laptop,A:0.8
+fuzzy,state,0,Patrick,$10001,$501,laptop,A:0.9
+exact,state,0,Patrick,$50,$501,laptop,A:0.7
+exact,state,0,Patrick,$51,$501,laptop,A:0.8
+exact,state,0,Patrick,$500,$501,laptop,A:0.8
+exact,state,0,Patrick,$501,$501,laptop,A:0.8
+exact,state,0,Patrick,$1000,$501,laptop,A:0.8
+exact,state,0,Patrick,$1001,$501,laptop,A:0.7
+exact,state,0,Patrick,$5000,$501,laptop,A:0.8
+exact,state,0,Patrick,$5001,$501,laptop,A:0.7
+exact,state,0,Patrick,$10000,$501,laptop,A:0.7
+exact,state,0,Patrick,$10001,$501,laptop,A:0.7
+fuzzy,affect,0,Patrick,$50,$501,laptop,A:0.8
+fuzzy,affect,0,Patrick,$51,$501,laptop,A:0.7
+fuzzy,affect,0,Patrick,$500,$501,laptop,A:0.8
+fuzzy,affect,0,Patrick,$501,$501,laptop,A:0.8
+fuzzy,affect,0,Patrick,$1000,$501,laptop,A:0.7
+fuzzy,affect,0,Patrick,$1001,$501,laptop,A:0.6
+fuzzy,affect,0,Patrick,$5000,$501,laptop,A:0.8
+fuzzy,affect,0,Patrick,$5001,$501,laptop,A:0.7
+fuzzy,affect,0,Patrick,$10000,$501,laptop,A:0.7
+fuzzy,affect,0,Patrick,$10001,$501,laptop,A:0.7
+exact,affect,0,Patrick,$50,$501,laptop,A:0.7
+exact,affect,0,Patrick,$51,$501,laptop,A:0.7
+exact,affect,0,Patrick,$500,$501,laptop,A:0.7
+exact,affect,0,Patrick,$501,$501,laptop,A:0.7
+exact,affect,0,Patrick,$1000,$501,laptop,A:0.7
+exact,affect,0,Patrick,$1001,$501,laptop,A:0.7
+exact,affect,0,Patrick,$5000,$501,laptop,A:0.8
+exact,affect,0,Patrick,$5001,$501,laptop,A:0.7
+exact,affect,0,Patrick,$10000,$501,laptop,A:0.7
+exact,affect,0,Patrick,$10001,$501,laptop,A:0.7
+fuzzy,both,0,Patrick,$50,$501,laptop,A:0.7
+fuzzy,both,0,Patrick,$51,$501,laptop,A:0.8
+fuzzy,both,0,Patrick,$500,$501,laptop,A:0.7
+fuzzy,both,0,Patrick,$501,$501,laptop,A:0.7
+fuzzy,both,0,Patrick,$1000,$501,laptop,A:0.7
+fuzzy,both,0,Patrick,$1001,$501,laptop,A:0.8
+fuzzy,both,0,Patrick,$5000,$501,laptop,A:0.7
+fuzzy,both,0,Patrick,$5001,$501,laptop,A:0.7
+fuzzy,both,0,Patrick,$10000,$501,laptop,A:0.8
+fuzzy,both,0,Patrick,$10001,$501,laptop,A:0.7
+exact,both,0,Patrick,$50,$501,laptop,A:0.8
+exact,both,0,Patrick,$51,$501,laptop,A:0.7
+exact,both,0,Patrick,$500,$501,laptop,A:0.7
+exact,both,0,Patrick,$501,$501,laptop,A:0.7
+exact,both,0,Patrick,$1000,$501,laptop,A:0.7
+exact,both,0,Patrick,$1001,$501,laptop,A:0.8
+exact,both,0,Patrick,$5000,$501,laptop,A:0.8
+exact,both,0,Patrick,$5001,$501,laptop,A:0.7
+exact,both,0,Patrick,$10000,$501,laptop,A:0.7
+exact,both,0,Patrick,$10001,$501,laptop,A:0.8
+fuzzy,state,1,Patrick,$50,$501,laptop,A:0.8
+fuzzy,state,1,Patrick,$51,$501,laptop,A:0.7
+fuzzy,state,1,Patrick,$500,$501,laptop,A:0.7
+fuzzy,state,1,Patrick,$501,$501,laptop,A:0.8
+fuzzy,state,1,Patrick,$1000,$501,laptop,A:0.7
+fuzzy,state,1,Patrick,$1001,$501,laptop,A:0.8
+fuzzy,state,1,Patrick,$5000,$501,laptop,A:0.8
+fuzzy,state,1,Patrick,$5001,$501,laptop,A:0.8
+fuzzy,state,1,Patrick,$10000,$501,laptop,A:0.8
+fuzzy,state,1,Patrick,$10001,$501,laptop,A:0.7
+exact,state,1,Patrick,$50,$501,laptop,A:0.8
+exact,state,1,Patrick,$51,$501,laptop,A:0.7
+exact,state,1,Patrick,$500,$501,laptop,A:0.8
+exact,state,1,Patrick,$501,$501,laptop,A:0.8
+exact,state,1,Patrick,$1000,$501,laptop,A:0.8
+exact,state,1,Patrick,$1001,$501,laptop,A:0.8
+exact,state,1,Patrick,$5000,$501,laptop,A:0.8
+exact,state,1,Patrick,$5001,$501,laptop,A:0.7
+exact,state,1,Patrick,$10000,$501,laptop,A:0.7
+exact,state,1,Patrick,$10001,$501,laptop,A:0.8
+fuzzy,affect,1,Patrick,$50,$501,laptop,A:0.8
+fuzzy,affect,1,Patrick,$51,$501,laptop,A:0.7
+fuzzy,affect,1,Patrick,$500,$501,laptop,A:0.7
+fuzzy,affect,1,Patrick,$501,$501,laptop,A:0.8
+fuzzy,affect,1,Patrick,$1000,$501,laptop,A:0.7
+fuzzy,affect,1,Patrick,$1001,$501,laptop,A:0.8
+fuzzy,affect,1,Patrick,$5000,$501,laptop,A:0.7
+fuzzy,affect,1,Patrick,$5001,$501,laptop,A:0.8
+fuzzy,affect,1,Patrick,$10000,$501,laptop,A:0.7
+fuzzy,affect,1,Patrick,$10001,$501,laptop,A:0.8
+exact,affect,1,Patrick,$50,$501,laptop,A:0.7
+exact,affect,1,Patrick,$51,$501,laptop,A:0.9
+exact,affect,1,Patrick,$500,$501,laptop,A:0.7
+exact,affect,1,Patrick,$501,$501,laptop,A:0.8
+exact,affect,1,Patrick,$1000,$501,laptop,A:0.9
+exact,affect,1,Patrick,$1001,$501,laptop,A:0.7
+exact,affect,1,Patrick,$5000,$501,laptop,A:0.8
+exact,affect,1,Patrick,$5001,$501,laptop,A:0.8
+exact,affect,1,Patrick,$10000,$501,laptop,A:0.7
+exact,affect,1,Patrick,$10001,$501,laptop,A:0.7
+fuzzy,both,1,Patrick,$50,$501,laptop,A:0.8
+fuzzy,both,1,Patrick,$51,$501,laptop,A:0.8
+fuzzy,both,1,Patrick,$500,$501,laptop,A:0.8
+fuzzy,both,1,Patrick,$501,$501,laptop,A:0.7
+fuzzy,both,1,Patrick,$1000,$501,laptop,A:0.8
+fuzzy,both,1,Patrick,$1001,$501,laptop,A:0.7
+fuzzy,both,1,Patrick,$5000,$501,laptop,A:0.7
+fuzzy,both,1,Patrick,$5001,$501,laptop,A:0.7
+fuzzy,both,1,Patrick,$10000,$501,laptop,A:0.7
+fuzzy,both,1,Patrick,$10001,$501,laptop,A:0.7
+exact,both,1,Patrick,$50,$501,laptop,A:0.7
+exact,both,1,Patrick,$51,$501,laptop,A:0.8
+exact,both,1,Patrick,$500,$501,laptop,A:0.7
+exact,both,1,Patrick,$501,$501,laptop,A:0.4
+exact,both,1,Patrick,$1000,$501,laptop,A:0.7
+exact,both,1,Patrick,$1001,$501,laptop,A:0.6
+exact,both,1,Patrick,$5000,$501,laptop,A:0.7
+exact,both,1,Patrick,$5001,$501,laptop,A:0.8
+exact,both,1,Patrick,$10000,$501,laptop,A:0.8
+exact,both,1,Patrick,$10001,$501,laptop,A:0.7
+fuzzy,state,0,Patrick,$50,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$51,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$500,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$501,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$1000,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$1001,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$5000,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$5001,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$10000,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$10001,$1000,laptop,A:0.7
+exact,state,0,Patrick,$50,$1000,laptop,A:0.9
+exact,state,0,Patrick,$51,$1000,laptop,A:0.8
+exact,state,0,Patrick,$500,$1000,laptop,A:0.8
+exact,state,0,Patrick,$501,$1000,laptop,A:0.9
+exact,state,0,Patrick,$1000,$1000,laptop,A:0.8
+exact,state,0,Patrick,$1001,$1000,laptop,A:0.8
+exact,state,0,Patrick,$5000,$1000,laptop,A:0.7
+exact,state,0,Patrick,$5001,$1000,laptop,A:0.8
+exact,state,0,Patrick,$10000,$1000,laptop,A:0.8
+exact,state,0,Patrick,$10001,$1000,laptop,A:0.8
+fuzzy,affect,0,Patrick,$50,$1000,laptop,A:0.8
+fuzzy,affect,0,Patrick,$51,$1000,laptop,A:0.8
+fuzzy,affect,0,Patrick,$500,$1000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$501,$1000,laptop,A:0.7
+fuzzy,affect,0,Patrick,$1000,$1000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$1001,$1000,laptop,A:0.8
+fuzzy,affect,0,Patrick,$5000,$1000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5001,$1000,laptop,A:0.8
+fuzzy,affect,0,Patrick,$10000,$1000,laptop,A:0.8
+fuzzy,affect,0,Patrick,$10001,$1000,laptop,A:0.9
+exact,affect,0,Patrick,$50,$1000,laptop,A:0.8
+exact,affect,0,Patrick,$51,$1000,laptop,A:0.9
+exact,affect,0,Patrick,$500,$1000,laptop,A:0.8
+exact,affect,0,Patrick,$501,$1000,laptop,A:0.9
+exact,affect,0,Patrick,$1000,$1000,laptop,A:0.8
+exact,affect,0,Patrick,$1001,$1000,laptop,A:0.8
+exact,affect,0,Patrick,$5000,$1000,laptop,A:0.8
+exact,affect,0,Patrick,$5001,$1000,laptop,A:0.8
+exact,affect,0,Patrick,$10000,$1000,laptop,A:0.8
+exact,affect,0,Patrick,$10001,$1000,laptop,A:0.7
+fuzzy,both,0,Patrick,$50,$1000,laptop,A:0.9
+fuzzy,both,0,Patrick,$51,$1000,laptop,A:0.8
+fuzzy,both,0,Patrick,$500,$1000,laptop,A:0.9
+fuzzy,both,0,Patrick,$501,$1000,laptop,A:0.8
+fuzzy,both,0,Patrick,$1000,$1000,laptop,A:0.7
+fuzzy,both,0,Patrick,$1001,$1000,laptop,A:0.8
+fuzzy,both,0,Patrick,$5000,$1000,laptop,A:0.8
+fuzzy,both,0,Patrick,$5001,$1000,laptop,A:0.8
+fuzzy,both,0,Patrick,$10000,$1000,laptop,A:0.8
+fuzzy,both,0,Patrick,$10001,$1000,laptop,A:0.8
+exact,both,0,Patrick,$50,$1000,laptop,A:0.8
+exact,both,0,Patrick,$51,$1000,laptop,A: 0.8
+exact,both,0,Patrick,$500,$1000,laptop,A:0.9
+exact,both,0,Patrick,$501,$1000,laptop,A:0.8
+exact,both,0,Patrick,$1000,$1000,laptop,A:0.9
+exact,both,0,Patrick,$1001,$1000,laptop,A:0.9
+exact,both,0,Patrick,$5000,$1000,laptop,A:0.8
+exact,both,0,Patrick,$5001,$1000,laptop,A:0.8
+exact,both,0,Patrick,$10000,$1000,laptop,A:0.8
+exact,both,0,Patrick,$10001,$1000,laptop,A:0.8
+fuzzy,state,1,Patrick,$50,$1000,laptop,A:0.8
+fuzzy,state,1,Patrick,$51,$1000,laptop,A:0.8
+fuzzy,state,1,Patrick,$500,$1000,laptop,A:0.7
+fuzzy,state,1,Patrick,$501,$1000,laptop,A:0.8
+fuzzy,state,1,Patrick,$1000,$1000,laptop,A:0.8
+fuzzy,state,1,Patrick,$1001,$1000,laptop,A:0.8
+fuzzy,state,1,Patrick,$5000,$1000,laptop,A:0.8
+fuzzy,state,1,Patrick,$5001,$1000,laptop,A: 0.8
+fuzzy,state,1,Patrick,$10000,$1000,laptop,A:0.7
+fuzzy,state,1,Patrick,$10001,$1000,laptop,A:0.8
+exact,state,1,Patrick,$50,$1000,laptop,A:0.9
+exact,state,1,Patrick,$51,$1000,laptop,A:0.8
+exact,state,1,Patrick,$500,$1000,laptop,A:0.8
+exact,state,1,Patrick,$501,$1000,laptop,A:0.8
+exact,state,1,Patrick,$1000,$1000,laptop,A:0.8
+exact,state,1,Patrick,$1001,$1000,laptop,A:0.7
+exact,state,1,Patrick,$5000,$1000,laptop,A:0.8
+exact,state,1,Patrick,$5001,$1000,laptop,A:0.9
+exact,state,1,Patrick,$10000,$1000,laptop,A:0.7
+exact,state,1,Patrick,$10001,$1000,laptop,A:0.8
+fuzzy,affect,1,Patrick,$50,$1000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$51,$1000,laptop,A:0.7
+fuzzy,affect,1,Patrick,$500,$1000,laptop,A:0.8
+fuzzy,affect,1,Patrick,$501,$1000,laptop,A:0.8
+fuzzy,affect,1,Patrick,$1000,$1000,laptop,A:0.8
+fuzzy,affect,1,Patrick,$1001,$1000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5000,$1000,laptop,A:0.8
+fuzzy,affect,1,Patrick,$5001,$1000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10000,$1000,laptop,A:0.8
+fuzzy,affect,1,Patrick,$10001,$1000,laptop,A:0.9
+exact,affect,1,Patrick,$50,$1000,laptop,A:0.8
+exact,affect,1,Patrick,$51,$1000,laptop,A:0.8
+exact,affect,1,Patrick,$500,$1000,laptop,A:0.8
+exact,affect,1,Patrick,$501,$1000,laptop,A:0.8
+exact,affect,1,Patrick,$1000,$1000,laptop,A:0.9
+exact,affect,1,Patrick,$1001,$1000,laptop,A:0.9
+exact,affect,1,Patrick,$5000,$1000,laptop,A:0.8
+exact,affect,1,Patrick,$5001,$1000,laptop,A:0.8
+exact,affect,1,Patrick,$10000,$1000,laptop,A:0.7
+exact,affect,1,Patrick,$10001,$1000,laptop,A:0.7
+fuzzy,both,1,Patrick,$50,$1000,laptop,A:0.9
+fuzzy,both,1,Patrick,$51,$1000,laptop,A:0.9
+fuzzy,both,1,Patrick,$500,$1000,laptop,A:0.9
+fuzzy,both,1,Patrick,$501,$1000,laptop,A:0.8
+fuzzy,both,1,Patrick,$1000,$1000,laptop,A:0.9
+fuzzy,both,1,Patrick,$1001,$1000,laptop,A:0.8
+fuzzy,both,1,Patrick,$5000,$1000,laptop,A:0.9
+fuzzy,both,1,Patrick,$5001,$1000,laptop,A:0.8
+fuzzy,both,1,Patrick,$10000,$1000,laptop,A: 0.8
+fuzzy,both,1,Patrick,$10001,$1000,laptop,A:0.7
+exact,both,1,Patrick,$50,$1000,laptop,A:0.8
+exact,both,1,Patrick,$51,$1000,laptop,A:0.8
+exact,both,1,Patrick,$500,$1000,laptop,A:0.8
+exact,both,1,Patrick,$501,$1000,laptop,A:0.8
+exact,both,1,Patrick,$1000,$1000,laptop,A:0.8
+exact,both,1,Patrick,$1001,$1000,laptop,A:0.9
+exact,both,1,Patrick,$5000,$1000,laptop,A:0.7
+exact,both,1,Patrick,$5001,$1000,laptop,A:0.7
+exact,both,1,Patrick,$10000,$1000,laptop,A:0.8
+exact,both,1,Patrick,$10001,$1000,laptop,A:0.8
+fuzzy,state,0,Patrick,$50,$1001,laptop,A:0.8
+fuzzy,state,0,Patrick,$51,$1001,laptop,A:0.9
+fuzzy,state,0,Patrick,$500,$1001,laptop,A:0.9
+fuzzy,state,0,Patrick,$501,$1001,laptop,A:0.9
+fuzzy,state,0,Patrick,$1000,$1001,laptop,A:0.8
+fuzzy,state,0,Patrick,$1001,$1001,laptop,A:0.8
+fuzzy,state,0,Patrick,$5000,$1001,laptop,A:0.8
+fuzzy,state,0,Patrick,$5001,$1001,laptop,A:0.8
+fuzzy,state,0,Patrick,$10000,$1001,laptop,A:0.9
+fuzzy,state,0,Patrick,$10001,$1001,laptop,A:0.8
+exact,state,0,Patrick,$50,$1001,laptop,A:0.7
+exact,state,0,Patrick,$51,$1001,laptop,A:0.9
+exact,state,0,Patrick,$500,$1001,laptop,A:0.9
+exact,state,0,Patrick,$501,$1001,laptop,A:0.8
+exact,state,0,Patrick,$1000,$1001,laptop,A:0.8
+exact,state,0,Patrick,$1001,$1001,laptop,A:0.9
+exact,state,0,Patrick,$5000,$1001,laptop,A:0.9
+exact,state,0,Patrick,$5001,$1001,laptop,A:0.9
+exact,state,0,Patrick,$10000,$1001,laptop,A:0.9
+exact,state,0,Patrick,$10001,$1001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$50,$1001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$51,$1001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$500,$1001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$501,$1001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$1000,$1001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$1001,$1001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$5000,$1001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$5001,$1001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$10000,$1001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$10001,$1001,laptop,A:0.8
+exact,affect,0,Patrick,$50,$1001,laptop,A:0.9
+exact,affect,0,Patrick,$51,$1001,laptop,A:0.8
+exact,affect,0,Patrick,$500,$1001,laptop,A:0.8
+exact,affect,0,Patrick,$501,$1001,laptop,A:0.9
+exact,affect,0,Patrick,$1000,$1001,laptop,A:0.9
+exact,affect,0,Patrick,$1001,$1001,laptop,A:0.8
+exact,affect,0,Patrick,$5000,$1001,laptop,A:0.8
+exact,affect,0,Patrick,$5001,$1001,laptop,A:0.9
+exact,affect,0,Patrick,$10000,$1001,laptop,A:0.8
+exact,affect,0,Patrick,$10001,$1001,laptop,A:0.8
+fuzzy,both,0,Patrick,$50,$1001,laptop,A:0.9
+fuzzy,both,0,Patrick,$51,$1001,laptop,A:0.8
+fuzzy,both,0,Patrick,$500,$1001,laptop,A:0.8
+fuzzy,both,0,Patrick,$501,$1001,laptop,A:0.8
+fuzzy,both,0,Patrick,$1000,$1001,laptop,A:0.8
+fuzzy,both,0,Patrick,$1001,$1001,laptop,A:0.8
+fuzzy,both,0,Patrick,$5000,$1001,laptop,A:0.9
+fuzzy,both,0,Patrick,$5001,$1001,laptop,A:0.9
+fuzzy,both,0,Patrick,$10000,$1001,laptop,A:0.8
+fuzzy,both,0,Patrick,$10001,$1001,laptop,A:0.9
+exact,both,0,Patrick,$50,$1001,laptop,A:0.9
+exact,both,0,Patrick,$51,$1001,laptop,A:0.8
+exact,both,0,Patrick,$500,$1001,laptop,A:0.9
+exact,both,0,Patrick,$501,$1001,laptop,A:0.9
+exact,both,0,Patrick,$1000,$1001,laptop,A:0.8
+exact,both,0,Patrick,$1001,$1001,laptop,A:0.9
+exact,both,0,Patrick,$5000,$1001,laptop,A:0.9
+exact,both,0,Patrick,$5001,$1001,laptop,A:0.9
+exact,both,0,Patrick,$10000,$1001,laptop,A:0.8
+exact,both,0,Patrick,$10001,$1001,laptop,A:0.8
+fuzzy,state,1,Patrick,$50,$1001,laptop,A:0.8
+fuzzy,state,1,Patrick,$51,$1001,laptop,A:0.9
+fuzzy,state,1,Patrick,$500,$1001,laptop,A:0.8
+fuzzy,state,1,Patrick,$501,$1001,laptop,A:0.9
+fuzzy,state,1,Patrick,$1000,$1001,laptop,A:0.9
+fuzzy,state,1,Patrick,$1001,$1001,laptop,A:0.9
+fuzzy,state,1,Patrick,$5000,$1001,laptop,A:0.7
+fuzzy,state,1,Patrick,$5001,$1001,laptop,A:0.8
+fuzzy,state,1,Patrick,$10000,$1001,laptop,A:0.8
+fuzzy,state,1,Patrick,$10001,$1001,laptop,A:0.9
+exact,state,1,Patrick,$50,$1001,laptop,A:0.7
+exact,state,1,Patrick,$51,$1001,laptop,A:0.8
+exact,state,1,Patrick,$500,$1001,laptop,A:0.8
+exact,state,1,Patrick,$501,$1001,laptop,A:0.9
+exact,state,1,Patrick,$1000,$1001,laptop,A:0.8
+exact,state,1,Patrick,$1001,$1001,laptop,A:0.8
+exact,state,1,Patrick,$5000,$1001,laptop,A:0.7
+exact,state,1,Patrick,$5001,$1001,laptop,A:0.9
+exact,state,1,Patrick,$10000,$1001,laptop,A:0.8
+exact,state,1,Patrick,$10001,$1001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$50,$1001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$51,$1001,laptop,A:0.8
+fuzzy,affect,1,Patrick,$500,$1001,laptop,A:0.8
+fuzzy,affect,1,Patrick,$501,$1001,laptop,A:0.8
+fuzzy,affect,1,Patrick,$1000,$1001,laptop,A:0.8
+fuzzy,affect,1,Patrick,$1001,$1001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5000,$1001,laptop,A:0.8
+fuzzy,affect,1,Patrick,$5001,$1001,laptop,A:0.8
+fuzzy,affect,1,Patrick,$10000,$1001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10001,$1001,laptop,A:0.8
+exact,affect,1,Patrick,$50,$1001,laptop,A:0.9
+exact,affect,1,Patrick,$51,$1001,laptop,A:0.9
+exact,affect,1,Patrick,$500,$1001,laptop,A:0.9
+exact,affect,1,Patrick,$501,$1001,laptop,A:0.9
+exact,affect,1,Patrick,$1000,$1001,laptop,A:0.9
+exact,affect,1,Patrick,$1001,$1001,laptop,A:0.8
+exact,affect,1,Patrick,$5000,$1001,laptop,A:0.9
+exact,affect,1,Patrick,$5001,$1001,laptop,A:0.8
+exact,affect,1,Patrick,$10000,$1001,laptop,A:0.9
+exact,affect,1,Patrick,$10001,$1001,laptop,A:0.9
+fuzzy,both,1,Patrick,$50,$1001,laptop,A:0.8
+fuzzy,both,1,Patrick,$51,$1001,laptop,A:0.8
+fuzzy,both,1,Patrick,$500,$1001,laptop,A:0.8
+fuzzy,both,1,Patrick,$501,$1001,laptop,A:0.9
+fuzzy,both,1,Patrick,$1000,$1001,laptop,A:0.9
+fuzzy,both,1,Patrick,$1001,$1001,laptop,A:0.9
+fuzzy,both,1,Patrick,$5000,$1001,laptop,A:0.9
+fuzzy,both,1,Patrick,$5001,$1001,laptop,A:0.8
+fuzzy,both,1,Patrick,$10000,$1001,laptop,A:0.8
+fuzzy,both,1,Patrick,$10001,$1001,laptop,A:0.8
+exact,both,1,Patrick,$50,$1001,laptop,A:0.9
+exact,both,1,Patrick,$51,$1001,laptop,A:0.9
+exact,both,1,Patrick,$500,$1001,laptop,A:0.8
+exact,both,1,Patrick,$501,$1001,laptop,A:0.9
+exact,both,1,Patrick,$1000,$1001,laptop,A:0.8
+exact,both,1,Patrick,$1001,$1001,laptop,A:0.8
+exact,both,1,Patrick,$5000,$1001,laptop,A:0.9
+exact,both,1,Patrick,$5001,$1001,laptop,A:0.9
+exact,both,1,Patrick,$10000,$1001,laptop,A:0.3
+exact,both,1,Patrick,$10001,$1001,laptop,A:0.9
+fuzzy,state,0,Patrick,$50,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$51,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$500,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$501,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$1000,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$1001,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$5000,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$5001,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$10000,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$10001,$5000,laptop,A:0.8
+exact,state,0,Patrick,$50,$5000,laptop,A:0.9
+exact,state,0,Patrick,$51,$5000,laptop,A:0.9
+exact,state,0,Patrick,$500,$5000,laptop,A:0.9
+exact,state,0,Patrick,$501,$5000,laptop,A:0.9
+exact,state,0,Patrick,$1000,$5000,laptop,A:0.9
+exact,state,0,Patrick,$1001,$5000,laptop,A:0.9
+exact,state,0,Patrick,$5000,$5000,laptop,A:0.9
+exact,state,0,Patrick,$5001,$5000,laptop,A:0.9
+exact,state,0,Patrick,$10000,$5000,laptop,A:0.9
+exact,state,0,Patrick,$10001,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$50,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$51,$5000,laptop,A:<rating> 0.8
+fuzzy,affect,0,Patrick,$500,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$501,$5000,laptop,A:0.8
+fuzzy,affect,0,Patrick,$1000,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$1001,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5000,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5001,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10000,$5000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10001,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$50,$5000,laptop,A: 0.9
+exact,affect,0,Patrick,$51,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$500,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$501,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$1000,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$1001,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$5000,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$5001,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$10000,$5000,laptop,A:0.9
+exact,affect,0,Patrick,$10001,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$50,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$51,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$500,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$501,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$1000,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$1001,$5000,laptop,A:0.8
+fuzzy,both,0,Patrick,$5000,$5000,laptop,A:0.8
+fuzzy,both,0,Patrick,$5001,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$10000,$5000,laptop,A:0.9
+fuzzy,both,0,Patrick,$10001,$5000,laptop,A:0.9
+exact,both,0,Patrick,$50,$5000,laptop,A:0.9
+exact,both,0,Patrick,$51,$5000,laptop,A:0.9
+exact,both,0,Patrick,$500,$5000,laptop,A:0.9
+exact,both,0,Patrick,$501,$5000,laptop,A: 0.9
+exact,both,0,Patrick,$1000,$5000,laptop,A:0.9
+exact,both,0,Patrick,$1001,$5000,laptop,A:0.9
+exact,both,0,Patrick,$5000,$5000,laptop,A:0.9
+exact,both,0,Patrick,$5001,$5000,laptop,A:0.9
+exact,both,0,Patrick,$10000,$5000,laptop,A:0.9
+exact,both,0,Patrick,$10001,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$50,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$51,$5000,laptop,A:0.8
+fuzzy,state,1,Patrick,$500,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$501,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$1000,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$1001,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$5000,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$5001,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$10000,$5000,laptop,A:0.9
+fuzzy,state,1,Patrick,$10001,$5000,laptop,A:0.9
+exact,state,1,Patrick,$50,$5000,laptop,A:0.9
+exact,state,1,Patrick,$51,$5000,laptop,A:0.9
+exact,state,1,Patrick,$500,$5000,laptop,A:0.9
+exact,state,1,Patrick,$501,$5000,laptop,A:0.9
+exact,state,1,Patrick,$1000,$5000,laptop,A:0.9
+exact,state,1,Patrick,$1001,$5000,laptop,A:0.9
+exact,state,1,Patrick,$5000,$5000,laptop,A:0.9
+exact,state,1,Patrick,$5001,$5000,laptop,A:0.9
+exact,state,1,Patrick,$10000,$5000,laptop,A:0.9
+exact,state,1,Patrick,$10001,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$50,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$51,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$500,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$501,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$1000,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$1001,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5000,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5001,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10000,$5000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10001,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$50,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$51,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$500,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$501,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$1000,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$1001,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$5000,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$5001,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$10000,$5000,laptop,A:0.9
+exact,affect,1,Patrick,$10001,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$50,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$51,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$500,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$501,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$1000,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$1001,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$5000,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$5001,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$10000,$5000,laptop,A:0.9
+fuzzy,both,1,Patrick,$10001,$5000,laptop,A:0.9
+exact,both,1,Patrick,$50,$5000,laptop,A:0.9
+exact,both,1,Patrick,$51,$5000,laptop,A:0.9
+exact,both,1,Patrick,$500,$5000,laptop,A:0.9
+exact,both,1,Patrick,$501,$5000,laptop,A:0.9
+exact,both,1,Patrick,$1000,$5000,laptop,A:0.9
+exact,both,1,Patrick,$1001,$5000,laptop,A:0.9
+exact,both,1,Patrick,$5000,$5000,laptop,A:0.9
+exact,both,1,Patrick,$5001,$5000,laptop,A:0.9
+exact,both,1,Patrick,$10000,$5000,laptop,A:0.9
+exact,both,1,Patrick,$10001,$5000,laptop,A:0.9
+fuzzy,state,0,Patrick,$50,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$51,$5001,laptop,A:0.8
+fuzzy,state,0,Patrick,$500,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$501,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$1000,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$1001,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$5000,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$5001,$5001,laptop,A: 0.9
+fuzzy,state,0,Patrick,$10000,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$10001,$5001,laptop,A:0.9
+exact,state,0,Patrick,$50,$5001,laptop,A:0.9
+exact,state,0,Patrick,$51,$5001,laptop,A:0.9
+exact,state,0,Patrick,$500,$5001,laptop,A:0.9
+exact,state,0,Patrick,$501,$5001,laptop,A:0.9
+exact,state,0,Patrick,$1000,$5001,laptop,A:0.9
+exact,state,0,Patrick,$1001,$5001,laptop,A:0.9
+exact,state,0,Patrick,$5000,$5001,laptop,A:0.9
+exact,state,0,Patrick,$5001,$5001,laptop,A:0.9
+exact,state,0,Patrick,$10000,$5001,laptop,A:0.8
+exact,state,0,Patrick,$10001,$5001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$50,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$51,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$500,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$501,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$1000,$5001,laptop,A:0.8
+fuzzy,affect,0,Patrick,$1001,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5000,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5001,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10000,$5001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10001,$5001,laptop,A:0.8
+exact,affect,0,Patrick,$50,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$51,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$500,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$501,$5001,laptop,A:0.8
+exact,affect,0,Patrick,$1000,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$1001,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$5000,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$5001,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$10000,$5001,laptop,A:0.9
+exact,affect,0,Patrick,$10001,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$50,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$51,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$500,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$501,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$1000,$5001,laptop,A:0.85
+fuzzy,both,0,Patrick,$1001,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$5000,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$5001,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$10000,$5001,laptop,A:0.9
+fuzzy,both,0,Patrick,$10001,$5001,laptop,A:0.9
+exact,both,0,Patrick,$50,$5001,laptop,A:0.9
+exact,both,0,Patrick,$51,$5001,laptop,A:0.9
+exact,both,0,Patrick,$500,$5001,laptop,A:0.9
+exact,both,0,Patrick,$501,$5001,laptop,A:0.9
+exact,both,0,Patrick,$1000,$5001,laptop,A:0.9
+exact,both,0,Patrick,$1001,$5001,laptop,A:0.9
+exact,both,0,Patrick,$5000,$5001,laptop,A:0.9
+exact,both,0,Patrick,$5001,$5001,laptop,A:0.9
+exact,both,0,Patrick,$10000,$5001,laptop,A:0.9
+exact,both,0,Patrick,$10001,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$50,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$51,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$500,$5001,laptop,A:0.8
+fuzzy,state,1,Patrick,$501,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$1000,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$1001,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$5000,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$5001,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$10000,$5001,laptop,A:0.9
+fuzzy,state,1,Patrick,$10001,$5001,laptop,A:0.9
+exact,state,1,Patrick,$50,$5001,laptop,A:0.9
+exact,state,1,Patrick,$51,$5001,laptop,A:0.9
+exact,state,1,Patrick,$500,$5001,laptop,A:0.9
+exact,state,1,Patrick,$501,$5001,laptop,A:0.9
+exact,state,1,Patrick,$1000,$5001,laptop,A:0.9
+exact,state,1,Patrick,$1001,$5001,laptop,A:0.9
+exact,state,1,Patrick,$5000,$5001,laptop,A:0.9
+exact,state,1,Patrick,$5001,$5001,laptop,A:0.9
+exact,state,1,Patrick,$10000,$5001,laptop,A:0.9
+exact,state,1,Patrick,$10001,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$50,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$51,$5001,laptop,A: 0.9
+fuzzy,affect,1,Patrick,$500,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$501,$5001,laptop,A:0.7
+fuzzy,affect,1,Patrick,$1000,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$1001,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5000,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5001,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10000,$5001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10001,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$50,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$51,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$500,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$501,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$1000,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$1001,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$5000,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$5001,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$10000,$5001,laptop,A:0.9
+exact,affect,1,Patrick,$10001,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$50,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$51,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$500,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$501,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$1000,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$1001,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$5000,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$5001,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$10000,$5001,laptop,A:0.9
+fuzzy,both,1,Patrick,$10001,$5001,laptop,A:0.9
+exact,both,1,Patrick,$50,$5001,laptop,A:0.9
+exact,both,1,Patrick,$51,$5001,laptop,A:0.9
+exact,both,1,Patrick,$500,$5001,laptop,A:0.9
+exact,both,1,Patrick,$501,$5001,laptop,A:0.9
+exact,both,1,Patrick,$1000,$5001,laptop,A:0.9
+exact,both,1,Patrick,$1001,$5001,laptop,A:0.9
+exact,both,1,Patrick,$5000,$5001,laptop,A:0.8
+exact,both,1,Patrick,$5001,$5001,laptop,A:0.9
+exact,both,1,Patrick,$10000,$5001,laptop,A:0.9
+exact,both,1,Patrick,$10001,$5001,laptop,A:0.9
+fuzzy,state,0,Patrick,$50,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$51,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$500,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$501,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$1000,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$1001,$10000,laptop,A: 0.9
+fuzzy,state,0,Patrick,$5000,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$5001,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$10000,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$10001,$10000,laptop,A:0.9
+exact,state,0,Patrick,$50,$10000,laptop,A:0.9
+exact,state,0,Patrick,$51,$10000,laptop,A:0.9
+exact,state,0,Patrick,$500,$10000,laptop,A:0.9
+exact,state,0,Patrick,$501,$10000,laptop,A:0.9
+exact,state,0,Patrick,$1000,$10000,laptop,A:0.9
+exact,state,0,Patrick,$1001,$10000,laptop,A:0.9
+exact,state,0,Patrick,$5000,$10000,laptop,A:0.8
+exact,state,0,Patrick,$5001,$10000,laptop,A:0.9
+exact,state,0,Patrick,$10000,$10000,laptop,A:0.9
+exact,state,0,Patrick,$10001,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$50,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$51,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$500,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$501,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$1000,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$1001,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5000,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5001,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10000,$10000,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10001,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$50,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$51,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$500,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$501,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$1000,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$1001,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$5000,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$5001,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$10000,$10000,laptop,A:0.9
+exact,affect,0,Patrick,$10001,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$50,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$51,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$500,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$501,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$1000,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$1001,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$5000,$10000,laptop,A:0.8
+fuzzy,both,0,Patrick,$5001,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$10000,$10000,laptop,A:0.9
+fuzzy,both,0,Patrick,$10001,$10000,laptop,A:0.9
+exact,both,0,Patrick,$50,$10000,laptop,A:0.9
+exact,both,0,Patrick,$51,$10000,laptop,A:0.9
+exact,both,0,Patrick,$500,$10000,laptop,A:0.9
+exact,both,0,Patrick,$501,$10000,laptop,A:0.9
+exact,both,0,Patrick,$1000,$10000,laptop,A:0.9
+exact,both,0,Patrick,$1001,$10000,laptop,A:0.9
+exact,both,0,Patrick,$5000,$10000,laptop,A:0.8
+exact,both,0,Patrick,$5001,$10000,laptop,A:0.9
+exact,both,0,Patrick,$10000,$10000,laptop,A:0.9
+exact,both,0,Patrick,$10001,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$50,$10000,laptop,A: 0.9
+fuzzy,state,1,Patrick,$51,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$500,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$501,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$1000,$10000,laptop,A:0.8
+fuzzy,state,1,Patrick,$1001,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$5000,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$5001,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$10000,$10000,laptop,A:0.9
+fuzzy,state,1,Patrick,$10001,$10000,laptop,A:0.9
+exact,state,1,Patrick,$50,$10000,laptop,A:0.9
+exact,state,1,Patrick,$51,$10000,laptop,A:0.9
+exact,state,1,Patrick,$500,$10000,laptop,A:1
+exact,state,1,Patrick,$501,$10000,laptop,A:0.9
+exact,state,1,Patrick,$1000,$10000,laptop,A:0.9
+exact,state,1,Patrick,$1001,$10000,laptop,A:0.9
+exact,state,1,Patrick,$5000,$10000,laptop,A:0.9
+exact,state,1,Patrick,$5001,$10000,laptop,A:0.9
+exact,state,1,Patrick,$10000,$10000,laptop,A:0.9
+exact,state,1,Patrick,$10001,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$50,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$51,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$500,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$501,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$1000,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$1001,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5000,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5001,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10000,$10000,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10001,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$50,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$51,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$500,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$501,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$1000,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$1001,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$5000,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$5001,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$10000,$10000,laptop,A:0.9
+exact,affect,1,Patrick,$10001,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$50,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$51,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$500,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$501,$10000,laptop,A:0.8
+fuzzy,both,1,Patrick,$1000,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$1001,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$5000,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$5001,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$10000,$10000,laptop,A:0.9
+fuzzy,both,1,Patrick,$10001,$10000,laptop,A:0.9
+exact,both,1,Patrick,$50,$10000,laptop,A:0.9
+exact,both,1,Patrick,$51,$10000,laptop,A:0.9
+exact,both,1,Patrick,$500,$10000,laptop,A:0.9
+exact,both,1,Patrick,$501,$10000,laptop,A:0.9
+exact,both,1,Patrick,$1000,$10000,laptop,A:0.9
+exact,both,1,Patrick,$1001,$10000,laptop,A:0.9
+exact,both,1,Patrick,$5000,$10000,laptop,A:0.9
+exact,both,1,Patrick,$5001,$10000,laptop,A:0.9
+exact,both,1,Patrick,$10000,$10000,laptop,A:0.9
+exact,both,1,Patrick,$10001,$10000,laptop,A:0.9
+fuzzy,state,0,Patrick,$50,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$51,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$500,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$501,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$1000,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$1001,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$5000,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$5001,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$10000,$10001,laptop,A:0.9
+fuzzy,state,0,Patrick,$10001,$10001,laptop,A:0.9
+exact,state,0,Patrick,$50,$10001,laptop,A:0.9
+exact,state,0,Patrick,$51,$10001,laptop,A:0.9
+exact,state,0,Patrick,$500,$10001,laptop,A:0.9
+exact,state,0,Patrick,$501,$10001,laptop,A:0.9
+exact,state,0,Patrick,$1000,$10001,laptop,A:0.9
+exact,state,0,Patrick,$1001,$10001,laptop,A:0.9
+exact,state,0,Patrick,$5000,$10001,laptop,A:0.9
+exact,state,0,Patrick,$5001,$10001,laptop,A:0.9
+exact,state,0,Patrick,$10000,$10001,laptop,A:0.9
+exact,state,0,Patrick,$10001,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$50,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$51,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$500,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$501,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$1000,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$1001,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5000,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$5001,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10000,$10001,laptop,A:0.9
+fuzzy,affect,0,Patrick,$10001,$10001,laptop,A: 0.9
+exact,affect,0,Patrick,$50,$10001,laptop,A: 0.9
+exact,affect,0,Patrick,$51,$10001,laptop,A:0.9
+exact,affect,0,Patrick,$500,$10001,laptop,A:0.9
+exact,affect,0,Patrick,$501,$10001,laptop,A:0.9
+exact,affect,0,Patrick,$1000,$10001,laptop,A:0.9
+exact,affect,0,Patrick,$1001,$10001,laptop,A:0.9
+exact,affect,0,Patrick,$5000,$10001,laptop,A: 0.9
+exact,affect,0,Patrick,$5001,$10001,laptop,A:0.9
+exact,affect,0,Patrick,$10000,$10001,laptop,A:0.9
+exact,affect,0,Patrick,$10001,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$50,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$51,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$500,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$501,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$1000,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$1001,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$5000,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$5001,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$10000,$10001,laptop,A:0.9
+fuzzy,both,0,Patrick,$10001,$10001,laptop,A:0.9
+exact,both,0,Patrick,$50,$10001,laptop,A:0.9
+exact,both,0,Patrick,$51,$10001,laptop,A:0.9
+exact,both,0,Patrick,$500,$10001,laptop,A:0.9
+exact,both,0,Patrick,$501,$10001,laptop,A:0.9
+exact,both,0,Patrick,$1000,$10001,laptop,A:0.9
+exact,both,0,Patrick,$1001,$10001,laptop,A:0.9
+exact,both,0,Patrick,$5000,$10001,laptop,A:0.9
+exact,both,0,Patrick,$5001,$10001,laptop,A:0.9
+exact,both,0,Patrick,$10000,$10001,laptop,A:0.9
+exact,both,0,Patrick,$10001,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$50,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$51,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$500,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$501,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$1000,$10001,laptop,A: 0.9
+fuzzy,state,1,Patrick,$1001,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$5000,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$5001,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$10000,$10001,laptop,A:0.9
+fuzzy,state,1,Patrick,$10001,$10001,laptop,A:0.9
+exact,state,1,Patrick,$50,$10001,laptop,A:0.9
+exact,state,1,Patrick,$51,$10001,laptop,A:0.9
+exact,state,1,Patrick,$500,$10001,laptop,A:0.9
+exact,state,1,Patrick,$501,$10001,laptop,A:0.9
+exact,state,1,Patrick,$1000,$10001,laptop,A: 0.9
+exact,state,1,Patrick,$1001,$10001,laptop,A:0.9
+exact,state,1,Patrick,$5000,$10001,laptop,A:0.9
+exact,state,1,Patrick,$5001,$10001,laptop,A:0.9
+exact,state,1,Patrick,$10000,$10001,laptop,A:0.9
+exact,state,1,Patrick,$10001,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$50,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$51,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$500,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$501,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$1000,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$1001,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5000,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$5001,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10000,$10001,laptop,A:0.9
+fuzzy,affect,1,Patrick,$10001,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$50,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$51,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$500,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$501,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$1000,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$1001,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$5000,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$5001,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$10000,$10001,laptop,A:0.9
+exact,affect,1,Patrick,$10001,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$50,$10001,laptop,A: 0.9
+fuzzy,both,1,Patrick,$51,$10001,laptop,A: 0.9
+fuzzy,both,1,Patrick,$500,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$501,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$1000,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$1001,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$5000,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$5001,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$10000,$10001,laptop,A:0.9
+fuzzy,both,1,Patrick,$10001,$10001,laptop,A:0.9
+exact,both,1,Patrick,$50,$10001,laptop,A:0.9
+exact,both,1,Patrick,$51,$10001,laptop,A:0.9
+exact,both,1,Patrick,$500,$10001,laptop,A:0.9
+exact,both,1,Patrick,$501,$10001,laptop,A:0.9
+exact,both,1,Patrick,$1000,$10001,laptop,A:0.9
+exact,both,1,Patrick,$1001,$10001,laptop,A:0.9
+exact,both,1,Patrick,$5000,$10001,laptop,A:0.9
+exact,both,1,Patrick,$5001,$10001,laptop,A:0.9
+exact,both,1,Patrick,$10000,$10001,laptop,A: 0.9
+exact,both,1,Patrick,$10001,$10001,laptop,A:0.9
+fuzzy,state,0,Alex,$50,$50,watch,A:0.3
+fuzzy,state,0,Alex,$51,$50,watch,A:0.2
+fuzzy,state,0,Alex,$500,$50,watch,A:0.2
+fuzzy,state,0,Alex,$501,$50,watch,A:0.2
+fuzzy,state,0,Alex,$1000,$50,watch,A:0.2
+fuzzy,state,0,Alex,$1001,$50,watch,A:0.2
+fuzzy,state,0,Alex,$5000,$50,watch,A:0.2
+fuzzy,state,0,Alex,$5001,$50,watch,A:0.2
+fuzzy,state,0,Alex,$10000,$50,watch,A:0.2
+fuzzy,state,0,Alex,$10001,$50,watch,A:0.2
+exact,state,0,Alex,$50,$50,watch,A:0.4
+exact,state,0,Alex,$51,$50,watch,A:0.2
+exact,state,0,Alex,$500,$50,watch,A:0.2
+exact,state,0,Alex,$501,$50,watch,A:0.2
+exact,state,0,Alex,$1000,$50,watch,A:0.2
+exact,state,0,Alex,$1001,$50,watch,A:0.3
+exact,state,0,Alex,$5000,$50,watch,A:0.2
+exact,state,0,Alex,$5001,$50,watch,A:0.3
+exact,state,0,Alex,$10000,$50,watch,A:0.2
+exact,state,0,Alex,$10001,$50,watch,A:0.2
+fuzzy,affect,0,Alex,$50,$50,watch,A:0.3
+fuzzy,affect,0,Alex,$51,$50,watch,A:0.2
+fuzzy,affect,0,Alex,$500,$50,watch,A:0.2
+fuzzy,affect,0,Alex,$501,$50,watch,A:0.2
+fuzzy,affect,0,Alex,$1000,$50,watch,A:0.2
+fuzzy,affect,0,Alex,$1001,$50,watch,A:0.2
+fuzzy,affect,0,Alex,$5000,$50,watch,A:0.3
+fuzzy,affect,0,Alex,$5001,$50,watch,A:0.3
+fuzzy,affect,0,Alex,$10000,$50,watch,A:0.3
+fuzzy,affect,0,Alex,$10001,$50,watch,A:0.2
+exact,affect,0,Alex,$50,$50,watch,A: 0.3
+exact,affect,0,Alex,$51,$50,watch,A:0.2
+exact,affect,0,Alex,$500,$50,watch,A:0.3
+exact,affect,0,Alex,$501,$50,watch,A:0.2
+exact,affect,0,Alex,$1000,$50,watch,A:0.4
+exact,affect,0,Alex,$1001,$50,watch,A:0.2
+exact,affect,0,Alex,$5000,$50,watch,A:0.3
+exact,affect,0,Alex,$5001,$50,watch,A:0.2
+exact,affect,0,Alex,$10000,$50,watch,A:0.2
+exact,affect,0,Alex,$10001,$50,watch,A:0.2
+fuzzy,both,0,Alex,$50,$50,watch,A:0.2
+fuzzy,both,0,Alex,$51,$50,watch,A:0.2
+fuzzy,both,0,Alex,$500,$50,watch,A:0.2
+fuzzy,both,0,Alex,$501,$50,watch,A:0.2
+fuzzy,both,0,Alex,$1000,$50,watch,A:0.3
+fuzzy,both,0,Alex,$1001,$50,watch,A:0.3
+fuzzy,both,0,Alex,$5000,$50,watch,A:0.2
+fuzzy,both,0,Alex,$5001,$50,watch,A:0.2
+fuzzy,both,0,Alex,$10000,$50,watch,A:0.2
+fuzzy,both,0,Alex,$10001,$50,watch,A:0.2
+exact,both,0,Alex,$50,$50,watch,A:0.2
+exact,both,0,Alex,$51,$50,watch,A:0.3
+exact,both,0,Alex,$500,$50,watch,A:0.2
+exact,both,0,Alex,$501,$50,watch,A: 0.2
+exact,both,0,Alex,$1000,$50,watch,A:0.2
+exact,both,0,Alex,$1001,$50,watch,A: 0.7
+exact,both,0,Alex,$5000,$50,watch,A:0.3
+exact,both,0,Alex,$5001,$50,watch,A:0.2
+exact,both,0,Alex,$10000,$50,watch,A:0.2
+exact,both,0,Alex,$10001,$50,watch,A:0.3
+fuzzy,state,1,Alex,$50,$50,watch,A:0.2
+fuzzy,state,1,Alex,$51,$50,watch,A:0.2
+fuzzy,state,1,Alex,$500,$50,watch,A:0.2
+fuzzy,state,1,Alex,$501,$50,watch,A:0.2
+fuzzy,state,1,Alex,$1000,$50,watch,A:0.3
+fuzzy,state,1,Alex,$1001,$50,watch,A:0.3
+fuzzy,state,1,Alex,$5000,$50,watch,A:0.2
+fuzzy,state,1,Alex,$5001,$50,watch,A:0.3
+fuzzy,state,1,Alex,$10000,$50,watch,A:0.3
+fuzzy,state,1,Alex,$10001,$50,watch,A:0.3
+exact,state,1,Alex,$50,$50,watch,A:0.2
+exact,state,1,Alex,$51,$50,watch,A:0.2
+exact,state,1,Alex,$500,$50,watch,A:0.2
+exact,state,1,Alex,$501,$50,watch,A:0.2
+exact,state,1,Alex,$1000,$50,watch,A:0.2
+exact,state,1,Alex,$1001,$50,watch,A:0.2
+exact,state,1,Alex,$5000,$50,watch,A:0.2
+exact,state,1,Alex,$5001,$50,watch,A:0.2
+exact,state,1,Alex,$10000,$50,watch,A:0.2
+exact,state,1,Alex,$10001,$50,watch,A:0.2
+fuzzy,affect,1,Alex,$50,$50,watch,A:0.3
+fuzzy,affect,1,Alex,$51,$50,watch,A:0.2
+fuzzy,affect,1,Alex,$500,$50,watch,A:0.2
+fuzzy,affect,1,Alex,$501,$50,watch,A:0.2
+fuzzy,affect,1,Alex,$1000,$50,watch,A:0.3
+fuzzy,affect,1,Alex,$1001,$50,watch,A: 0.2
+fuzzy,affect,1,Alex,$5000,$50,watch,A:0.2
+fuzzy,affect,1,Alex,$5001,$50,watch,A:0.2
+fuzzy,affect,1,Alex,$10000,$50,watch,A:0.4
+fuzzy,affect,1,Alex,$10001,$50,watch,A:0.2
+exact,affect,1,Alex,$50,$50,watch,A:0.2
+exact,affect,1,Alex,$51,$50,watch,A:0.2
+exact,affect,1,Alex,$500,$50,watch,A:0.2
+exact,affect,1,Alex,$501,$50,watch,A:0.3
+exact,affect,1,Alex,$1000,$50,watch,A:0.2
+exact,affect,1,Alex,$1001,$50,watch,A:0.2
+exact,affect,1,Alex,$5000,$50,watch,A:0.2
+exact,affect,1,Alex,$5001,$50,watch,A:0.2
+exact,affect,1,Alex,$10000,$50,watch,A:0.2
+exact,affect,1,Alex,$10001,$50,watch,A:0.2
+fuzzy,both,1,Alex,$50,$50,watch,A:0.2
+fuzzy,both,1,Alex,$51,$50,watch,A:0.2
+fuzzy,both,1,Alex,$500,$50,watch,A:0.3
+fuzzy,both,1,Alex,$501,$50,watch,A:0.2
+fuzzy,both,1,Alex,$1000,$50,watch,A:0.2
+fuzzy,both,1,Alex,$1001,$50,watch,A:0.3
+fuzzy,both,1,Alex,$5000,$50,watch,A:0.2
+fuzzy,both,1,Alex,$5001,$50,watch,A:0.2
+fuzzy,both,1,Alex,$10000,$50,watch,A:0.2
+fuzzy,both,1,Alex,$10001,$50,watch,A:0.2
+exact,both,1,Alex,$50,$50,watch,A:0.2
+exact,both,1,Alex,$51,$50,watch,A:0.2
+exact,both,1,Alex,$500,$50,watch,A:0.2
+exact,both,1,Alex,$501,$50,watch,A:0.2
+exact,both,1,Alex,$1000,$50,watch,A:0.2
+exact,both,1,Alex,$1001,$50,watch,A:0.2
+exact,both,1,Alex,$5000,$50,watch,A:0.3
+exact,both,1,Alex,$5001,$50,watch,A:0.3
+exact,both,1,Alex,$10000,$50,watch,A:0.3
+exact,both,1,Alex,$10001,$50,watch,A:0.2
+fuzzy,state,0,Alex,$50,$51,watch,A:0.3
+fuzzy,state,0,Alex,$51,$51,watch,A:0.7
+fuzzy,state,0,Alex,$500,$51,watch,A:0.3
+fuzzy,state,0,Alex,$501,$51,watch,A:0.7
+fuzzy,state,0,Alex,$1000,$51,watch,A:0.3
+fuzzy,state,0,Alex,$1001,$51,watch,A:0.3
+fuzzy,state,0,Alex,$5000,$51,watch,A:0.6
+fuzzy,state,0,Alex,$5001,$51,watch,A:0.2
+fuzzy,state,0,Alex,$10000,$51,watch,A:0.3
+fuzzy,state,0,Alex,$10001,$51,watch,A:0.3
+exact,state,0,Alex,$50,$51,watch,A:0.4
+exact,state,0,Alex,$51,$51,watch,A:0.2
+exact,state,0,Alex,$500,$51,watch,A:0.2
+exact,state,0,Alex,$501,$51,watch,A:0.3
+exact,state,0,Alex,$1000,$51,watch,A:0.2
+exact,state,0,Alex,$1001,$51,watch,A:0.2
+exact,state,0,Alex,$5000,$51,watch,A:0.3
+exact,state,0,Alex,$5001,$51,watch,A:0.6
+exact,state,0,Alex,$10000,$51,watch,A:0.3
+exact,state,0,Alex,$10001,$51,watch,A:0.3
+fuzzy,affect,0,Alex,$50,$51,watch,A:0.3
+fuzzy,affect,0,Alex,$51,$51,watch,A:0.3
+fuzzy,affect,0,Alex,$500,$51,watch,A:0.7
+fuzzy,affect,0,Alex,$501,$51,watch,A:0.3
+fuzzy,affect,0,Alex,$1000,$51,watch,A:0.4
+fuzzy,affect,0,Alex,$1001,$51,watch,A:0.2
+fuzzy,affect,0,Alex,$5000,$51,watch,A:0.3
+fuzzy,affect,0,Alex,$5001,$51,watch,A:0.2
+fuzzy,affect,0,Alex,$10000,$51,watch,A:0.3
+fuzzy,affect,0,Alex,$10001,$51,watch,A:0.4
+exact,affect,0,Alex,$50,$51,watch,A:0.4
+exact,affect,0,Alex,$51,$51,watch,A:0.3
+exact,affect,0,Alex,$500,$51,watch,A:0.35
+exact,affect,0,Alex,$501,$51,watch,A:0.3
+exact,affect,0,Alex,$1000,$51,watch,A:0.3
+exact,affect,0,Alex,$1001,$51,watch,A:0.3
+exact,affect,0,Alex,$5000,$51,watch,A:0.3
+exact,affect,0,Alex,$5001,$51,watch,A:0.7
+exact,affect,0,Alex,$10000,$51,watch,A:0.3
+exact,affect,0,Alex,$10001,$51,watch,A:0.3
+fuzzy,both,0,Alex,$50,$51,watch,A:0.4
+fuzzy,both,0,Alex,$51,$51,watch,A:0.7
+fuzzy,both,0,Alex,$500,$51,watch,A:0.3
+fuzzy,both,0,Alex,$501,$51,watch,A:0.3
+fuzzy,both,0,Alex,$1000,$51,watch,A:0.3
+fuzzy,both,0,Alex,$1001,$51,watch,A:0.2
+fuzzy,both,0,Alex,$5000,$51,watch,A:0.6
+fuzzy,both,0,Alex,$5001,$51,watch,A:0.3
+fuzzy,both,0,Alex,$10000,$51,watch,A:0.4
+fuzzy,both,0,Alex,$10001,$51,watch,A:0.3
+exact,both,0,Alex,$50,$51,watch,A:0.4
+exact,both,0,Alex,$51,$51,watch,A:0.3
+exact,both,0,Alex,$500,$51,watch,A:0.3
+exact,both,0,Alex,$501,$51,watch,A: 0.3
+exact,both,0,Alex,$1000,$51,watch,A:0.3
+exact,both,0,Alex,$1001,$51,watch,A:0.3
+exact,both,0,Alex,$5000,$51,watch,A: 0.7
+exact,both,0,Alex,$5001,$51,watch,A:0.7
+exact,both,0,Alex,$10000,$51,watch,A:0.2
+exact,both,0,Alex,$10001,$51,watch,A:0.2
+fuzzy,state,1,Alex,$50,$51,watch,A:0.7
+fuzzy,state,1,Alex,$51,$51,watch,A:0.7
+fuzzy,state,1,Alex,$500,$51,watch,A:0.8
+fuzzy,state,1,Alex,$501,$51,watch,A:0.2
+fuzzy,state,1,Alex,$1000,$51,watch,A:0.3
+fuzzy,state,1,Alex,$1001,$51,watch,A:0.3
+fuzzy,state,1,Alex,$5000,$51,watch,A:0.2
+fuzzy,state,1,Alex,$5001,$51,watch,A:0.3
+fuzzy,state,1,Alex,$10000,$51,watch,A:0.3
+fuzzy,state,1,Alex,$10001,$51,watch,A:0.3
+exact,state,1,Alex,$50,$51,watch,A:0.4
+exact,state,1,Alex,$51,$51,watch,A:0.2
+exact,state,1,Alex,$500,$51,watch,A:0.7
+exact,state,1,Alex,$501,$51,watch,A: 0.6
+exact,state,1,Alex,$1000,$51,watch,A:0.3
+exact,state,1,Alex,$1001,$51,watch,A:0.4
+exact,state,1,Alex,$5000,$51,watch,A:0.4
+exact,state,1,Alex,$5001,$51,watch,A:0.3
+exact,state,1,Alex,$10000,$51,watch,A:0.3
+exact,state,1,Alex,$10001,$51,watch,A:0.4
+fuzzy,affect,1,Alex,$50,$51,watch,A:0.4
+fuzzy,affect,1,Alex,$51,$51,watch,A:0.3
+fuzzy,affect,1,Alex,$500,$51,watch,A:0.3
+fuzzy,affect,1,Alex,$501,$51,watch,A:0.4
+fuzzy,affect,1,Alex,$1000,$51,watch,A:0.3
+fuzzy,affect,1,Alex,$1001,$51,watch,A:0.3
+fuzzy,affect,1,Alex,$5000,$51,watch,A:0.3
+fuzzy,affect,1,Alex,$5001,$51,watch,A:0.3
+fuzzy,affect,1,Alex,$10000,$51,watch,A: 0.4
+fuzzy,affect,1,Alex,$10001,$51,watch,A:0.4
+exact,affect,1,Alex,$50,$51,watch,A:0.3
+exact,affect,1,Alex,$51,$51,watch,A:0.2
+exact,affect,1,Alex,$500,$51,watch,A:0.3
+exact,affect,1,Alex,$501,$51,watch,A:0.4
+exact,affect,1,Alex,$1000,$51,watch,A:0.3
+exact,affect,1,Alex,$1001,$51,watch,A:0.7
+exact,affect,1,Alex,$5000,$51,watch,A:0.3
+exact,affect,1,Alex,$5001,$51,watch,A:0.3
+exact,affect,1,Alex,$10000,$51,watch,A:0.3
+exact,affect,1,Alex,$10001,$51,watch,A:0.3
+fuzzy,both,1,Alex,$50,$51,watch,A:0.4
+fuzzy,both,1,Alex,$51,$51,watch,A:0.4
+fuzzy,both,1,Alex,$500,$51,watch,A:0.3
+fuzzy,both,1,Alex,$501,$51,watch,A:0.2
+fuzzy,both,1,Alex,$1000,$51,watch,A:0.3
+fuzzy,both,1,Alex,$1001,$51,watch,A:0.4
+fuzzy,both,1,Alex,$5000,$51,watch,A:0.3
+fuzzy,both,1,Alex,$5001,$51,watch,A:0.3
+fuzzy,both,1,Alex,$10000,$51,watch,A:0.4
+fuzzy,both,1,Alex,$10001,$51,watch,A:0.3
+exact,both,1,Alex,$50,$51,watch,A:0.3
+exact,both,1,Alex,$51,$51,watch,A:0.4
+exact,both,1,Alex,$500,$51,watch,A:0.3
+exact,both,1,Alex,$501,$51,watch,A:0.7
+exact,both,1,Alex,$1000,$51,watch,A:0.2
+exact,both,1,Alex,$1001,$51,watch,A:0.3
+exact,both,1,Alex,$5000,$51,watch,A:0.4
+exact,both,1,Alex,$5001,$51,watch,A:0.3
+exact,both,1,Alex,$10000,$51,watch,A:0.4
+exact,both,1,Alex,$10001,$51,watch,A:0.3
+fuzzy,state,0,Alex,$50,$500,watch,A:0.8
+fuzzy,state,0,Alex,$51,$500,watch,A:0.8
+fuzzy,state,0,Alex,$500,$500,watch,A:0.8
+fuzzy,state,0,Alex,$501,$500,watch,A:0.7
+fuzzy,state,0,Alex,$1000,$500,watch,A:0.8
+fuzzy,state,0,Alex,$1001,$500,watch,A:0.8
+fuzzy,state,0,Alex,$5000,$500,watch,A:0.8
+fuzzy,state,0,Alex,$5001,$500,watch,A:0.8
+fuzzy,state,0,Alex,$10000,$500,watch,A:0.8
+fuzzy,state,0,Alex,$10001,$500,watch,A:0.7
+exact,state,0,Alex,$50,$500,watch,A:0.8
+exact,state,0,Alex,$51,$500,watch,A:0.8
+exact,state,0,Alex,$500,$500,watch,A:0.7
+exact,state,0,Alex,$501,$500,watch,A:0.8
+exact,state,0,Alex,$1000,$500,watch,A:0.8
+exact,state,0,Alex,$1001,$500,watch,A: 0.8
+exact,state,0,Alex,$5000,$500,watch,A:0.8
+exact,state,0,Alex,$5001,$500,watch,A:0.9
+exact,state,0,Alex,$10000,$500,watch,A:0.9
+exact,state,0,Alex,$10001,$500,watch,A:0.8
+fuzzy,affect,0,Alex,$50,$500,watch,A:0.8
+fuzzy,affect,0,Alex,$51,$500,watch,A:0.6
+fuzzy,affect,0,Alex,$500,$500,watch,A: 0.8
+fuzzy,affect,0,Alex,$501,$500,watch,A:0.8
+fuzzy,affect,0,Alex,$1000,$500,watch,A:0.8
+fuzzy,affect,0,Alex,$1001,$500,watch,A:0.8
+fuzzy,affect,0,Alex,$5000,$500,watch,A: 0.8
+fuzzy,affect,0,Alex,$5001,$500,watch,A:0.8
+fuzzy,affect,0,Alex,$10000,$500,watch,A:0.8
+fuzzy,affect,0,Alex,$10001,$500,watch,A:0.8
+exact,affect,0,Alex,$50,$500,watch,A:0.9
+exact,affect,0,Alex,$51,$500,watch,A:0.8
+exact,affect,0,Alex,$500,$500,watch,A:0.8
+exact,affect,0,Alex,$501,$500,watch,A: 0.8
+exact,affect,0,Alex,$1000,$500,watch,A:0.8
+exact,affect,0,Alex,$1001,$500,watch,A:0.8
+exact,affect,0,Alex,$5000,$500,watch,A:0.8
+exact,affect,0,Alex,$5001,$500,watch,A: 0.8
+exact,affect,0,Alex,$10000,$500,watch,A:0.8
+exact,affect,0,Alex,$10001,$500,watch,A:0.8
+fuzzy,both,0,Alex,$50,$500,watch,A:0.8
+fuzzy,both,0,Alex,$51,$500,watch,A:0.8
+fuzzy,both,0,Alex,$500,$500,watch,A:0.8
+fuzzy,both,0,Alex,$501,$500,watch,A:0.8
+fuzzy,both,0,Alex,$1000,$500,watch,A:0.8
+fuzzy,both,0,Alex,$1001,$500,watch,A:0.8
+fuzzy,both,0,Alex,$5000,$500,watch,A:0.7
+fuzzy,both,0,Alex,$5001,$500,watch,A:0.7
+fuzzy,both,0,Alex,$10000,$500,watch,A: 0.9
+fuzzy,both,0,Alex,$10001,$500,watch,A:0.8
+exact,both,0,Alex,$50,$500,watch,A:0.7
+exact,both,0,Alex,$51,$500,watch,A:0.8
+exact,both,0,Alex,$500,$500,watch,A:0.8
+exact,both,0,Alex,$501,$500,watch,A:0.7
+exact,both,0,Alex,$1000,$500,watch,A:0.7
+exact,both,0,Alex,$1001,$500,watch,A:0.8
+exact,both,0,Alex,$5000,$500,watch,A:0.9
+exact,both,0,Alex,$5001,$500,watch,A:0.8
+exact,both,0,Alex,$10000,$500,watch,A:0.8
+exact,both,0,Alex,$10001,$500,watch,A:0.8
+fuzzy,state,1,Alex,$50,$500,watch,A:0.8
+fuzzy,state,1,Alex,$51,$500,watch,A:0.8
+fuzzy,state,1,Alex,$500,$500,watch,A:0.8
+fuzzy,state,1,Alex,$501,$500,watch,A:0.8
+fuzzy,state,1,Alex,$1000,$500,watch,A:0.7
+fuzzy,state,1,Alex,$1001,$500,watch,A: 0.8
+fuzzy,state,1,Alex,$5000,$500,watch,A:0.8
+fuzzy,state,1,Alex,$5001,$500,watch,A:0.8
+fuzzy,state,1,Alex,$10000,$500,watch,A:0.7
+fuzzy,state,1,Alex,$10001,$500,watch,A:0.8
+exact,state,1,Alex,$50,$500,watch,A:0.8
+exact,state,1,Alex,$51,$500,watch,A:0.8
+exact,state,1,Alex,$500,$500,watch,A:0.7
+exact,state,1,Alex,$501,$500,watch,A:0.8
+exact,state,1,Alex,$1000,$500,watch,A:0.8
+exact,state,1,Alex,$1001,$500,watch,A:0.8
+exact,state,1,Alex,$5000,$500,watch,A:0.8
+exact,state,1,Alex,$5001,$500,watch,A: 0.8
+exact,state,1,Alex,$10000,$500,watch,A:0.8
+exact,state,1,Alex,$10001,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$50,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$51,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$500,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$501,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$1000,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$1001,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$5000,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$5001,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$10000,$500,watch,A:0.8
+fuzzy,affect,1,Alex,$10001,$500,watch,A:0.8
+exact,affect,1,Alex,$50,$500,watch,A:0.7
+exact,affect,1,Alex,$51,$500,watch,A:0.8
+exact,affect,1,Alex,$500,$500,watch,A:0.8
+exact,affect,1,Alex,$501,$500,watch,A:0.9
+exact,affect,1,Alex,$1000,$500,watch,A:0.8
+exact,affect,1,Alex,$1001,$500,watch,A:0.9
+exact,affect,1,Alex,$5000,$500,watch,A:0.8
+exact,affect,1,Alex,$5001,$500,watch,A:0.7
+exact,affect,1,Alex,$10000,$500,watch,A:0.8
+exact,affect,1,Alex,$10001,$500,watch,A:0.8
+fuzzy,both,1,Alex,$50,$500,watch,A:0.8
+fuzzy,both,1,Alex,$51,$500,watch,A:0.8
+fuzzy,both,1,Alex,$500,$500,watch,A:0.8
+fuzzy,both,1,Alex,$501,$500,watch,A:0.8
+fuzzy,both,1,Alex,$1000,$500,watch,A:0.8
+fuzzy,both,1,Alex,$1001,$500,watch,A:0.8
+fuzzy,both,1,Alex,$5000,$500,watch,A: 0.8
+fuzzy,both,1,Alex,$5001,$500,watch,A:0.8
+fuzzy,both,1,Alex,$10000,$500,watch,A:0.9
+fuzzy,both,1,Alex,$10001,$500,watch,A:0.8
+exact,both,1,Alex,$50,$500,watch,A:0.8
+exact,both,1,Alex,$51,$500,watch,A:0.9
+exact,both,1,Alex,$500,$500,watch,A:0.8
+exact,both,1,Alex,$501,$500,watch,A:0.8
+exact,both,1,Alex,$1000,$500,watch,A:0.8
+exact,both,1,Alex,$1001,$500,watch,A:0.7
+exact,both,1,Alex,$5000,$500,watch,A:0.9
+exact,both,1,Alex,$5001,$500,watch,A:0.9
+exact,both,1,Alex,$10000,$500,watch,A:0.8
+exact,both,1,Alex,$10001,$500,watch,A:0.8
+fuzzy,state,0,Alex,$50,$501,watch,A:0.7
+fuzzy,state,0,Alex,$51,$501,watch,A:0.8
+fuzzy,state,0,Alex,$500,$501,watch,A:0.9
+fuzzy,state,0,Alex,$501,$501,watch,A: 0.8
+fuzzy,state,0,Alex,$1000,$501,watch,A:0.8
+fuzzy,state,0,Alex,$1001,$501,watch,A:0.8
+fuzzy,state,0,Alex,$5000,$501,watch,A:0.9
+fuzzy,state,0,Alex,$5001,$501,watch,A:0.8
+fuzzy,state,0,Alex,$10000,$501,watch,A:0.9
+fuzzy,state,0,Alex,$10001,$501,watch,A:0.9
+exact,state,0,Alex,$50,$501,watch,A:0.8
+exact,state,0,Alex,$51,$501,watch,A:0.8
+exact,state,0,Alex,$500,$501,watch,A:0.9
+exact,state,0,Alex,$501,$501,watch,A:0.8
+exact,state,0,Alex,$1000,$501,watch,A:0.9
+exact,state,0,Alex,$1001,$501,watch,A:0.8
+exact,state,0,Alex,$5000,$501,watch,A:0.8
+exact,state,0,Alex,$5001,$501,watch,A:0.8
+exact,state,0,Alex,$10000,$501,watch,A:0.9
+exact,state,0,Alex,$10001,$501,watch,A:0.9
+fuzzy,affect,0,Alex,$50,$501,watch,A:0.8
+fuzzy,affect,0,Alex,$51,$501,watch,A:0.8
+fuzzy,affect,0,Alex,$500,$501,watch,A:0.8
+fuzzy,affect,0,Alex,$501,$501,watch,A:0.8
+fuzzy,affect,0,Alex,$1000,$501,watch,A:0.9
+fuzzy,affect,0,Alex,$1001,$501,watch,A:0.7
+fuzzy,affect,0,Alex,$5000,$501,watch,A:0.9
+fuzzy,affect,0,Alex,$5001,$501,watch,A:0.8
+fuzzy,affect,0,Alex,$10000,$501,watch,A:0.8
+fuzzy,affect,0,Alex,$10001,$501,watch,A: 0.8
+exact,affect,0,Alex,$50,$501,watch,A:0.9
+exact,affect,0,Alex,$51,$501,watch,A:0.8
+exact,affect,0,Alex,$500,$501,watch,A: 0.9
+exact,affect,0,Alex,$501,$501,watch,A:0.8
+exact,affect,0,Alex,$1000,$501,watch,A:0.8
+exact,affect,0,Alex,$1001,$501,watch,A:0.8
+exact,affect,0,Alex,$5000,$501,watch,A:0.8
+exact,affect,0,Alex,$5001,$501,watch,A:0.9
+exact,affect,0,Alex,$10000,$501,watch,A:0.8
+exact,affect,0,Alex,$10001,$501,watch,A:0.9
+fuzzy,both,0,Alex,$50,$501,watch,A:0.9
+fuzzy,both,0,Alex,$51,$501,watch,A:0.8
+fuzzy,both,0,Alex,$500,$501,watch,A:0.8
+fuzzy,both,0,Alex,$501,$501,watch,A:0.8
+fuzzy,both,0,Alex,$1000,$501,watch,A:0.8
+fuzzy,both,0,Alex,$1001,$501,watch,A: 0.9
+fuzzy,both,0,Alex,$5000,$501,watch,A:0.9
+fuzzy,both,0,Alex,$5001,$501,watch,A:0.9
+fuzzy,both,0,Alex,$10000,$501,watch,A:0.8
+fuzzy,both,0,Alex,$10001,$501,watch,A:0.8
+exact,both,0,Alex,$50,$501,watch,A:0.8
+exact,both,0,Alex,$51,$501,watch,A:0.8
+exact,both,0,Alex,$500,$501,watch,A:0.9
+exact,both,0,Alex,$501,$501,watch,A:0.9
+exact,both,0,Alex,$1000,$501,watch,A:0.9
+exact,both,0,Alex,$1001,$501,watch,A:0.8
+exact,both,0,Alex,$5000,$501,watch,A:0.8
+exact,both,0,Alex,$5001,$501,watch,A:0.8
+exact,both,0,Alex,$10000,$501,watch,A:0.8
+exact,both,0,Alex,$10001,$501,watch,A:0.8
+fuzzy,state,1,Alex,$50,$501,watch,A:0.8
+fuzzy,state,1,Alex,$51,$501,watch,A:0.8
+fuzzy,state,1,Alex,$500,$501,watch,A:0.8
+fuzzy,state,1,Alex,$501,$501,watch,A:0.8
+fuzzy,state,1,Alex,$1000,$501,watch,A:0.9
+fuzzy,state,1,Alex,$1001,$501,watch,A:0.8
+fuzzy,state,1,Alex,$5000,$501,watch,A:0.8
+fuzzy,state,1,Alex,$5001,$501,watch,A:0.8
+fuzzy,state,1,Alex,$10000,$501,watch,A:0.8
+fuzzy,state,1,Alex,$10001,$501,watch,A:0.9
+exact,state,1,Alex,$50,$501,watch,A:0.8
+exact,state,1,Alex,$51,$501,watch,A:0.8
+exact,state,1,Alex,$500,$501,watch,A:0.8
+exact,state,1,Alex,$501,$501,watch,A:0.8
+exact,state,1,Alex,$1000,$501,watch,A:0.9
+exact,state,1,Alex,$1001,$501,watch,A:0.9
+exact,state,1,Alex,$5000,$501,watch,A:0.8
+exact,state,1,Alex,$5001,$501,watch,A:0.8
+exact,state,1,Alex,$10000,$501,watch,A:0.8
+exact,state,1,Alex,$10001,$501,watch,A:0.9
+fuzzy,affect,1,Alex,$50,$501,watch,A:0.8
+fuzzy,affect,1,Alex,$51,$501,watch,A:0.9
+fuzzy,affect,1,Alex,$500,$501,watch,A:0.8
+fuzzy,affect,1,Alex,$501,$501,watch,A:0.8
+fuzzy,affect,1,Alex,$1000,$501,watch,A:0.8
+fuzzy,affect,1,Alex,$1001,$501,watch,A:0.9
+fuzzy,affect,1,Alex,$5000,$501,watch,A:0.8
+fuzzy,affect,1,Alex,$5001,$501,watch,A:0.9
+fuzzy,affect,1,Alex,$10000,$501,watch,A:0.9
+fuzzy,affect,1,Alex,$10001,$501,watch,A:0.8
+exact,affect,1,Alex,$50,$501,watch,A:0.9
+exact,affect,1,Alex,$51,$501,watch,A:0.9
+exact,affect,1,Alex,$500,$501,watch,A:0.8
+exact,affect,1,Alex,$501,$501,watch,A: 0.9
+exact,affect,1,Alex,$1000,$501,watch,A:0.9
+exact,affect,1,Alex,$1001,$501,watch,A:0.8
+exact,affect,1,Alex,$5000,$501,watch,A:0.9
+exact,affect,1,Alex,$5001,$501,watch,A:0.8
+exact,affect,1,Alex,$10000,$501,watch,A:0.8
+exact,affect,1,Alex,$10001,$501,watch,A:0.9
+fuzzy,both,1,Alex,$50,$501,watch,A:0.9
+fuzzy,both,1,Alex,$51,$501,watch,A:0.8
+fuzzy,both,1,Alex,$500,$501,watch,A:0.9
+fuzzy,both,1,Alex,$501,$501,watch,A:0.9
+fuzzy,both,1,Alex,$1000,$501,watch,A:0.9
+fuzzy,both,1,Alex,$1001,$501,watch,A:0.9
+fuzzy,both,1,Alex,$5000,$501,watch,A:0.9
+fuzzy,both,1,Alex,$5001,$501,watch,A:0.8
+fuzzy,both,1,Alex,$10000,$501,watch,A:0.8
+fuzzy,both,1,Alex,$10001,$501,watch,A:0.8
+exact,both,1,Alex,$50,$501,watch,A:0.8
+exact,both,1,Alex,$51,$501,watch,A:0.9
+exact,both,1,Alex,$500,$501,watch,A: 0.8
+exact,both,1,Alex,$501,$501,watch,A:0.9
+exact,both,1,Alex,$1000,$501,watch,A: 0.9
+exact,both,1,Alex,$1001,$501,watch,A:0.9
+exact,both,1,Alex,$5000,$501,watch,A:0.8
+exact,both,1,Alex,$5001,$501,watch,A:0.8
+exact,both,1,Alex,$10000,$501,watch,A:0.8
+exact,both,1,Alex,$10001,$501,watch,A:0.7
+fuzzy,state,0,Alex,$50,$1000,watch,A:0.9
+fuzzy,state,0,Alex,$51,$1000,watch,A:0.9
+fuzzy,state,0,Alex,$500,$1000,watch,A:0.9
+fuzzy,state,0,Alex,$501,$1000,watch,A:0.9
+fuzzy,state,0,Alex,$1000,$1000,watch,A:0.8
+fuzzy,state,0,Alex,$1001,$1000,watch,A:0.8
+fuzzy,state,0,Alex,$5000,$1000,watch,A:0.8
+fuzzy,state,0,Alex,$5001,$1000,watch,A:0.9
+fuzzy,state,0,Alex,$10000,$1000,watch,A:0.9
+fuzzy,state,0,Alex,$10001,$1000,watch,A:0.8
+exact,state,0,Alex,$50,$1000,watch,A:0.8
+exact,state,0,Alex,$51,$1000,watch,A:0.9
+exact,state,0,Alex,$500,$1000,watch,A: 0.9
+exact,state,0,Alex,$501,$1000,watch,A:0.8
+exact,state,0,Alex,$1000,$1000,watch,A:0.8
+exact,state,0,Alex,$1001,$1000,watch,A:0.9
+exact,state,0,Alex,$5000,$1000,watch,A: 0.8
+exact,state,0,Alex,$5001,$1000,watch,A:0.9
+exact,state,0,Alex,$10000,$1000,watch,A:0.9
+exact,state,0,Alex,$10001,$1000,watch,A:0.8
+fuzzy,affect,0,Alex,$50,$1000,watch,A:0.8
+fuzzy,affect,0,Alex,$51,$1000,watch,A:0.9
+fuzzy,affect,0,Alex,$500,$1000,watch,A:0.9
+fuzzy,affect,0,Alex,$501,$1000,watch,A:0.9
+fuzzy,affect,0,Alex,$1000,$1000,watch,A:0.8
+fuzzy,affect,0,Alex,$1001,$1000,watch,A:0.8
+fuzzy,affect,0,Alex,$5000,$1000,watch,A: 0.8
+fuzzy,affect,0,Alex,$5001,$1000,watch,A:0.8
+fuzzy,affect,0,Alex,$10000,$1000,watch,A:0.8
+fuzzy,affect,0,Alex,$10001,$1000,watch,A:0.9
+exact,affect,0,Alex,$50,$1000,watch,A:0.9
+exact,affect,0,Alex,$51,$1000,watch,A:0.8
+exact,affect,0,Alex,$500,$1000,watch,A:0.8
+exact,affect,0,Alex,$501,$1000,watch,A:0.9
+exact,affect,0,Alex,$1000,$1000,watch,A:0.8
+exact,affect,0,Alex,$1001,$1000,watch,A:0.9
+exact,affect,0,Alex,$5000,$1000,watch,A:0.9
+exact,affect,0,Alex,$5001,$1000,watch,A:0.8
+exact,affect,0,Alex,$10000,$1000,watch,A:0.8
+exact,affect,0,Alex,$10001,$1000,watch,A:0.85
+fuzzy,both,0,Alex,$50,$1000,watch,A:0.9
+fuzzy,both,0,Alex,$51,$1000,watch,A:0.8
+fuzzy,both,0,Alex,$500,$1000,watch,A:0.9
+fuzzy,both,0,Alex,$501,$1000,watch,A:0.8
+fuzzy,both,0,Alex,$1000,$1000,watch,A:0.9
+fuzzy,both,0,Alex,$1001,$1000,watch,A:0.8
+fuzzy,both,0,Alex,$5000,$1000,watch,A:0.8
+fuzzy,both,0,Alex,$5001,$1000,watch,A:0.9
+fuzzy,both,0,Alex,$10000,$1000,watch,A:0.9
+fuzzy,both,0,Alex,$10001,$1000,watch,A:0.8
+exact,both,0,Alex,$50,$1000,watch,A:0.8
+exact,both,0,Alex,$51,$1000,watch,A:0.8
+exact,both,0,Alex,$500,$1000,watch,A: 0.9
+exact,both,0,Alex,$501,$1000,watch,A:0.9
+exact,both,0,Alex,$1000,$1000,watch,A:0.9
+exact,both,0,Alex,$1001,$1000,watch,A:0.8
+exact,both,0,Alex,$5000,$1000,watch,A:0.9
+exact,both,0,Alex,$5001,$1000,watch,A:0.9
+exact,both,0,Alex,$10000,$1000,watch,A:0.9
+exact,both,0,Alex,$10001,$1000,watch,A:0.9
+fuzzy,state,1,Alex,$50,$1000,watch,A: 0.8
+fuzzy,state,1,Alex,$51,$1000,watch,A:0.8
+fuzzy,state,1,Alex,$500,$1000,watch,A:0.8
+fuzzy,state,1,Alex,$501,$1000,watch,A:0.8
+fuzzy,state,1,Alex,$1000,$1000,watch,A: 0.9
+fuzzy,state,1,Alex,$1001,$1000,watch,A:0.9
+fuzzy,state,1,Alex,$5000,$1000,watch,A:0.8
+fuzzy,state,1,Alex,$5001,$1000,watch,A:0.8
+fuzzy,state,1,Alex,$10000,$1000,watch,A:0.9
+fuzzy,state,1,Alex,$10001,$1000,watch,A:0.8
+exact,state,1,Alex,$50,$1000,watch,A:0.8
+exact,state,1,Alex,$51,$1000,watch,A:0.8
+exact,state,1,Alex,$500,$1000,watch,A:0.8
+exact,state,1,Alex,$501,$1000,watch,A:0.8
+exact,state,1,Alex,$1000,$1000,watch,A:0.8
+exact,state,1,Alex,$1001,$1000,watch,A:0.8
+exact,state,1,Alex,$5000,$1000,watch,A:0.8
+exact,state,1,Alex,$5001,$1000,watch,A:0.8
+exact,state,1,Alex,$10000,$1000,watch,A:0.8
+exact,state,1,Alex,$10001,$1000,watch,A:0.8
+fuzzy,affect,1,Alex,$50,$1000,watch,A:0.8
+fuzzy,affect,1,Alex,$51,$1000,watch,A:0.8
+fuzzy,affect,1,Alex,$500,$1000,watch,A:0.9
+fuzzy,affect,1,Alex,$501,$1000,watch,A:0.9
+fuzzy,affect,1,Alex,$1000,$1000,watch,A:0.9
+fuzzy,affect,1,Alex,$1001,$1000,watch,A:0.8
+fuzzy,affect,1,Alex,$5000,$1000,watch,A:0.8
+fuzzy,affect,1,Alex,$5001,$1000,watch,A:0.9
+fuzzy,affect,1,Alex,$10000,$1000,watch,A:0.8
+fuzzy,affect,1,Alex,$10001,$1000,watch,A:0.8
+exact,affect,1,Alex,$50,$1000,watch,A:0.9
+exact,affect,1,Alex,$51,$1000,watch,A:0.8
+exact,affect,1,Alex,$500,$1000,watch,A:0.9
+exact,affect,1,Alex,$501,$1000,watch,A:0.8
+exact,affect,1,Alex,$1000,$1000,watch,A:0.9
+exact,affect,1,Alex,$1001,$1000,watch,A:0.9
+exact,affect,1,Alex,$5000,$1000,watch,A:0.8
+exact,affect,1,Alex,$5001,$1000,watch,A:0.9
+exact,affect,1,Alex,$10000,$1000,watch,A:0.8
+exact,affect,1,Alex,$10001,$1000,watch,A: 0.8
+fuzzy,both,1,Alex,$50,$1000,watch,A:0.9
+fuzzy,both,1,Alex,$51,$1000,watch,A:0.9
+fuzzy,both,1,Alex,$500,$1000,watch,A:0.7
+fuzzy,both,1,Alex,$501,$1000,watch,A:0.8
+fuzzy,both,1,Alex,$1000,$1000,watch,A:0.8
+fuzzy,both,1,Alex,$1001,$1000,watch,A:0.8
+fuzzy,both,1,Alex,$5000,$1000,watch,A:0.9
+fuzzy,both,1,Alex,$5001,$1000,watch,A:0.9
+fuzzy,both,1,Alex,$10000,$1000,watch,A:0.8
+fuzzy,both,1,Alex,$10001,$1000,watch,A:0.8
+exact,both,1,Alex,$50,$1000,watch,A:0.9
+exact,both,1,Alex,$51,$1000,watch,A:0.8
+exact,both,1,Alex,$500,$1000,watch,A:0.8
+exact,both,1,Alex,$501,$1000,watch,A:0.8
+exact,both,1,Alex,$1000,$1000,watch,A: 0.8
+exact,both,1,Alex,$1001,$1000,watch,A:0.8
+exact,both,1,Alex,$5000,$1000,watch,A:0.8
+exact,both,1,Alex,$5001,$1000,watch,A:0.8
+exact,both,1,Alex,$10000,$1000,watch,A: 0.8
+exact,both,1,Alex,$10001,$1000,watch,A:0.8
+fuzzy,state,0,Alex,$50,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$51,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$500,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$501,$1001,watch,A:0.8
+fuzzy,state,0,Alex,$1000,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$1001,$1001,watch,A:0.8
+fuzzy,state,0,Alex,$5000,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$5001,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$10000,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$10001,$1001,watch,A:0.9
+exact,state,0,Alex,$50,$1001,watch,A:0.9
+exact,state,0,Alex,$51,$1001,watch,A:0.9
+exact,state,0,Alex,$500,$1001,watch,A:0.9
+exact,state,0,Alex,$501,$1001,watch,A:0.9
+exact,state,0,Alex,$1000,$1001,watch,A:0.9
+exact,state,0,Alex,$1001,$1001,watch,A:0.9
+exact,state,0,Alex,$5000,$1001,watch,A:0.9
+exact,state,0,Alex,$5001,$1001,watch,A:0.8
+exact,state,0,Alex,$10000,$1001,watch,A:0.9
+exact,state,0,Alex,$10001,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$50,$1001,watch,A:0.8
+fuzzy,affect,0,Alex,$51,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$500,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$501,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$1000,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$1001,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$5000,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$5001,$1001,watch,A: 0.9
+fuzzy,affect,0,Alex,$10000,$1001,watch,A:0.9
+fuzzy,affect,0,Alex,$10001,$1001,watch,A:0.9
+exact,affect,0,Alex,$50,$1001,watch,A:0.9
+exact,affect,0,Alex,$51,$1001,watch,A:0.9
+exact,affect,0,Alex,$500,$1001,watch,A:0.8
+exact,affect,0,Alex,$501,$1001,watch,A:0.9
+exact,affect,0,Alex,$1000,$1001,watch,A:0.9
+exact,affect,0,Alex,$1001,$1001,watch,A:0.9
+exact,affect,0,Alex,$5000,$1001,watch,A:0.9
+exact,affect,0,Alex,$5001,$1001,watch,A:0.9
+exact,affect,0,Alex,$10000,$1001,watch,A:0.9
+exact,affect,0,Alex,$10001,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$50,$1001,watch,A:0.8
+fuzzy,both,0,Alex,$51,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$500,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$501,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$1000,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$1001,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$5000,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$5001,$1001,watch,A:0.9
+fuzzy,both,0,Alex,$10000,$1001,watch,A:0.8
+fuzzy,both,0,Alex,$10001,$1001,watch,A: 0.9
+exact,both,0,Alex,$50,$1001,watch,A:0.9
+exact,both,0,Alex,$51,$1001,watch,A: 0.9
+exact,both,0,Alex,$500,$1001,watch,A:0.9
+exact,both,0,Alex,$501,$1001,watch,A:0.9
+exact,both,0,Alex,$1000,$1001,watch,A:0.8
+exact,both,0,Alex,$1001,$1001,watch,A:0.9
+exact,both,0,Alex,$5000,$1001,watch,A:0.9
+exact,both,0,Alex,$5001,$1001,watch,A:0.9
+exact,both,0,Alex,$10000,$1001,watch,A:0.9
+exact,both,0,Alex,$10001,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$50,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$51,$1001,watch,A:0.8
+fuzzy,state,1,Alex,$500,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$501,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$1000,$1001,watch,A:0.8
+fuzzy,state,1,Alex,$1001,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$5000,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$5001,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$10000,$1001,watch,A:0.9
+fuzzy,state,1,Alex,$10001,$1001,watch,A:0.9
+exact,state,1,Alex,$50,$1001,watch,A:0.9
+exact,state,1,Alex,$51,$1001,watch,A: 0.8
+exact,state,1,Alex,$500,$1001,watch,A:0.8
+exact,state,1,Alex,$501,$1001,watch,A:0.9
+exact,state,1,Alex,$1000,$1001,watch,A:0.9
+exact,state,1,Alex,$1001,$1001,watch,A:0.8
+exact,state,1,Alex,$5000,$1001,watch,A:0.9
+exact,state,1,Alex,$5001,$1001,watch,A:0.9
+exact,state,1,Alex,$10000,$1001,watch,A:0.9
+exact,state,1,Alex,$10001,$1001,watch,A:0.9
+fuzzy,affect,1,Alex,$50,$1001,watch,A:0.9
+fuzzy,affect,1,Alex,$51,$1001,watch,A:0.9
+fuzzy,affect,1,Alex,$500,$1001,watch,A:0.8
+fuzzy,affect,1,Alex,$501,$1001,watch,A:0.8
+fuzzy,affect,1,Alex,$1000,$1001,watch,A:0.9
+fuzzy,affect,1,Alex,$1001,$1001,watch,A:0.9
+fuzzy,affect,1,Alex,$5000,$1001,watch,A:0.9
+fuzzy,affect,1,Alex,$5001,$1001,watch,A:0.8
+fuzzy,affect,1,Alex,$10000,$1001,watch,A:0.8
+fuzzy,affect,1,Alex,$10001,$1001,watch,A:0.9
+exact,affect,1,Alex,$50,$1001,watch,A: 0.9
+exact,affect,1,Alex,$51,$1001,watch,A:0.9
+exact,affect,1,Alex,$500,$1001,watch,A: 0.9
+exact,affect,1,Alex,$501,$1001,watch,A:0.8
+exact,affect,1,Alex,$1000,$1001,watch,A:0.9
+exact,affect,1,Alex,$1001,$1001,watch,A:0.9
+exact,affect,1,Alex,$5000,$1001,watch,A:0.8
+exact,affect,1,Alex,$5001,$1001,watch,A:0.9
+exact,affect,1,Alex,$10000,$1001,watch,A:0.9
+exact,affect,1,Alex,$10001,$1001,watch,A:0.9
+fuzzy,both,1,Alex,$50,$1001,watch,A:0.85
+fuzzy,both,1,Alex,$51,$1001,watch,A:0.9
+fuzzy,both,1,Alex,$500,$1001,watch,A:0.8
+fuzzy,both,1,Alex,$501,$1001,watch,A:0.8
+fuzzy,both,1,Alex,$1000,$1001,watch,A: 0.8
+fuzzy,both,1,Alex,$1001,$1001,watch,A:0.9
+fuzzy,both,1,Alex,$5000,$1001,watch,A:0.8
+fuzzy,both,1,Alex,$5001,$1001,watch,A:0.8
+fuzzy,both,1,Alex,$10000,$1001,watch,A:0.9
+fuzzy,both,1,Alex,$10001,$1001,watch,A:0.9
+exact,both,1,Alex,$50,$1001,watch,A:0.9
+exact,both,1,Alex,$51,$1001,watch,A:0.9
+exact,both,1,Alex,$500,$1001,watch,A:0.9
+exact,both,1,Alex,$501,$1001,watch,A:0.7
+exact,both,1,Alex,$1000,$1001,watch,A:0.9
+exact,both,1,Alex,$1001,$1001,watch,A:0.9
+exact,both,1,Alex,$5000,$1001,watch,A:0.9
+exact,both,1,Alex,$5001,$1001,watch,A:0.9
+exact,both,1,Alex,$10000,$1001,watch,A:0.9
+exact,both,1,Alex,$10001,$1001,watch,A:0.9
+fuzzy,state,0,Alex,$50,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$51,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$500,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$501,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$1000,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$1001,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$5000,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$5001,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$10000,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$10001,$5000,watch,A: 0.9
+exact,state,0,Alex,$50,$5000,watch,A:0.9
+exact,state,0,Alex,$51,$5000,watch,A: 0.9
+exact,state,0,Alex,$500,$5000,watch,A:0.9
+exact,state,0,Alex,$501,$5000,watch,A:0.9
+exact,state,0,Alex,$1000,$5000,watch,A:0.9
+exact,state,0,Alex,$1001,$5000,watch,A:0.9
+exact,state,0,Alex,$5000,$5000,watch,A:0.9
+exact,state,0,Alex,$5001,$5000,watch,A:0.9
+exact,state,0,Alex,$10000,$5000,watch,A:0.9
+exact,state,0,Alex,$10001,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$50,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$51,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$500,$5000,watch,A: 0.9
+fuzzy,affect,0,Alex,$501,$5000,watch,A: 0.9
+fuzzy,affect,0,Alex,$1000,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$1001,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$5000,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$5001,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$10000,$5000,watch,A:0.9
+fuzzy,affect,0,Alex,$10001,$5000,watch,A:0.9
+exact,affect,0,Alex,$50,$5000,watch,A:0.9
+exact,affect,0,Alex,$51,$5000,watch,A:0.9
+exact,affect,0,Alex,$500,$5000,watch,A: 0.9
+exact,affect,0,Alex,$501,$5000,watch,A:0.9
+exact,affect,0,Alex,$1000,$5000,watch,A:0.9
+exact,affect,0,Alex,$1001,$5000,watch,A: 0.9
+exact,affect,0,Alex,$5000,$5000,watch,A:0.9
+exact,affect,0,Alex,$5001,$5000,watch,A:0.9
+exact,affect,0,Alex,$10000,$5000,watch,A:0.9
+exact,affect,0,Alex,$10001,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$50,$5000,watch,A: 0.9
+fuzzy,both,0,Alex,$51,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$500,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$501,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$1000,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$1001,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$5000,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$5001,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$10000,$5000,watch,A:0.9
+fuzzy,both,0,Alex,$10001,$5000,watch,A:0.9
+exact,both,0,Alex,$50,$5000,watch,A:0.9
+exact,both,0,Alex,$51,$5000,watch,A:0.9
+exact,both,0,Alex,$500,$5000,watch,A:0.9
+exact,both,0,Alex,$501,$5000,watch,A:0.9
+exact,both,0,Alex,$1000,$5000,watch,A:0.9
+exact,both,0,Alex,$1001,$5000,watch,A: 0.9
+exact,both,0,Alex,$5000,$5000,watch,A:0.9
+exact,both,0,Alex,$5001,$5000,watch,A:0.9
+exact,both,0,Alex,$10000,$5000,watch,A:0.9
+exact,both,0,Alex,$10001,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$50,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$51,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$500,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$501,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$1000,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$1001,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$5000,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$5001,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$10000,$5000,watch,A:0.9
+fuzzy,state,1,Alex,$10001,$5000,watch,A:0.9
+exact,state,1,Alex,$50,$5000,watch,A:0.9
+exact,state,1,Alex,$51,$5000,watch,A:0.9
+exact,state,1,Alex,$500,$5000,watch,A:0.9
+exact,state,1,Alex,$501,$5000,watch,A:0.9
+exact,state,1,Alex,$1000,$5000,watch,A:0.9
+exact,state,1,Alex,$1001,$5000,watch,A:0.9
+exact,state,1,Alex,$5000,$5000,watch,A:0.9
+exact,state,1,Alex,$5001,$5000,watch,A:0.9
+exact,state,1,Alex,$10000,$5000,watch,A:0.9
+exact,state,1,Alex,$10001,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$50,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$51,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$500,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$501,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$1000,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$1001,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$5000,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$5001,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$10000,$5000,watch,A:0.9
+fuzzy,affect,1,Alex,$10001,$5000,watch,A:0.9
+exact,affect,1,Alex,$50,$5000,watch,A:0.9
+exact,affect,1,Alex,$51,$5000,watch,A:0.9
+exact,affect,1,Alex,$500,$5000,watch,A:0.9
+exact,affect,1,Alex,$501,$5000,watch,A: 0.9
+exact,affect,1,Alex,$1000,$5000,watch,A:0.9
+exact,affect,1,Alex,$1001,$5000,watch,A:0.9
+exact,affect,1,Alex,$5000,$5000,watch,A:0.9
+exact,affect,1,Alex,$5001,$5000,watch,A:0.9
+exact,affect,1,Alex,$10000,$5000,watch,A:0.9
+exact,affect,1,Alex,$10001,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$50,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$51,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$500,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$501,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$1000,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$1001,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$5000,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$5001,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$10000,$5000,watch,A:0.9
+fuzzy,both,1,Alex,$10001,$5000,watch,A:0.9
+exact,both,1,Alex,$50,$5000,watch,A:0.9
+exact,both,1,Alex,$51,$5000,watch,A:0.9
+exact,both,1,Alex,$500,$5000,watch,A:0.9
+exact,both,1,Alex,$501,$5000,watch,A:0.9
+exact,both,1,Alex,$1000,$5000,watch,A:0.9
+exact,both,1,Alex,$1001,$5000,watch,A:0.9
+exact,both,1,Alex,$5000,$5000,watch,A:0.9
+exact,both,1,Alex,$5001,$5000,watch,A:0.9
+exact,both,1,Alex,$10000,$5000,watch,A:0.9
+exact,both,1,Alex,$10001,$5000,watch,A:0.9
+fuzzy,state,0,Alex,$50,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$51,$5001,watch,A: 0.9
+fuzzy,state,0,Alex,$500,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$501,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$1000,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$1001,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$5000,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$5001,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$10000,$5001,watch,A: 0.9
+fuzzy,state,0,Alex,$10001,$5001,watch,A:0.9
+exact,state,0,Alex,$50,$5001,watch,A:0.9
+exact,state,0,Alex,$51,$5001,watch,A:0.9
+exact,state,0,Alex,$500,$5001,watch,A:0.9
+exact,state,0,Alex,$501,$5001,watch,A:0.9
+exact,state,0,Alex,$1000,$5001,watch,A:0.9
+exact,state,0,Alex,$1001,$5001,watch,A:0.9
+exact,state,0,Alex,$5000,$5001,watch,A:0.9
+exact,state,0,Alex,$5001,$5001,watch,A:0.9
+exact,state,0,Alex,$10000,$5001,watch,A:0.9
+exact,state,0,Alex,$10001,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$50,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$51,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$500,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$501,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$1000,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$1001,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$5000,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$5001,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$10000,$5001,watch,A:0.9
+fuzzy,affect,0,Alex,$10001,$5001,watch,A: 0.9
+exact,affect,0,Alex,$50,$5001,watch,A:0.9
+exact,affect,0,Alex,$51,$5001,watch,A:0.9
+exact,affect,0,Alex,$500,$5001,watch,A:0.9
+exact,affect,0,Alex,$501,$5001,watch,A:0.9
+exact,affect,0,Alex,$1000,$5001,watch,A:0.9
+exact,affect,0,Alex,$1001,$5001,watch,A:0.9
+exact,affect,0,Alex,$5000,$5001,watch,A:0.9
+exact,affect,0,Alex,$5001,$5001,watch,A:0.9
+exact,affect,0,Alex,$10000,$5001,watch,A:0.9
+exact,affect,0,Alex,$10001,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$50,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$51,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$500,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$501,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$1000,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$1001,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$5000,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$5001,$5001,watch,A:0.8
+fuzzy,both,0,Alex,$10000,$5001,watch,A:0.9
+fuzzy,both,0,Alex,$10001,$5001,watch,A:0.9
+exact,both,0,Alex,$50,$5001,watch,A:0.9
+exact,both,0,Alex,$51,$5001,watch,A:0.9
+exact,both,0,Alex,$500,$5001,watch,A:0.9
+exact,both,0,Alex,$501,$5001,watch,A:0.9
+exact,both,0,Alex,$1000,$5001,watch,A:0.9
+exact,both,0,Alex,$1001,$5001,watch,A:0.9
+exact,both,0,Alex,$5000,$5001,watch,A:0.9
+exact,both,0,Alex,$5001,$5001,watch,A:0.9
+exact,both,0,Alex,$10000,$5001,watch,A:0.9
+exact,both,0,Alex,$10001,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$50,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$51,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$500,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$501,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$1000,$5001,watch,A: 0.9
+fuzzy,state,1,Alex,$1001,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$5000,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$5001,$5001,watch,A:0.8
+fuzzy,state,1,Alex,$10000,$5001,watch,A:0.9
+fuzzy,state,1,Alex,$10001,$5001,watch,A:0.9
+exact,state,1,Alex,$50,$5001,watch,A:0.9
+exact,state,1,Alex,$51,$5001,watch,A:0.9
+exact,state,1,Alex,$500,$5001,watch,A:0.9
+exact,state,1,Alex,$501,$5001,watch,A:0.9
+exact,state,1,Alex,$1000,$5001,watch,A:0.9
+exact,state,1,Alex,$1001,$5001,watch,A:0.9
+exact,state,1,Alex,$5000,$5001,watch,A:0.9
+exact,state,1,Alex,$5001,$5001,watch,A:0.9
+exact,state,1,Alex,$10000,$5001,watch,A:0.9
+exact,state,1,Alex,$10001,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$50,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$51,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$500,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$501,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$1000,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$1001,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$5000,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$5001,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$10000,$5001,watch,A:0.9
+fuzzy,affect,1,Alex,$10001,$5001,watch,A: 0.9
+exact,affect,1,Alex,$50,$5001,watch,A:0.9
+exact,affect,1,Alex,$51,$5001,watch,A:0.9
+exact,affect,1,Alex,$500,$5001,watch,A:0.9
+exact,affect,1,Alex,$501,$5001,watch,A:0.9
+exact,affect,1,Alex,$1000,$5001,watch,A:0.9
+exact,affect,1,Alex,$1001,$5001,watch,A:0.9
+exact,affect,1,Alex,$5000,$5001,watch,A:0.85
+exact,affect,1,Alex,$5001,$5001,watch,A:0.9
+exact,affect,1,Alex,$10000,$5001,watch,A:0.9
+exact,affect,1,Alex,$10001,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$50,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$51,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$500,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$501,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$1000,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$1001,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$5000,$5001,watch,A:0.8
+fuzzy,both,1,Alex,$5001,$5001,watch,A:0.9
+fuzzy,both,1,Alex,$10000,$5001,watch,A: 0.9
+fuzzy,both,1,Alex,$10001,$5001,watch,A:0.9
+exact,both,1,Alex,$50,$5001,watch,A:0.9
+exact,both,1,Alex,$51,$5001,watch,A:0.9
+exact,both,1,Alex,$500,$5001,watch,A:0.9
+exact,both,1,Alex,$501,$5001,watch,A:0.9
+exact,both,1,Alex,$1000,$5001,watch,A:0.9
+exact,both,1,Alex,$1001,$5001,watch,A:0.9
+exact,both,1,Alex,$5000,$5001,watch,A:0.9
+exact,both,1,Alex,$5001,$5001,watch,A:0.9
+exact,both,1,Alex,$10000,$5001,watch,A:0.9
+exact,both,1,Alex,$10001,$5001,watch,A:0.9
+fuzzy,state,0,Alex,$50,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$51,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$500,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$501,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$1000,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$1001,$10000,watch,A:1
+fuzzy,state,0,Alex,$5000,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$5001,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$10000,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$10001,$10000,watch,A:0.9
+exact,state,0,Alex,$50,$10000,watch,A:0.9
+exact,state,0,Alex,$51,$10000,watch,A:0.9
+exact,state,0,Alex,$500,$10000,watch,A:0.9
+exact,state,0,Alex,$501,$10000,watch,A:0.9
+exact,state,0,Alex,$1000,$10000,watch,A:0.9
+exact,state,0,Alex,$1001,$10000,watch,A:0.9
+exact,state,0,Alex,$5000,$10000,watch,A:0.9
+exact,state,0,Alex,$5001,$10000,watch,A:0.9
+exact,state,0,Alex,$10000,$10000,watch,A:0.9
+exact,state,0,Alex,$10001,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$50,$10000,watch,A: 0.9
+fuzzy,affect,0,Alex,$51,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$500,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$501,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$1000,$10000,watch,A: 0.9
+fuzzy,affect,0,Alex,$1001,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$5000,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$5001,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$10000,$10000,watch,A:0.9
+fuzzy,affect,0,Alex,$10001,$10000,watch,A:0.9
+exact,affect,0,Alex,$50,$10000,watch,A:0.9
+exact,affect,0,Alex,$51,$10000,watch,A:0.9
+exact,affect,0,Alex,$500,$10000,watch,A:0.9
+exact,affect,0,Alex,$501,$10000,watch,A:0.9
+exact,affect,0,Alex,$1000,$10000,watch,A:0.9
+exact,affect,0,Alex,$1001,$10000,watch,A:0.9
+exact,affect,0,Alex,$5000,$10000,watch,A:0.9
+exact,affect,0,Alex,$5001,$10000,watch,A:0.9
+exact,affect,0,Alex,$10000,$10000,watch,A:0.9
+exact,affect,0,Alex,$10001,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$50,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$51,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$500,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$501,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$1000,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$1001,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$5000,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$5001,$10000,watch,A: 0.9
+fuzzy,both,0,Alex,$10000,$10000,watch,A:0.9
+fuzzy,both,0,Alex,$10001,$10000,watch,A:0.9
+exact,both,0,Alex,$50,$10000,watch,A:0.9
+exact,both,0,Alex,$51,$10000,watch,A:0.9
+exact,both,0,Alex,$500,$10000,watch,A:0.9
+exact,both,0,Alex,$501,$10000,watch,A:0.9
+exact,both,0,Alex,$1000,$10000,watch,A:0.9
+exact,both,0,Alex,$1001,$10000,watch,A:0.9
+exact,both,0,Alex,$5000,$10000,watch,A:0.9
+exact,both,0,Alex,$5001,$10000,watch,A:0.9
+exact,both,0,Alex,$10000,$10000,watch,A:0.9
+exact,both,0,Alex,$10001,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$50,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$51,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$500,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$501,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$1000,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$1001,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$5000,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$5001,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$10000,$10000,watch,A:0.9
+fuzzy,state,1,Alex,$10001,$10000,watch,A:0.9
+exact,state,1,Alex,$50,$10000,watch,A:0.9
+exact,state,1,Alex,$51,$10000,watch,A:0.9
+exact,state,1,Alex,$500,$10000,watch,A:0.9
+exact,state,1,Alex,$501,$10000,watch,A: 0.9
+exact,state,1,Alex,$1000,$10000,watch,A:0.9
+exact,state,1,Alex,$1001,$10000,watch,A:0.9
+exact,state,1,Alex,$5000,$10000,watch,A:0.9
+exact,state,1,Alex,$5001,$10000,watch,A:0.9
+exact,state,1,Alex,$10000,$10000,watch,A:0.9
+exact,state,1,Alex,$10001,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$50,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$51,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$500,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$501,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$1000,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$1001,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$5000,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$5001,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$10000,$10000,watch,A:0.9
+fuzzy,affect,1,Alex,$10001,$10000,watch,A:0.9
+exact,affect,1,Alex,$50,$10000,watch,A:0.9
+exact,affect,1,Alex,$51,$10000,watch,A:0.9
+exact,affect,1,Alex,$500,$10000,watch,A:0.9
+exact,affect,1,Alex,$501,$10000,watch,A:0.9
+exact,affect,1,Alex,$1000,$10000,watch,A:0.9
+exact,affect,1,Alex,$1001,$10000,watch,A:0.9
+exact,affect,1,Alex,$5000,$10000,watch,A:0.9
+exact,affect,1,Alex,$5001,$10000,watch,A:0.9
+exact,affect,1,Alex,$10000,$10000,watch,A:0.9
+exact,affect,1,Alex,$10001,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$50,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$51,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$500,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$501,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$1000,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$1001,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$5000,$10000,watch,A: 0.9
+fuzzy,both,1,Alex,$5001,$10000,watch,A:0.9
+fuzzy,both,1,Alex,$10000,$10000,watch,A: 0.9
+fuzzy,both,1,Alex,$10001,$10000,watch,A: 0.9
+exact,both,1,Alex,$50,$10000,watch,A:0.9
+exact,both,1,Alex,$51,$10000,watch,A:0.9
+exact,both,1,Alex,$500,$10000,watch,A:0.9
+exact,both,1,Alex,$501,$10000,watch,A:0.9
+exact,both,1,Alex,$1000,$10000,watch,A:0.9
+exact,both,1,Alex,$1001,$10000,watch,A:0.9
+exact,both,1,Alex,$5000,$10000,watch,A:0.9
+exact,both,1,Alex,$5001,$10000,watch,A:0.9
+exact,both,1,Alex,$10000,$10000,watch,A:0.9
+exact,both,1,Alex,$10001,$10000,watch,A:0.9
+fuzzy,state,0,Alex,$50,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$51,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$500,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$501,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$1000,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$1001,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$5000,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$5001,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$10000,$10001,watch,A:0.9
+fuzzy,state,0,Alex,$10001,$10001,watch,A:0.9
+exact,state,0,Alex,$50,$10001,watch,A:0.9
+exact,state,0,Alex,$51,$10001,watch,A:0.9
+exact,state,0,Alex,$500,$10001,watch,A:0.8
+exact,state,0,Alex,$501,$10001,watch,A: 0.9
+exact,state,0,Alex,$1000,$10001,watch,A:0.9
+exact,state,0,Alex,$1001,$10001,watch,A:0.9
+exact,state,0,Alex,$5000,$10001,watch,A:0.9
+exact,state,0,Alex,$5001,$10001,watch,A:0.9
+exact,state,0,Alex,$10000,$10001,watch,A:0.9
+exact,state,0,Alex,$10001,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$50,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$51,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$500,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$501,$10001,watch,A:1
+fuzzy,affect,0,Alex,$1000,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$1001,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$5000,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$5001,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$10000,$10001,watch,A:0.9
+fuzzy,affect,0,Alex,$10001,$10001,watch,A:0.9
+exact,affect,0,Alex,$50,$10001,watch,A:0.9
+exact,affect,0,Alex,$51,$10001,watch,A:0.9
+exact,affect,0,Alex,$500,$10001,watch,A:0.9
+exact,affect,0,Alex,$501,$10001,watch,A:0.9
+exact,affect,0,Alex,$1000,$10001,watch,A:0.9
+exact,affect,0,Alex,$1001,$10001,watch,A:0.9
+exact,affect,0,Alex,$5000,$10001,watch,A:0.9
+exact,affect,0,Alex,$5001,$10001,watch,A:0.9
+exact,affect,0,Alex,$10000,$10001,watch,A:0.9
+exact,affect,0,Alex,$10001,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$50,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$51,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$500,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$501,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$1000,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$1001,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$5000,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$5001,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$10000,$10001,watch,A:0.9
+fuzzy,both,0,Alex,$10001,$10001,watch,A:0.9
+exact,both,0,Alex,$50,$10001,watch,A:0.9
+exact,both,0,Alex,$51,$10001,watch,A:0.9
+exact,both,0,Alex,$500,$10001,watch,A:0.9
+exact,both,0,Alex,$501,$10001,watch,A: 0.9
+exact,both,0,Alex,$1000,$10001,watch,A:0.9
+exact,both,0,Alex,$1001,$10001,watch,A:0.9
+exact,both,0,Alex,$5000,$10001,watch,A:0.9
+exact,both,0,Alex,$5001,$10001,watch,A:0.9
+exact,both,0,Alex,$10000,$10001,watch,A: 0.9
+exact,both,0,Alex,$10001,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$50,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$51,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$500,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$501,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$1000,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$1001,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$5000,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$5001,$10001,watch,A: 0.9
+fuzzy,state,1,Alex,$10000,$10001,watch,A:0.9
+fuzzy,state,1,Alex,$10001,$10001,watch,A:0.9
+exact,state,1,Alex,$50,$10001,watch,A:0.95
+exact,state,1,Alex,$51,$10001,watch,A:0.9
+exact,state,1,Alex,$500,$10001,watch,A:0.9
+exact,state,1,Alex,$501,$10001,watch,A:0.9
+exact,state,1,Alex,$1000,$10001,watch,A:0.9
+exact,state,1,Alex,$1001,$10001,watch,A:0.9
+exact,state,1,Alex,$5000,$10001,watch,A:0.9
+exact,state,1,Alex,$5001,$10001,watch,A:0.9
+exact,state,1,Alex,$10000,$10001,watch,A:0.9
+exact,state,1,Alex,$10001,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$50,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$51,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$500,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$501,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$1000,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$1001,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$5000,$10001,watch,A: 0.9
+fuzzy,affect,1,Alex,$5001,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$10000,$10001,watch,A:0.9
+fuzzy,affect,1,Alex,$10001,$10001,watch,A:0.9
+exact,affect,1,Alex,$50,$10001,watch,A:0.9
+exact,affect,1,Alex,$51,$10001,watch,A:0.9
+exact,affect,1,Alex,$500,$10001,watch,A:0.8
+exact,affect,1,Alex,$501,$10001,watch,A:0.9
+exact,affect,1,Alex,$1000,$10001,watch,A:0.9
+exact,affect,1,Alex,$1001,$10001,watch,A:0.9
+exact,affect,1,Alex,$5000,$10001,watch,A:0.9
+exact,affect,1,Alex,$5001,$10001,watch,A: 0.9
+exact,affect,1,Alex,$10000,$10001,watch,A:0.9
+exact,affect,1,Alex,$10001,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$50,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$51,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$500,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$501,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$1000,$10001,watch,A: 0.9
+fuzzy,both,1,Alex,$1001,$10001,watch,A:0.8
+fuzzy,both,1,Alex,$5000,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$5001,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$10000,$10001,watch,A:0.9
+fuzzy,both,1,Alex,$10001,$10001,watch,A:0.9
+exact,both,1,Alex,$50,$10001,watch,A:0.9
+exact,both,1,Alex,$51,$10001,watch,A: 0.9
+exact,both,1,Alex,$500,$10001,watch,A:0.9
+exact,both,1,Alex,$501,$10001,watch,A:0.9
+exact,both,1,Alex,$1000,$10001,watch,A:0.9
+exact,both,1,Alex,$1001,$10001,watch,A:0.9
+exact,both,1,Alex,$5000,$10001,watch,A:0.9
+exact,both,1,Alex,$5001,$10001,watch,A:0.9
+exact,both,1,Alex,$10000,$10001,watch,A:0.9
+exact,both,1,Alex,$10001,$10001,watch,A:0.9

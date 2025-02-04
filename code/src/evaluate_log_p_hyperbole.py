@@ -106,8 +106,6 @@ else:
     raise ValueError(f"Prompt {args.prompt} not found.")
     
     
-# initialize LLM (Don't need to change)
-# if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini"]:
     
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Available device ", device)
@@ -122,7 +120,6 @@ llm = scorer.IncrementalLMScorer(
 # get the response from the API
 
 #########
-# I should pay attention to the args.num as it controls the number of cases will be evaluated
 for j in range(args.num):
     graded_answers = []
     data_out = data.copy()

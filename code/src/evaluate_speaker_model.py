@@ -29,7 +29,6 @@ def parse_response(raw_response):
             return parsed_response
     elif "answer:" in raw_response.lower():
         response = raw_response.split("Answer:")[1].lower().strip()
-    # TODO: this should just grab the last line and extract the number, and there should be more new tokens allowed
     else:
         print(f"Response: {raw_response}")
         parsed_response = int(input("Enter response(1-5):"))
@@ -74,13 +73,7 @@ parser.add_argument('--use_generation', type=bool, default=False, help='whether 
 args = parser.parse_args()
 
 filename = "experiment_1b_raw"
-# data_path = os.path.join(args.data_dir, f"{filename}.csv")
-# data = pd.read_csv(data_path)
-# aproach 1: GPT-4o-mini rating results
 if args.model in ["gpt-4-0613", "gpt-3.5-turbo", "gpt-4o-mini", "gemini-1.5-pro", "claude-3-5-sonnet-20241022"]:
-    # llm = ChatOpenAI(model_name=args.model,
-    #                 temperature=args.temperature,
-    #                 max_tokens = args.max_tokens)
     llm = init_model(model_name=args.model,
                     temperature=args.temperature,
                     max_tokens = args.max_tokens)
@@ -193,19 +186,18 @@ for iter in tqdm(range(NUM_ITER)):
                     elif args.model in ["llama-2-7b-chat"]:
                         template = f"Instructions: {system_prompt}\n{full_prompt}\nA:"
                         response = llm(template)[0]
-                    # parse response
-                    # parsed_response = parse_response(response)
+                    
 
                     if args.verbose:
                         print("--------------------------------------------------")
                         print(f"Instruction: {system_prompt}")
                         print(f"Story: {prompt}")
                         print(f"A: {response}")
-                        # print(f"Parsed A: {parsed_response}")
+                        
 
                     # append to list
                     parsed_answers.append(response)
-            # parsed_answers.append(parsed_response)
+            
                     results = pd.DataFrame({
                         "halo": c[1],
                         "goal": c[0],
